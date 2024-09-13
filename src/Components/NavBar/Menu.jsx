@@ -341,7 +341,7 @@ const Menu = () => {
             </div>
           </li>
           <li>
-            <Link to={"/mea-attestation-apostille-services"}>MEA</Link>
+            <Link to={"/mea-attestation-apostille-services"}>ME</Link>
             {/* <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"

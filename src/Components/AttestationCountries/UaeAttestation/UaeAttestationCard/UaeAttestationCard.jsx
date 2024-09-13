@@ -11,6 +11,7 @@ import price from "./../../../../vid&img/About Us - Features/24x7 Customer Suppo
 import efficiency from "./../../../../vid&img/About Us - Features/Efficiency.png";
 import expertise from "./../../../../vid&img/About Us - Features/Expertise.png";
 import govt from "./../../../../vid&img/About Us - Features/Government Approved.png";
+import { Link } from "react-router-dom";
 const UaeAttestationCard = (props) => {
   return (
     <div className="uaeAttestationCardContainer">
@@ -80,7 +81,9 @@ const UaeAttestationCard = (props) => {
             </div>
           </div>
           <div className="uaeAttTrackCardContent">
-            <button>Track Status</button>
+            <Link to={"/track-status"}>
+              <button>Track Status</button>
+            </Link>
           </div>
           <div className="cardIconsContainer">
             <div className="cardIconsImgContainer">

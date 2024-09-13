@@ -57,6 +57,7 @@ import MexicoApostille from "./Components/AttestationCountries/MexicoApostille/M
 import NetherlandApostille from "./Components/AttestationCountries/NetherlandApostille/NetherlandApostille";
 import UkApostille from "./Components/AttestationCountries/UkApostille/UkApostille";
 import UsaApostille from "./Components/AttestationCountries/UsaApostille/UsaApostille";
+import TrackStatus from "./Components/TrackStatus/TrackStatus";
 
 const App = () => {
   return (
@@ -259,6 +260,7 @@ const App = () => {
             path="/qatar-pcc-attestation-bangalore"
             element={<QatarPccPage />}
           />
+          <Route path="/track-status" element={<TrackStatus />} />
         </Routes>
 
         <Footer />

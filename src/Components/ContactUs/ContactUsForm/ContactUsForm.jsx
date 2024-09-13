@@ -1,6 +1,9 @@
 import React from "react";
 import "./ContactUsForm.css";
 const ContactUsForm = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <div className="contactFormContainer">
       <div className="contactFormHead">
@@ -11,7 +14,7 @@ const ContactUsForm = () => {
         </p>
       </div>
 
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <fieldset>
           <div className="contactFormContent">
             <div className="contactFormItem" id="contentLabel">
@@ -78,7 +81,7 @@ const ContactUsForm = () => {
             </div>
           </div>
         </fieldset>
-        <button>Submit</button>
+        <button type="handleSubmit">Submit</button>
       </form>
     </div>
   );

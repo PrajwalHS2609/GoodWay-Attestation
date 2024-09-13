@@ -7,30 +7,30 @@ import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import FranceHeading from "./FranceHeading/FranceHeading";
 import FranceService from "./FranceService/FranceService";
-import FranceBlore from './FranceBlore/FranceBlore';
+import FranceBlore from "./FranceBlore/FranceBlore";
 import FranceReq from "./FranceReq/FranceReq";
 import WhyBlock from "../../WhyBlock/WhyBlock";
-import FranceMofa from './FranceMofa/FranceMofa';
-import FranceCard from './FranceCard/FranceCard';
-import FranceCertificate from './FranceCertificate/FranceCertificate';
+import FranceMofa from "./FranceMofa/FranceMofa";
+import FranceCard from "./FranceCard/FranceCard";
+import FranceCertificate from "./FranceCertificate/FranceCertificate";
 import FranceBloreCert from "./FranceBloreCert/FranceBloreCert";
 import FranceFaq from "./FranceFaq/FranceFaq";
 import FranceSeo from "./FranceSeo/FranceSeo";
 
-const FranceAttestation = () => {
+const FranceApostille = () => {
   return (
     <div className="uaeAttestationPage">
-      <FranceHeading/>
+      <FranceHeading />
       <WhyBlock />
       <FranceCard />
       <FranceCertificate />
       <FranceMofa />
       {/* <FranceAbout /> */}
-      <FranceService/>
-      <FranceBloreCert/>
-      <FranceBlore/>
-      <FranceSeo/>
-      <FranceReq/>
+      <FranceService />
+      <FranceBloreCert />
+      <FranceBlore />
+      <FranceSeo />
+      <FranceReq />
       <HomeLink />
       <HomeMarquee />
       <OurServices />
@@ -41,4 +41,4 @@ const FranceAttestation = () => {
   );
 };
 
-export default FranceAttestation;
+export default FranceApostille;

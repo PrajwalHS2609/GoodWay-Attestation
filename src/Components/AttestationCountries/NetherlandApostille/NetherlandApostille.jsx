@@ -15,7 +15,7 @@ import NetherlandBloreCert from "./NetherlandBloreCert/NetherlandBloreCert";
 import NetherlandFaq from "./NetherlandFaq/NetherlandFaq";
 import NetherlandSeo from "./NetherlandSeo/NetherlandSeo";
 
-const NetherlandAttestation = () => {
+const NetherlandApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <NetherlandHeading />
@@ -39,4 +39,4 @@ const NetherlandAttestation = () => {
   );
 };
 
-export default NetherlandAttestation;
+export default NetherlandApostille;

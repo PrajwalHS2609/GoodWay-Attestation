@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
 import italyAttBanner from "./../../../../vid&img/ApostilleVids/Italy.mp4";
-import TypeWriter from "./../ItalyTypeWriter/TypeWriter";
+import TypeWriter from "../ItalyTypeWriter/TypeWriter";
 const ItalyHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">

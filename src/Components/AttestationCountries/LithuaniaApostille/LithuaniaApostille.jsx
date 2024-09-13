@@ -9,14 +9,14 @@ import LithuaniaBlore from "./LithuaniaBlore/LithuaniaBlore";
 import LithuaniaMofa from "./LithuaniaMofa/LithuaniaMofa";
 import LithuaniaCertificate from "./LithuaniaCertificate/LithuaniaCertificate";
 import LithuaniaCard from "./LithuaniaCard/LithuaniaCard";
-import WhyBlock from "./../../WhyBlock/WhyBlock";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 import LithuaniaHeading from "./LithuaniaHeading/LithuaniaHeading";
 import LithuaniaReq from "./LithuaniaReq/LithuaniaReq";
 import LithuaniaBloreCert from "./LithuaniaBloreCert/LithuaniaBloreCert";
 import LithuaniaFaq from "./LithuaniaFaq/LithuaniaFaq";
 import LithuaniaSeo from "./LithuaniaSeo/LithuaniaSeo";
 
-const LithuaniaAttestation = () => {
+const LithuaniaApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <LithuaniaHeading />
@@ -39,4 +39,4 @@ const LithuaniaAttestation = () => {
   );
 };
 
-export default LithuaniaAttestation;
+export default LithuaniaApostille;

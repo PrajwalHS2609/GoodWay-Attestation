@@ -5,7 +5,7 @@ const HomeMarqueeCard = (props) => {
   return (
     <div className="marqueeCard">
       <Link to={props.link}>
-        <img src={props.img} alt={props.alt} />
+        <img src={props.img} alt={props.alt} loading="lazy"/>
 
         <div className="marqueeCover">
           <h3>{props.name}</h3>

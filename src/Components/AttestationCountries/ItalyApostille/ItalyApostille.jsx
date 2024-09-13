@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../AttestationCountries/UaeAttestation/UaeAttestationPage.css";
-import HomeLink from "./../../HomePage/HomeLink.jsx/HomeLink";
+import HomeLink from "../../HomePage/HomeLink.jsx/HomeLink";
 import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
@@ -9,7 +9,7 @@ import Review from "../../Review/Review";
 import ItalyMofa from "./ItalyMofa/ItalyMofa";
 import ItalyCertificate from "./ItalyCertificate/ItalyCertificate";
 import ItalyCard from "./ItalyCard/ItalyCard";
-import WhyBlock from "./../../WhyBlock/WhyBlock";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 import ItalyHeading from "./ItalyHeading/ItalyHeading";
 import ItalyBlore from './ItalyBlore/ItalyBlore';
 import ItalyReq from './ItalyReq/ItalyReq';
@@ -17,7 +17,7 @@ import ItalyBloreCert from './ItalyBloreCert/ItalyBloreCert';
 import ItalyFaq from "./ItalyFaq/ItalyFaq";
 import ItalySeo from "./ItalySeo/ItalySeo";
 
-const ItalyAttestation = () => {
+const ItalyApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <ItalyHeading />
@@ -41,4 +41,4 @@ const ItalyAttestation = () => {
   );
 };
 
-export default ItalyAttestation;
+export default ItalyApostille;

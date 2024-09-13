@@ -16,7 +16,7 @@ import MexicoBloreCert from "./MexicoBloreCert/MexicoBloreCert";
 import MexicoFaq from "./MexicoFaq/MexicoFaq";
 import MexicoSeo from "./MexicoSeo/MexicoSeo";
 
-const MexicoAttestation = () => {
+const MexicoApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <MexicoHeading />
@@ -40,4 +40,4 @@ const MexicoAttestation = () => {
   );
 };
 
-export default MexicoAttestation;
+export default MexicoApostille;

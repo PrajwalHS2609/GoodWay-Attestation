@@ -1,6 +1,6 @@
 import React from "react";
 import usaAttBanner from "./../../../../vid&img/ApostilleVids/usa.mp4";
-import TypeWriter from "./../UsaTypeWriter/TypeWriter";
+import TypeWriter from "../UsaTypeWriter/TypeWriter";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
 const UsaHeading = () => {
   return (

@@ -17,7 +17,7 @@ import UsaFaq from "./UsaFaq/UsaFaq";
 import UsaSeo from "./UsaSeo/UsaSeo";
 // import UsaService from "./UsaService/UsaService";
 
-const UsaAttestation = () => {
+const UsaApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <UsaHeading />
@@ -40,4 +40,4 @@ const UsaAttestation = () => {
   );
 };
 
-export default UsaAttestation;
+export default UsaApostille;

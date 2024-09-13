@@ -17,7 +17,7 @@ import AustraliaBloreCert from "./AustraliaBloreCert/AustraliaBloreCert";
 import AustraliaFaq from "./AustraliaFaq/AustraliaFaq";
 import AustraliaSeo from "./AustraliaSeo/AustraliaSeo";
 
-const AustraliaAttestation = () => {
+const AustraliaApostille = () => {
   return (
     <div className="bahrainAttestationPage">
       <AustraliaHeading/>
@@ -40,4 +40,4 @@ const AustraliaAttestation = () => {
   );
 };
 
-export default AustraliaAttestation;
+export default AustraliaApostille;

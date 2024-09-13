@@ -4,7 +4,7 @@ const ContactUsCard = (props) => {
   return (
     <div className="contactUsCardContainer">
       <div className="contactUsCardImg">
-        <img src={props.img} alt={props.alt} />
+        <img src={props.img} alt={props.alt} loading="lazy"/>
       </div>
       <div className="contactWrapper">
         <div className="contactUsCardAdd" id="contactUsCard">

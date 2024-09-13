@@ -1,5 +1,5 @@
 import React from "react";
-import HomeLink from "./../../HomePage/HomeLink.jsx/HomeLink";
+import HomeLink from "../../HomePage/HomeLink.jsx/HomeLink";
 import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";

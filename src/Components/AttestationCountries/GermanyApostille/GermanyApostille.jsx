@@ -18,7 +18,7 @@ import GermanyBloreCert from "./GermanyBloreCert/GermanyBloreCert";
 import GermanyFaq from "./GermanyFaq/GermanyFaq";
 import GermanySeo from "./GermanySeo/GermanySeo";
 
-const GermanyAttestation = () => {
+const GermanyApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <GermanyHeading />
@@ -42,4 +42,4 @@ const GermanyAttestation = () => {
   );
 };
 
-export default GermanyAttestation;
+export default GermanyApostille;

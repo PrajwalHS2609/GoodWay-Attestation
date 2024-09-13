@@ -12,12 +12,12 @@ import OmanService from "./OmanService/OmanService";
 import OmanMofa from "./OmanMofa/OmanMofa";
 import OmanCertificate from "./OmanCertificate/OmanCertificate";
 import OmanCard from "./OmanCard/OmanCard";
-import WhyBlock from './../../WhyBlock/WhyBlock';
+import WhyBlock from '../../WhyBlock/WhyBlock';
 import OmanBloreCert from "./OmanBloreCert/OmanBloreCert";
 import OmanFaq from './OmanFaq/OmanFaq';
 import OmanSeo from "./OmanSeo/OmanSeo";
 
-const OmanAttestation = () => {
+const OmanApostille = () => {
   return (
     <div className="uaeAttestationPage">
       <OmanHeading/>
@@ -41,4 +41,4 @@ const OmanAttestation = () => {
   );
 };
 
-export default OmanAttestation;
+export default OmanApostille;

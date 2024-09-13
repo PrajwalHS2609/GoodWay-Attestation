@@ -9,7 +9,7 @@ const MeaHead = () => {
       <div className="meaHeadCover">
         <TypeWriter txt="MEA Attestation Service in " />
       </div>
-      <img src={mofaBanner} alt="mofaBanner" />
+      <img src={mofaBanner} alt="mofaBanner" loading="lazy"/>
     </div>
   );
 };

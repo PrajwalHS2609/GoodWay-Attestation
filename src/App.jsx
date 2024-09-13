@@ -11,25 +11,14 @@ import QatarAttestation from "./Components/AttestationCountries/QatarAttestation
 import BahrainAttestation from "./Components/AttestationCountries/BahrainAttestation/BahrainAttestation";
 import SaudiAttestation from "./Components/AttestationCountries/SaudiAttestation/SaudiAttestation";
 import KuwaitAttestation from "./Components/AttestationCountries/Kuwait/KuwaitAttestation";
-import AustraliaAttestation from "./Components/AttestationCountries/Australia/AustraliaAttestation";
 import EgyptAttestation from "./Components/AttestationCountries/EgyptAttestation/EgyptAttestation";
 import ChinaAttestation from "./Components/AttestationCountries/ChinaAttestation/ChinaAttestation";
 import VietnamAttestation from "./Components/AttestationCountries/VietnamAttestation/VietnamAttestation";
 import TaiwanAttestation from "./Components/AttestationCountries/TaiwanAttestation/TaiwanAttestation";
-import UsaAttestation from "./Components/AttestationCountries/UsaAttestation/UsaAttestation";
-import OmanAttestation from "./Components/AttestationCountries/OmanAttestation/OmanAttestation";
 import NigeriaAttestation from "./Components/AttestationCountries/NigeriaAttestation/NigeriaAttestation";
 import MalaysiaAttestation from "./Components/AttestationCountries/MalaysiaAttestation/MalaysiaAttestation";
 import PhilippinesAttestation from "./Components/AttestationCountries/PhilippinesAttestation/PhilippinesAttestation";
-import AustriaAttestation from "./Components/AttestationCountries/AustriaAttestation/AustriaAttestation";
-import UkAttestation from "./Components/AttestationCountries/UkAttestation/UkAttestation";
-import GermanyAttestation from "./Components/AttestationCountries/GermanyAttestation/GermanyAttestation";
-import MexicoAttestation from "./Components/AttestationCountries/MexicoAttestation/MexicoAttestation";
-import FranceAttestation from "./Components/AttestationCountries/FranceAttestation/FranceAttestation";
-import ItalyAttestation from "./Components/AttestationCountries/ItalyAttestation/ItalyAttestation";
 // import SwedenAttestation from "./Components/AttestationCountries/SwedenAttestation/SwedenAttestation";
-import LithuaniaAttestation from "./Components/AttestationCountries/LithuaniaAttestation/LithuaniaAttestation";
-import NetherlandAttestation from "./Components/AttestationCountries/NetherlandAttestation/NetherlandAttestation";
 import AttestationPage from "./Components/AttestationPage/AttestationPage";
 import ApostillePages from "./Components/ApostillePages/ApostillePages";
 import ContactUs from "./Components/ContactUs/ContactUs";
@@ -57,6 +46,17 @@ import TamilNaduHrdPage from "./Components/HrdPage/TamilNaduHrd/TamilNaduHrdPage
 import MaharastraHrdPage from "./Components/HrdPage/MaharastraHrd/MaharastraHrdPage";
 import KeralaHrdPage from "./Components/HrdPage/KeralaHrd/KeralaHrdPage";
 import TelanganaHrdPage from "./Components/HrdPage/TelanganaHrd/TelanganaHrdPage";
+import OmanApostille from "./Components/AttestationCountries/OmanApostille/OmanApostille";
+import ItalyApostille from "./Components/AttestationCountries/ItalyApostille/ItalyApostille";
+import GermanyApostille from "./Components/AttestationCountries/GermanyApostille/GermanyApostille";
+import AustraliaApostille from "./Components/AttestationCountries/Australia/AustraliaApostille";
+import AustriaApostille from "./Components/AttestationCountries/AustriaApostille/AustriaApostille";
+import FranceApostille from "./Components/AttestationCountries/FranceApostille/FranceApostille";
+import LithuaniaApostille from "./Components/AttestationCountries/LithuaniaApostille/LithuaniaApostille";
+import MexicoApostille from "./Components/AttestationCountries/MexicoApostille/MexicoApostille";
+import NetherlandApostille from "./Components/AttestationCountries/NetherlandApostille/NetherlandApostille";
+import UkApostille from "./Components/AttestationCountries/UkApostille/UkApostille";
+import UsaApostille from "./Components/AttestationCountries/UsaApostille/UsaApostille";
 
 const App = () => {
   return (
@@ -122,53 +122,53 @@ const App = () => {
           />
           <Route
             path="/philippines-embassy-attestation-bangalore"
-            element={<PhilippinesAttestation/>}
+            element={<PhilippinesAttestation />}
           />
           <Route
             path="/australia-apostille-attestation-bangalore"
-            element={<AustraliaAttestation />}
+            element={<AustraliaApostille />}
           />
           <Route
             path="/usa-apostille-attestation-bangalore"
-            element={<UsaAttestation />}
+            element={<UsaApostille />}
           />
           <Route
             path="/oman-apostille-attestation-bangalore"
-            element={<OmanAttestation />}
+            element={<OmanApostille />}
           />
 
           <Route
             path="/austria-apostille-attestation-bangalore"
-            element={<AustriaAttestation />}
+            element={<AustriaApostille />}
           />
           <Route
             path="/uk-apostille-attestation-bangalore"
-            element={<UkAttestation />}
+            element={<UkApostille />}
           />
           <Route
             path="/germany-apostille-attestation-bangalore"
-            element={<GermanyAttestation />}
+            element={<GermanyApostille />}
           />
           <Route
             path="/mexico-apostille-attestation-bangalore"
-            element={<MexicoAttestation />}
+            element={<MexicoApostille />}
           />
           <Route
             path="/france-apostille-attestation-bangalore"
-            element={<FranceAttestation />}
+            element={<FranceApostille />}
           />
           <Route
             path="/italy-apostille-attestation-bangalore"
-            element={<ItalyAttestation />}
+            element={<ItalyApostille />}
           />
           {/* <Route path="/sweden-apostille" element={<SwedenAttestation />} /> */}
           <Route
             path="/lithuania-apostille-attestation-bangalore"
-            element={<LithuaniaAttestation />}
+            element={<LithuaniaApostille />}
           />
           <Route
             path="/netherland-apostille-attestation-bangalore"
-            element={<NetherlandAttestation />}
+            element={<NetherlandApostille />}
           />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route
@@ -195,7 +195,7 @@ const App = () => {
             path="/kerala-hrd-home-department-attestation"
             element={<KeralaHrdPage />}
           />
-              <Route
+          <Route
             path="/telangana-hrd-home-department-attestation"
             element={<TelanganaHrdPage />}
           />

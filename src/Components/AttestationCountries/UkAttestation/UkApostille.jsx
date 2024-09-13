@@ -6,7 +6,7 @@ import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import UkHeading from "./UkHeading/UkHeading";
-import WhyBlock from "./../../WhyBlock/WhyBlock";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 import UkCard from "./UkCard/UkCard";
 import UkCertificate from "./UkCertificate/UkCertificate";
 import UkMofa from "./UkMofa/UkMofa";

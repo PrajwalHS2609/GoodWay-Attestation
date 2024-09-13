@@ -9,7 +9,7 @@ const HrdHead = () => {
       <div className="hrdHeadCover">
         <TypeWriter txt="State HRD and Home Department in  " />
       </div>
-      <img src={mofaBanner} alt="" />
+      <img src={mofaBanner} alt="" loading="lazy"/>
     </div>
   );
 };

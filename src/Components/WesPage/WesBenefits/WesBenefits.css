@@ -1,0 +1,28 @@
+.wesBenefitsContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.wesBenefitsContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.wesBenefitsContainer > h2 > span {
+  color: var(--customColor1);
+}
+.wesBenefitsContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .wesBenefitsContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

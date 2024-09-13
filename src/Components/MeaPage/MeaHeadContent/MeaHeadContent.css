@@ -1,0 +1,34 @@
+.meaHeadContent {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+  }
+  .meaHeadContent > h3 {
+    width: 100%;
+    color: var(--customColor2);
+    font-size: 25px;
+  }
+  .meaHeadContent > h3 > span {
+    color: var(--customColor1);
+  }
+  .meaHeadContent > p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .meaHeadContent > h3 {
+      width: 100%;
+      color: var(--customColor2);
+      font-size: 23px;
+      text-align: center;
+    }
+    .meaHeadContent {
+      /* border: solid green; */
+      padding: 20px;
+    }
+  }
+  

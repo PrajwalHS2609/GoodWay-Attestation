@@ -1,0 +1,29 @@
+.apostilleWhatContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.apostilleWhatContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  width: 100%;
+  text-align: start;
+}
+.apostilleWhatContainer > h2 > span {
+  color: var(--customColor1);
+}
+.apostilleWhatContainer > p {
+  width: 100%;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .apostilleWhatContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

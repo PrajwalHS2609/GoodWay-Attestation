@@ -1,0 +1,45 @@
+.mofaBloreCertContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.mofaBloreCertContainer > h2 {
+  /* border: solid green; */
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.mofaBloreCertContainer > h2 > span {
+  /* border: solid green; */
+  color: var(--customColor1);
+}
+.mofaBloreCertContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.mofaBloreCertContainer > ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.mofaBloreCertContainer > ul > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.mofaBloreCertContainer > ul > li {
+  font-size: 20px;
+  margin-left: 10px;
+  text-align: justify;
+}
+.mofaBloreCertContainer > ul > li > span {
+  color: var(--customColor1);
+  font-weight: bold;
+}

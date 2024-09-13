@@ -1,0 +1,40 @@
+.impDocContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.impDocContainer > h2 {
+  font-size: 30px;
+  width: 100%;
+  color: var(--customColor2);
+  text-align: start;
+}
+.impDocContainer > h2 > span {
+  color: var(--customColor1);
+}
+.impDocContainer > p {
+  font-size: 20px;
+}
+.impDocContainer > ul > li {
+  font-size: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+.impDocContainer > ul > li > span {
+  color: var(--customColor1);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .impDocContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+  .impDocContainer > h2 {
+    text-align: center;
+  }
+}

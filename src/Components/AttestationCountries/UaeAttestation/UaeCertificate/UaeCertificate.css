@@ -1,0 +1,102 @@
+.uaeCertContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.uaeCertHeadContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.uaeCertHeadContainer > h2 {
+  text-align: center;
+  font-size: 30px;
+  color: var(--customColor2);
+}
+.uaeCertUnderline {
+  border: 2px solid var(--customColor1);
+  width: 10%;
+}
+.uaeCertMainContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+}
+.uaeCertMainContent {
+  /* border: solid brown; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eduCertIcon {
+  color: var(--customColor1);
+}
+.uaeEduCertContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.uaeEduCertContainer > h2 {
+  /* border: solid red; */
+  text-align: center;
+  color: var(--customColor2);
+}
+.uaeEduCertContainer > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.uaeEduCertContainer > ul > li {
+  /* border: solid; */
+  width: 100%;
+  margin: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .uaeCertMainContainer {
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+  }
+  .uaeCertMainContent {
+    /* border: solid brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .uaeEduCertContainer > h2 {
+    /* border: solid red; */
+    text-align: center;
+    width: 100%;
+    color: var(--customColor2);
+  }
+}

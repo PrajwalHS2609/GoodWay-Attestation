@@ -1,0 +1,48 @@
+.hrdProcessContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.hrdProcessContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.hrdProcessContainer > h2 > span {
+  color: var(--customColor1);
+}
+.hrdProcessContainer > p {
+  text-align: justify;
+  font-size: 20px;
+}
+.hrdProcessContainer > ul > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+}
+.hrdProcessContainer > ul > li > h3 {
+  color: var(--customColor2);
+  font-weight: bold;
+  font-size: 20px;
+}
+.hrdProcessContainer > ul > li > span {
+  color: var(--customColor2);
+  font-weight: bold;
+  font-size: 20px;
+}
+.hrdProcessContainer > ul > li > h3 > span {
+  color: var(--customColor1);
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .hrdProcessContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

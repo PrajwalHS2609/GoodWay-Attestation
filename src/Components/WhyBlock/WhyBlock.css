@@ -1,0 +1,115 @@
+.whyBlockContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+}
+.whyBlockMainContainer {
+  /* border: solid green; */
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.whyBlockCardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  border-radius: 40px;
+  background-color: #ff7801a0;
+  overflow: hidden;
+}
+.whyBlockCardContent1 {
+  border: solid var(--customColor2);
+  width: 80px;
+  height: 75px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whyBlockCardContent1 > img {
+  width: 70%;
+  height: 70%;
+}
+.whyBlockCardContent2 {
+  /* border: solid ; */
+  width: 200px;margin-right: 20px;
+}
+
+.whyBlockCardContent2 > h3 {
+  color: white;
+  font-size: 17px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .whyBlockContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+  }
+  .whyBlockMainContainer {
+    /* border: solid green; */
+    min-width: 350px;
+
+  }
+  .whyBlockCardContainer {
+    /* border: solid blue; */
+    gap: 10px;
+  }
+  .whyBlockCardContent2 > h3 {
+    color: white;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:900px) {
+  .whyBlockMainContainer {
+    /* border: solid green; */
+    min-width: 300px;
+  }
+  .whyBlockCardContainer {
+    /* border: solid blue; */
+    gap: 10px;
+  }
+  .whyBlockCardContent2 > h3 {
+    color: white;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 990px) {
+
+  .whyBlockMainContainer {
+    /* border: solid green; */
+    min-width: 350px;
+  }
+  .whyBlockCardContainer {
+    /* border: solid blue; */
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width:1400px) {
+  .whyBlockContainer {
+    /* border: solid red; */
+    top: 180px;
+  }
+  .whyBlockMainContainer {
+    /* border: solid green; */
+    min-width: 400px;
+  }
+  .whyBlockCardContent1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

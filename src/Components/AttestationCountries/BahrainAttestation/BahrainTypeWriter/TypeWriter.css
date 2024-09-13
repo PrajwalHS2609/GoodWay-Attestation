@@ -1,0 +1,30 @@
+.typeWriterContainer {
+    /* border: solid red; */
+    width: 40%;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+  }
+  .typeWriterContainer > h2>span {
+    font-size: 50px;
+    color: white;
+  }
+  .typeWriterContainer > h2 {
+    font-size: 50px;
+    color: var(--customColor1);
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .typeWriterContainer {
+      /* border: solid red; */
+      width: 90%;
+    
+    }
+    .typeWriterContainer > h2 > span {
+      font-size: 40px;
+      color: white;
+    }
+    .typeWriterContainer > h2 {
+      font-size: 40px;
+      color: var(--customColor1);
+    }
+  }

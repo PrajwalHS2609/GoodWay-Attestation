@@ -1,0 +1,105 @@
+.faqContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  background-image: url(./../../../vid&img/faq.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -200px;
+  padding: 20px;
+}
+.faqContent {
+  /* border: solid blue; */
+  width: 50%;
+}
+.faqHeadContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.faqHead {
+  background-color: var(--customColor2);
+}
+.faqHeadContainer > h2 {
+  font-size: 30px;
+  color: white;
+}
+.faqHead {
+  /* border: solid green; */
+  height: 8vh;
+  width: 100%;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0px 3px 10px 1px rgb(206, 204, 204);
+  color: white;
+}
+
+.faqPanel {
+  box-shadow: 0px 3px 10px 1px rgb(206, 204, 204);
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.faqPanel > p {
+  font-size: 20px;
+  margin-left: 20px;
+  margin: 10px;
+}
+.faqBut {
+  /* border: solid purple; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.faqBut > h3 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .faqContent {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .faqBut > h3 {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  .faqContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    background-position: -600px 0;
+  }
+  .faqHeadContainer > h2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .faqContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
+  }
+}
+@media screen and (min-width: 990px) {
+  .faqContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .faqContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
+  }
+}

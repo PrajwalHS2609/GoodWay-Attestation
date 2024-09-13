@@ -1,0 +1,21 @@
+.hdBloreContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.hdBloreContainer > h2 {
+  text-align: center;
+  color: var(--customColor2);
+  font-size: 30px;
+}
+.hdBloreContainer > h2 > span {
+  color: var(--customColor1);
+}
+.hdBloreContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}

@@ -1,0 +1,49 @@
+.uaeReqContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.uaeReqHeadContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.uaeReqHeadContainer > h2 {
+  font-size: 20px;
+  text-align: start;
+  color: var(--customColor2);
+}
+.uaeReqMainContainer {
+  /* border: solid blue; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.uaeReqMainContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.uaeReqMainContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.uaeReqMainContent > h3 {
+  color: var(--customColor1);
+  font-size: 20px;
+}
+.uaeReqMainContent > p {
+  font-size: 20px;
+}

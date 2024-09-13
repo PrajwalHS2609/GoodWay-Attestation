@@ -1,0 +1,158 @@
+.attestationFlagMainContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.atteFlagMainContent1 {
+  /* border: solid blue; */
+  width: 100%;
+  height: 580px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.atteFlagMainImgCover {
+  background-color: rgba(0, 0, 0, 0.549);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.atteFlagMainImgCover > h2 {
+  /* border: solid; */
+  color: white;
+  color: var(--customColor2);
+  font-size: 50px;
+  text-align: center;
+  width: 50%;
+}
+.atteFlagMainImgCover > h2 > span {
+  color: var(--customColor1);
+}
+.atteFlagMainContent2 {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: white; */
+  /* margin-top: -100px; */
+}
+.atteFlagMainContent1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.attestationFlagCardContainer {
+  /* border: solid red; */
+  width: 20%;
+  overflow: hidden;
+  position: relative;
+  transition: 1s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+  margin: 20px;
+}
+.attestationFlagCardContainer > img {
+  width: 100%;
+  height: 100%;
+  transition: 300ms ease-in-out;
+  box-shadow: 0 0 10px grey;
+  object-fit: contain;
+}
+.attestationFlagCardContent {
+  /* border: solid brown; */
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* transform: translateY(250px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  padding: 10px;
+}
+.attestationFlagCardContainer:hover .flagCard {
+  transform: scale(1.1);
+}
+/* .attestationFlagCardContainer:hover .attestationFlagCardContent {
+  transform: translateY(0px);
+} */
+.attestationFlagCardTxt > h3 {
+  font-size: 15px;
+  text-align: center;
+  color: var(--customColor2);
+}
+.attestationFlagCardTxt > p {
+  text-align: center;
+}
+
+.attestationFlagCardContent > button {
+  border: 2px solid var(--customColor1);
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+}
+.attestationFlagCardContent > button:hover {
+  background-color: var(--customColor1);
+}
+.attestationFlagCardContent > button:hover .flagLink {
+  color: white;
+}
+.attestationFlagCardContent > button > a {
+  text-decoration: none;
+  color: var(--customColor1);
+  font-size: 13px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .atteFlagMainContent1 {
+    /* border: solid blue; */
+    width: 100%;
+    height: 300px;
+  }
+  
+  .attestationFlagCardContainer {
+    /* border: solid red; */
+    min-width: 300px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    margin: 20px;
+  }
+  
+  .atteFlagMainImgCover > h2 {
+    color: white;
+    color: var(--customColor2);
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .attestationFlagCardContainer {
+    /* border: solid red; */
+    min-width: 300px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    margin: 20px;
+  }
+}

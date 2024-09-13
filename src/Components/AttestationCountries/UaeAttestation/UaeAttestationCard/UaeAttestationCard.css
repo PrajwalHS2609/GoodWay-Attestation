@@ -1,0 +1,513 @@
+.uaeAttCardMainContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.uaeAttestationCardContainer {
+  /* border: solid blue; */
+  width: 95%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+}
+.uaeAttCardImgContent {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.uaeAttCardImgContent > img {
+  width: 100%;
+  object-position: -110px 0;
+}
+.uaeAttCardContent {
+  /* border: solid yellow; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  background-color: white;
+}
+.uaeAttGovtCardContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.uaeAttGovtCardContent > img {
+  border: 5px solid white;
+  margin-left: -80px;
+  width: 20%;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: white;
+}
+.uaeAttGovtCardContent > h3 {
+  /* border: solid; */
+  font-size: 35px;
+  width: 75%;
+  text-align: start;
+  color: var(--customColor2);
+}
+.uaeAttDocCardContent {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: var(--customColor1);
+}
+.uaeAttDocCardContent > h3 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+.uaeAttDocCardImgContent {
+  /* border: solid; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.uaeAttDocCardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.uaeAttDocCardImg > img {
+  /* border: solid; */
+  padding: 10px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uaeAttDocCardImg > p {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.uaeAttCardContentWrapper {
+  /* border: solid rebeccapurple; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+.uaeAttPriceCardContent,
+.uaeAttDaysCardContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.uaeAttPriceCardContent > h3,
+.uaeAttDaysCardContent > h3 {
+  font-size: 20px;
+  color: var(--customColor2);
+}
+.uaeAttPriceCardContent > p,
+.uaeAttDaysCardContent > p {
+  font-size: 20px;
+}
+.uaeAttSuppCardContent {
+  /* border: solid brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 10px;
+}
+.uaeAttSuppCardContent > h3 {
+  font-size: 20px;
+  color: var(--customColor2);
+}
+.uaeAttSuppCardItem {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.uaeAttSuppCard {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.uaeAttIcon1 {
+  font-size: 20px;
+}
+.uaeAttIcon2 {
+  font-size: 25px;
+  color: #1b8755;
+}
+.uaeAttSuppCard > a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.uaeAttTrackCardContent {
+  /* border: solid yellowgreen; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.uaeAttTrackCardContent > button {
+  background-color: var(--customColor1);
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.cardIconsContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.cardIconsImgContainer {
+  /* border: solid green; */
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardIconsImgContainer > img {
+  /* border: solid blue; */
+  width: 80px;
+  height: 80px;
+}
+.cardIconsImgContainer > p {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .uaeAttCardMainContainer {
+    /* border: solid red; */
+    padding: 0px;
+  }
+  .uaeAttestationCardContainer {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .uaeAttCardImgContent > img {
+    width: 100%;
+    object-position: 0px 0;
+  }
+  .uaeAttCardImgContent {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttCardContent {
+    /* border: solid yellow; */
+    height: 100%;
+    width: 100%;
+    position: static;
+  }
+  .uaeAttGovtCardContent {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttGovtCardContent > img {
+    border: 5px solid white;
+    margin-left: 0px;
+    margin-top: -80px;
+    width: 50%;
+  }
+  .uaeAttGovtCardContent > h3 {
+    /* border: solid; */
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .uaeAttDocCardContent {
+    /* border: solid blue; */
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .uaeAttDocCardContent > h3 {
+    font-size: 20px;
+  }
+  .uaeAttDocCardImgContent {
+    /* border: solid; */
+    flex-direction: column;
+  }
+  .uaeAttDocCardImg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .uaeAttDocCardImg > img {
+    /* border: solid; */
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttCardContentWrapper {
+    /* border: solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+  .uaeAttPriceCardContent,
+  .uaeAttDaysCardContent {
+    /* border: solid; */
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  .uaeAttSuppCardItem {
+    /* border: solid blue; */
+    gap: 10px;
+  }
+  .uaeAttSuppCard {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .uaeAttSuppCard > a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .cardIconsContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+  .cardIconsImgContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .cardIconsImgContainer > img {
+    /* border: solid blue; */
+    width: 80px;
+    height: 80px;
+  }
+  .cardIconsImgContainer > p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .uaeAttestationCardContainer {
+    /* border: solid blue; */
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .uaeAttCardImgContent {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+  }
+  .uaeAttCardImgContent > img {
+    width: 100%;
+    object-position: -110px 0;
+  }
+  .uaeAttCardContent {
+    border: solid white;
+    height: 100%;
+    width: 70%;
+  }
+  .uaeAttGovtCardContent {
+    /* border: solid red; */
+    width: 100%;
+    padding: 5px;
+  }
+  .uaeAttGovtCardContent > img {
+    margin-left: -70px;
+    width: 20%;
+    border-radius: 100%;
+    padding: 10px;
+  }
+  .uaeAttGovtCardContent > h3 {
+    /* border: solid; */
+    font-size: 35px;
+    width: 75%;
+  }
+  .uaeAttDocCardContent {
+    /* border: solid blue; */
+    width: 100%;
+    gap: 5px;
+    padding: 5px;
+  }
+  .uaeAttDocCardContent > h3 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+  }
+  .uaeAttDocCardImgContent {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .uaeAttDocCardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .uaeAttDocCardImg > img {
+    /* border: solid; */
+    padding: 10px;
+    width: 40%;
+  }
+  .uaeAttDocCardImg > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .uaeAttCardContentWrapper {
+    /* border: solid rebeccapurple; */
+    width: 100%;
+    padding: 10px;
+  }
+  .uaeAttPriceCardContent,
+  .uaeAttDaysCardContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .uaeAttPriceCardContent > h3,
+  .uaeAttDaysCardContent > h3 {
+    font-size: 20px;
+    color: var(--customColor2);
+  }
+  .uaeAttPriceCardContent > p,
+  .uaeAttDaysCardContent > p {
+    font-size: 20px;
+  }
+  .uaeAttSuppCardContent {
+    /* border: solid brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+    padding: 5px;
+  }
+  .uaeAttSuppCardContent > h3 {
+    font-size: 20px;
+    color: var(--customColor2);
+  }
+
+  .uaeAttSuppCard > a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .uaeAttTrackCardContent {
+    /* border: solid yellowgreen; */
+    width: 100%;
+    padding: 5px;
+  }
+  .cardIconsContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+  }
+  .cardIconsImgContainer {
+    /* border: solid green; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cardIconsImgContainer > img {
+    /* border: solid blue; */
+    width: 50px;
+    height: 50px;
+  }
+  .cardIconsImgContainer > p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+  }
+}

@@ -1,0 +1,25 @@
+.meaTimeContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+}
+.meaTimeContainer > h3 {
+  color: var(--customColor1);
+  width: 100%;
+  font-size: 20px;
+  text-align: start;
+}
+.meaTimeContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .meaTimeContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

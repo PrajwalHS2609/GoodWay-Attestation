@@ -1,0 +1,45 @@
+.birthCertImpContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.birthCertImpContainer > h1 {
+  width: 100%;
+  text-align: center;
+  color: var(--customColor2);
+}
+.birthCertImpContainer > h1 > span {
+  color: var(--customColor1);
+}
+.birthCertImpContainer > h2 {
+  width: 100%;
+  text-align: center;
+  color: var(--customColor2);
+}
+.birthCertImpContainer > h2 > span {
+  color: var(--customColor1);
+}
+
+.birthCertImpContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.birthCertImpContainer > ul > li {
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  list-style: none;
+}
+.birthCertImpContainer > ul > li > span {
+  color: var(--customColor1);
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .birthCertImpContainer {
+    padding: 20px;
+  }
+}

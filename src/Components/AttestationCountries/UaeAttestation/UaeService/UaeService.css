@@ -1,0 +1,70 @@
+.uaeServiceContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.uaeServiceHeadContainer {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uaeServiceHeadContainer > h1 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.uaeServiceHeadContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.uaeServiceUnderline {
+  border: 2px solid var(--customColor1);
+  width: 20%;
+}
+.uaeServiceMainContainer > p {
+  font-size: 20px;
+}
+.uaeServiceMainContainer > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.uaeServiceMainContainer > ul > li {
+  /* border: solid; */
+  width: 100%;
+  margin: 10px;
+  font-size: 20px;
+  list-style: none;
+  text-align: justify;
+}
+.uaeServiceMainContainer > ul > li > p {
+  text-align: justify;
+}
+
+.uaeServiceMainContainer > ul > li > span {
+  color: var(--customColor2);
+  font-weight: bold;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .uaeServiceMainContainer > ul > li {
+    /* border: solid; */
+    width: 100%;
+    margin: 10px;
+    font-size: 20px;
+    list-style: none;
+    text-align: start;
+  }
+}

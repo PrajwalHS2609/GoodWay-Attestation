@@ -1,0 +1,38 @@
+.translationTypesContainer {
+  /* border: red solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.translationTypesContainer > h2 {
+  text-align: center;
+  color: var(--customColor2);
+  font-size: 30px;
+}
+.translationTypesContainer > h1 > span {
+  color: var(--customColor1);
+}
+
+.translationTypesContainer > ul > li {
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+.translationTypesContainer > ul > li > h3 {
+  color: var(--customColor2);
+  font-size: 20px;
+}
+.translationTypesContainer > ul > li > h3 > span {
+  color: var(--customColor1);
+  font-size: 20px;
+}

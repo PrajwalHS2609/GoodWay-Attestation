@@ -1,0 +1,29 @@
+.transHeadContent {
+  /* border: red solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.transHeadContent > h1 {
+  text-align: center;
+  color: var(--customColor2);
+  font-size: 30px;
+}
+.transHeadContent > h2 {
+  text-align: center;
+  color: var(--customColor2);
+  font-size: 30px;
+}
+.transHeadContent > h1 > span {
+  color: var(--customColor1);
+}
+.transHeadContent > h2 > span {
+  color: var(--customColor1);
+}
+.transHeadContent > p {
+  text-align: justify;font-size: 20px;
+}

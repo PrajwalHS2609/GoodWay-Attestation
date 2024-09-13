@@ -1,0 +1,40 @@
+.homeLinkContainer {
+  /* border: solid red; */
+  width: 100%;
+  background-color: var(--customColor1);
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+.homeLinkContainer > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.homeLinkContainer > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  list-style: none;
+  color: white;
+}
+.menuIcon1 {
+  color: white;
+  font-size: 20px;
+
+}
+.menuIcon2 {
+  color: white;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .homeLinkContainer > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+}

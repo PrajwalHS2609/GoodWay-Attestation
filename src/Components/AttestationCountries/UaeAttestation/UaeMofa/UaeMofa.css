@@ -1,0 +1,52 @@
+.uaeMofaContainer {
+  /* border: solid red; */
+  width: 100%;
+  background-color: var(--customWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.uaeMofaHeadContainer {
+  /* border: solid green; */
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uaeMofaHeadContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+}
+.uaeMUnderline {
+  border: 2px solid var(--customColor1);
+  width: 5%;
+}
+.uaeMofaMainContainer{
+    /* border: solid blue; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.uaeMofaMainContainer>p{
+    font-size: 20px;text-align: justify;
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+  .uaeMofaContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+  .uaeMofaHeadContainer {
+    /* border: solid green; */
+    width: 100%;
+  }
+  .uaeMofaMainContainer{
+    /* border: solid blue; */
+    width: 100%;
+}
+}

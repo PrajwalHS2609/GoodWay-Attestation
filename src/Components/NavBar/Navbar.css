@@ -1,0 +1,455 @@
+.navContainer {
+  /* border: solid; */
+  height: 11vh;
+  background-color: var(--customColor2);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 5;
+}
+.logoContainer {
+  /* border: solid; */
+  height: 60%;
+  width: 11%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.logoContainer > a{
+  width: 100%;  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoContainer > a > img {
+  width: 80%;
+  height: 90%;
+}
+.menuContainer {
+  /* border: solid; */
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuContainer > ul {
+  /* border: solid; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuContainer > ul > li {
+  list-style: none;
+  font-size: 16px;
+  height: 100%;
+  width: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.menuContainer > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+.menuDrop {
+  /* border: solid; */
+  position: absolute;
+  background-color: var(--customColor2);
+  width: 230px;
+  top: 75px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+}
+#translationDrop {
+  right: 0px;
+  width: 200px;
+}
+.menuDrop > li {
+  margin: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+.menuDrop > li > a {
+  text-decoration: none;
+  color: white;
+}
+.menuContainer > ul > li:hover .menuDrop {
+  display: flex;
+}
+.menuIcon {
+  margin-left: 6px;
+}
+
+.mainMenu {
+  /* border: solid red; */
+  /* margin-right: 10px; */
+  display: none;
+}
+.hamIcon {
+  color: var(--customColor1);
+  margin-right: 10px;
+  font-size: 25px;
+}
+.respMenu {
+  /* border: solid; */
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: none;
+  transition: 1s ease-in-out;
+  /* transform: translateX(500px); */
+  overflow-x: hidden;
+}
+.respMenuScroll {
+  height: 100%;
+  width: 80%;
+  margin-left: 100px;
+  /* border: solid blue; */
+}
+.main {
+  position: relative;
+}
+.cross {
+  position: fixed;
+  right: 60px;
+  top: 0;
+}
+
+.respMenuScroll > ul {
+  border-top: solid 1px white;
+  background-color: var(--customColor1);
+  width: 100%;
+}
+.respMenuScroll > ul > h2 {
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.respMenuScroll > ul > h3 {
+  color: white;
+  height: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.respMenuScroll > ul > h2 > a {
+  color: white;
+  text-decoration: none;
+}
+.respMenuScroll > ul > span > li {
+  list-style: none;
+  border-top: solid 1px var(--customColor1);
+  background-color: white;
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.respMenuScroll > ul > span > li > h3 {
+  color: white;
+  list-style: none;
+  margin-left: 30px;
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: lighter;
+}
+.respMenuScroll > ul > span > li > h3 > a {
+  text-decoration: none;
+  color: var(--customColor1);
+}
+.respMenuIcon {
+  /* border: solid white; */
+  width: 30px;
+  height: 30%;
+  font-size: 100%;
+}
+.respMenuSpan {
+  /* border: solid; */
+  display: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.respMenuScroll > ul > span {
+  display: none;
+}
+.respDropIcon {
+  /* border: solid; */
+  margin-left: 50px;
+}
+.respMenuGap {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-top: 1px solid white;
+  height: 10%;
+  padding: 30px;
+  background-color: var(--customColor1);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .NavContainer {
+    /* border: solid; */
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .logoContainer {
+    /* border: solid red; */
+    height: 70%;
+    min-width: 180px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .logoContainer > img {
+    min-width: 100px;
+    height: 80%;
+  }
+  .menuContainer > ul {
+    display: none;
+  }
+  .mainMenu {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .NavContainer {
+    /* border: solid; */
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .logoContainer {
+    /* border: solid red; */
+    height: 70%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .logoContainer > img {
+    width: 90%;
+    height: 80%;
+  }
+  .menuContainer > ul {
+    display: none;
+  }
+  .menuBarIcon {
+    /* border: solid; */
+    font-size: 30px;
+    margin-left: 400px;
+    color: white;
+  }
+  .respMenu {
+    /* border: solid blue; */
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    width: 40%;
+    overflow-y: scroll;
+    display: none;
+    transition: 1s ease-in-out;
+  }
+}
+@media screen and (min-width: 990px) and (max-width:1200px){
+  .logoContainer {
+    display: none;
+  }
+  .menuContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+  }
+  .menuContainer > ul {
+    display: flex;
+  }
+  .menuContainer > ul > li {
+    /* border: solid; */
+    font-size: 12px;
+    height: 100%;
+    width: 10%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  #menuHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+  }
+  .menuDrop {
+    /* border: solid; */
+    width: 200px;
+    top: 65px;
+  }
+  .menuDrop > li {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  #translationDrop {
+    right: -10px;
+    width: 200px;
+  }
+  .menuBarIcon {
+    font-size: 30px;
+    color: white;
+    display: none;
+  }
+  .mainMenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width:1400px)  {
+  .NavContainer {
+    /* border: solid; */
+    height: 11vh;
+    background-color: var(--customColor2);
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 5;
+  }
+  .logoContainer {
+    /* border: solid; */
+    height: 60%;
+    width: 11%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .logoContainer > img {
+    width: 80%;
+    height: 90%;
+  }
+  .menuContainer {
+    /* border: solid; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menuContainer > ul {
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menuContainer > ul > li {
+    list-style: none;
+    font-size: 16px;
+    height: 100%;
+    width: 10%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  .menuDrop {
+    /* border: solid; */
+    position: absolute;
+    background-color: var(--customColor2);
+    width: 230px;
+    top: 60px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+  }
+  #translationDrop {
+    right: -10px;
+    width: 200px;
+  }
+  .menuDrop > li {
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .menuContainer > ul > li:hover .menuDrop {
+    display: flex;
+  }
+  .menuIcon {
+    margin-left: 6px;
+  }
+  .menuTrack {
+    /* border: solid; */
+    width: 8%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menuTrack > h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: var(--customColor2);
+  }
+  .mainMenu {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+.atteBloreCertMainContainer {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.atteBloreCertMainContainer > h2 {
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+  width: 80%;
+}
+.atteBloreCertMainContainer > h2 > span {
+  color: var(--customColor1);
+}
+.atteBloreCertMainContent {
+  /* border: solid green; */
+  padding: 10px;
+}
+.atteBloreCertMainContent > p {
+  font-size: 20px;
+  padding: 20px;
+  text-align: justify;
+  background-color: var(--customWhite);
+  border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+.birthCertExpContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.birthCertExpContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.birthCertExpContainer > h2 > span {
+  color: var(--customColor1);
+}
+.birthCertExpContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.birthCertExpContainer > ul > li {
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  list-style: none;
+}
+.birthCertExpContainer > ul > li > h3 > span {
+  color: var(--customColor1);
+}
+.birthCertExpContainer > ul > li > h3 {
+  color: var(--customColor2);
+  text-align: start;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .birthCertExpContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

@@ -1,0 +1,36 @@
+.mofaBenefitsContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.mofaBenefitsContainer > h2 {
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+  color: var(--customColor2);
+}
+.mofaBenefitsContainer > h2 > span {
+  color: var(--customColor1);
+}
+.mofaBenefitsContainer > p {
+  font-size: 20px;
+}
+.mofaBenefitsContainer > ul > li {
+  font-size: 20px;
+  margin: 20px;
+}
+.mofaBenefitsContainer > ul > li > span {
+  color: var(--customColor1);
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .mofaBenefitsContainer {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

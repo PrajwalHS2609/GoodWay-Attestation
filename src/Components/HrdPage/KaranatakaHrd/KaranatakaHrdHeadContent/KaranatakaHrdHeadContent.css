@@ -1,0 +1,37 @@
+.karHrdHeadContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.karHrdHeadContent > h1 {
+  width: 100%;
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+}
+.karHrdHeadContent > h1 > span {
+  color: var(--customColor1);
+}
+.karHrdHeadContent > h2 {
+  width: 100%;
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+}
+.karHrdHeadContent > h2 > span {
+  color: var(--customColor1);
+}
+.karHrdHeadContent > p {
+  font-size: 20px;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .karHrdHeadContent {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

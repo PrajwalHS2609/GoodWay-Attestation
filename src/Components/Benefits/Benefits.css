@@ -1,0 +1,184 @@
+.benefitsContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.benefitsContent {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefitsHeadContainer {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.benefitsHeadContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.benefitsHeadContainer > h2 > span {
+  color: var(--customColor1);
+}
+.benefitsMainContainer {
+  /* border: solid; */
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.benefitsMainContentImg {
+  /* border: solid red; */
+  height: 80vh;
+  width: 100%;
+}
+.benefitsMainContentImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0px -250px;
+}
+.benefitsMainContent1 {
+  /* border: solid; */
+  width: 100%;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.benefitsMainInnerContent {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -100px;
+}
+.benefitsCardContainer {
+  /* border: solid red; */
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--customColor1);
+  box-shadow: 0 0 10px rgb(103, 103, 103);
+}
+.benefitsCardWrapper {
+  /* border: solid green; */
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.benefitsCardIcon {
+  /* border: solid red; */
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 10px rgb(85, 85, 85);
+}
+.benefitsCardIcon > img {
+  width: 70%;
+  height: 70%;
+}
+.benefitsTxt {
+  /* border: solid green; */
+  height: 20%;
+}
+.benefitsTxt > p {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .benefitsContainer {
+    /* border: solid red; */
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .benefitsMainContentImg {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+  }
+  .benefitsMainContent1 {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+  }
+  .benefitsMainInnerContent {
+    /* border: solid blue; */
+    width: 100%;
+  }
+
+  .benefitsMainContentImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+  .benefitsMainContentImg {
+    /* border: solid red; */
+    height: 50vh;
+    width: 100%;
+  }
+  .benefitsCardContainer {
+    /* border: solid red; */
+    min-width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 786px) {
+  .benefitsMainContent1 {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+}@media screen and (min-width: 990px) {
+  .benefitsMainContent1 {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefitsMainContent1 {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+}

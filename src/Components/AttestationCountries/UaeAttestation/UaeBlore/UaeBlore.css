@@ -1,0 +1,46 @@
+.uaeBloreContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  background-color: var(--customWhite);
+}
+.uaeBloreHead {
+  /* border: solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.uaeBloreHead > h2 {
+  font-size: 40px;
+  text-align: center;
+  font-weight: lighter;
+  color: var(--customColor1);
+}
+.uaeBloreMainContainer {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.uaeBloreMainContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .uaeBloreMainContainer {
+    /* border: solid green; */
+    padding: 10px;
+  }
+}

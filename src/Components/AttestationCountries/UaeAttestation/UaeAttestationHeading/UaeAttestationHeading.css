@@ -1,0 +1,19 @@
+.uaeAttHeadingContainer {
+  /* border: solid; */
+  /* height: 83vh; */
+  height: 580px;
+  width: 100%;
+  position: relative;
+}
+.uaeAttHeadingContainer > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.uaeAttHeadingCover {
+  background-color: rgba(0, 0, 0, 0.488);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}

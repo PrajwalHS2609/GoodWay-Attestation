@@ -1,0 +1,27 @@
+.mofaBloreContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.mofaBloreContainer > h1 {
+  color: var(--customColor2);
+  text-align: center;
+}
+.mofaBloreContainer > h1 > span {
+  color: var(--customColor1);
+}
+.mofaBloreContainer > p {
+  font-size: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .mofaBloreContainer > p {
+    font-size: 20px;
+    text-align: justify;
+  }
+}

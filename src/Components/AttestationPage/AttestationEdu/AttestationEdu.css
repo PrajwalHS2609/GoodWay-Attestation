@@ -1,0 +1,135 @@
+.atteEduContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+.atteEduImg {
+  width: 100%;
+  height: 100%;
+}
+.atteEduImg > img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  bottom: 0;
+}
+.atteEduImgCover {
+  background-color: rgba(0, 0, 0, 0.468);
+  width: 100%;
+  height: 100%;
+}
+.atteEduHeadContainer {
+  /* border: solid blue; */
+  text-align: center;
+}
+.atteEduHeadContainer > h2 {
+  color: var(--customColor2);
+  font-size: 30px;
+}
+.atteEduHeadContainer > h2 > span {
+  color: var(--customColor1);
+}
+.atteEduMainContainer {
+  /* border: solid green; */
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.atteEduMainContent {
+  /* border: solid blue; */
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+.atteEduMainImgContent {
+  /* border: solid blue; */
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.atteEduMainImgContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.atteEduMainContent > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.atteEduMainContent > p > ul {
+  background-color: var(--customWhite);
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+.atteEduMainContent > p > ul > li {
+  margin: 20px;
+  color: var(--customColor2);
+  margin-left: 30px;
+}
+.atteEduMainContent > p > ul > li > span {
+  color: var(--customColor1);
+}
+.atteEduTimeContainer {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.atteEduTimeContainer > h2 {
+  color: var(--customColor1);
+  text-align: center;
+}
+.atteEduTimeContent {
+  /* border: solid green; */
+  padding: 10px;
+}
+.atteEduTimeContent > p {
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  background-color: var(--customWhite);
+  border-radius: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .atteEduMainContainer {
+    /* border: solid green; */
+    width: 100%;
+    flex-direction: column;
+  }
+  .atteEduMainContent {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .atteEduMainImgContent {
+    /* border: solid blue; */
+    width: 100%;
+  }
+}

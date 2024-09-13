@@ -1,0 +1,102 @@
+.meaMainContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+.meaMainContent {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+}
+#meaMainContent1 {
+  width: 60%;
+}
+#meaMainContent1 > h2 {
+  width: 100%;
+  text-align: start;
+  color: var(--customColor2);
+}
+#meaMainContent1 > h3 {
+  width: 100%;
+  text-align: start;
+  color: var(--customColor1);
+}
+#meaMainContent1 > p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+#meaMainContent1 > p > ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+#meaMainContent1 > p > ul > li {
+  margin-left: 20px;
+  color: var(--customColor1);
+}
+#meaMainContent1 > p > ul > li > span {
+  margin-left: 20px;
+  color: black;
+}
+#meaMainContent1 > p > p > span {
+  color: var(--customColor1);
+  font-weight: bold;
+}
+#meaMainContent1 > p > p {
+  color: var(--customColor2);
+}
+#meaMainContent2 {
+  width: 40%;
+}
+#meaMainContent2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .meaMainContainer {
+    /* border: solid red; */
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 20px;
+  }
+  #meaMainContent1 {
+    width: 100%;
+  }
+  #meaMainContent2 {
+    width: 100%;
+  }
+  #meaMainContent1 > h2 {
+    text-align: center;
+  }
+  #meaMainContent1 > h3 {
+    text-align: center;
+  }
+  #meaMainContent2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #meaMainContent1 > p > ul > li {
+    margin-left: 20px;
+    color: var(--customColor1);
+    text-align: start;
+  }
+}

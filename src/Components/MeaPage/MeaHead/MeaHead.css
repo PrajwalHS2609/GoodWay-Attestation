@@ -1,0 +1,50 @@
+.meaHeadContainer {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 580px;
+    width: 100%;
+  }
+  .meaHeadCover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;padding: 20px;
+  }
+  .meaHeadContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -100px;
+  }
+  .meaHeadCover > h2 {
+    font-size: 30px;
+    color: var(--customColor2);
+    text-align: center;
+  }
+  .meaHeadCover > h2 > span {
+    color: var(--customColor1);
+  }
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    .meaHeadContainer {
+      /* border: solid blue; */
+      height: 100%;
+      width: 100%;
+    }
+    .meaHeadContainer > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 0 0;
+    }
+  }
+  

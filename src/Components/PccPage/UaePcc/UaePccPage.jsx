@@ -16,10 +16,25 @@ import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
 import UaePccHead from "./UaePccHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const UaePccPage = () => {
   return (
     <div className="pccPageContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          UAE PCC Attestation Services in Bangalore Karnataka at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="UAE PCC Attestation Services in Bangalore Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/uae-pcc-attestation-bangalore"
+        />
+      </Helmet>
       <UaePccHead />
       <WhyBlock />
       <UaePccIntro />

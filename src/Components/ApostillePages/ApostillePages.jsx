@@ -10,18 +10,31 @@ import Faq from "../HomePage/Faq/Faq";
 import ApostilleEdu from "./ApostilleEdu/ApostilleEdu";
 import ApostilleBloreCert from "./ApostilleBloreCert/ApostilleBloreCert";
 import ApostilleSeo from "./ApostilleSeo/ApostilleSeo";
-import UaeCertificateHead from './../AttestationCountries/UaeAttestation/UaeCertificate/UaeCertificateHead';
-import AustraliaCertificateMain from './../AttestationCountries/Australia/AustraliaCertificate/AustraliaCertificateMain';
+import UaeCertificateHead from "./../AttestationCountries/UaeAttestation/UaeCertificate/UaeCertificateHead";
+import AustraliaCertificateMain from "./../AttestationCountries/Australia/AustraliaCertificate/AustraliaCertificateMain";
+import { Helmet } from "react-helmet";
 const ApostillePages = () => {
   return (
     <div className="AttestationPageContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Certificates Apostille in Bangalore at Lowest Price</title>
+        <meta
+          name="description"
+          content="Certificate Apostille Services in Banglore, Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/certificate-apostille-bangalore"
+        />
+      </Helmet>
       <ApostilleFlagsMain />
-      <ApostilleEdu/>
-      <ApostilleBloreCert/>
-      <div id='apoNonEduContainer'></div>
+      <ApostilleEdu />
+      <ApostilleBloreCert />
+      <div id="apoNonEduContainer"></div>
       <UaeCertificateHead certHead="Certificates Required For  Apostille" />
       <AustraliaCertificateMain />
-      <ApostilleSeo/>
+      <ApostilleSeo />
       <HomeLink />
       <HomeMarquee />
       <OurServices />

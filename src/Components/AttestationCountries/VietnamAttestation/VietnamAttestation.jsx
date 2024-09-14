@@ -13,12 +13,27 @@ import VietnamMofa from "./VietnamMofa/VietnamMofa";
 import VietnamService from "./VietnamService/VietnamService";
 import VietnamBlore from "./VietnamBlore/VietnamBlore";
 import VietnamReq from "./VietnamReq/VietnamReq";
-import VietnamFaq from './VietnamFaq/VietnamFaq';
+import VietnamFaq from "./VietnamFaq/VietnamFaq";
 import VietnamSeo from "./VietnamSeo/VietnamSeo";
+import { Helmet } from "react-helmet";
 
 const VietnamAttestation = () => {
   return (
     <div className="uaeAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Vietnam Embassy Attestation Services in Bangalore Karnataka
+        </title>
+        <meta
+          name="description"
+          content="Vietnam Embassy Attestation Services in Bangalore Karnataka"
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/vietnam-embassy-attestation-bangalore"
+        />
+      </Helmet>
       <VietnamHeading />
       <WhyBlock />
       <VietnamCard />
@@ -26,7 +41,7 @@ const VietnamAttestation = () => {
       <VietnamMofa />
       <VietnamService />
       <VietnamBlore />
-      <VietnamSeo/>
+      <VietnamSeo />
       <VietnamReq />
       <HomeLink />
       <HomeMarquee />

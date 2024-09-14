@@ -16,9 +16,22 @@ import WhyBlock from "./../../WhyBlock/WhyBlock";
 import HomeLink from "./../../HomePage/HomeLink.jsx/HomeLink";
 import QatarFaq from "./QatarFaq/QatarFaq";
 import QatarSeo from "./QatarSeo/QatarSeo";
+import { Helmet } from "react-helmet";
 const QatarAttestation = () => {
   return (
     <div className="qatarAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Qatar Embassy Attestation Services in Bangalore Karnataka</title>
+        <meta
+          name="description"
+          content="Qatar Embassy Attestation Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/qatar-embassy-attestation-bangalore"
+        />
+      </Helmet>
       <QatarHeading />
       <WhyBlock />
       <QatarCardMain />

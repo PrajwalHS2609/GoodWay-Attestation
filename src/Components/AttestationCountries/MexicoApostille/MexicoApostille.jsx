@@ -15,10 +15,25 @@ import MexicoReq from "./MexicoReq/MexicoReq";
 import MexicoBloreCert from "./MexicoBloreCert/MexicoBloreCert";
 import MexicoFaq from "./MexicoFaq/MexicoFaq";
 import MexicoSeo from "./MexicoSeo/MexicoSeo";
+import { Helmet } from "react-helmet";
 
 const MexicoApostille = () => {
   return (
     <div className="uaeAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Mexico Apostille Services in Bangalore Karnataka at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Mexico Apostille Services in Banglore, Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/mexico-apostille-services-bangalore"
+        />
+      </Helmet>
       <MexicoHeading />
       <WhyBlock />
       <MexicoCard />
@@ -27,7 +42,7 @@ const MexicoApostille = () => {
       {/* <MexicoService /> */}
       <MexicoBloreCert />
       <MexicoBlore />
-      <MexicoSeo/>
+      <MexicoSeo />
       <MexicoReq />
       {/* <MexicoAbout /> */}
       <HomeLink />

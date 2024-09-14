@@ -12,10 +12,25 @@ import SeoContent from "./SeoContent/SeoContent";
 import Faq from "./Faq/Faq";
 import Map from "../Map/Map";
 import CountriesCarousel from "./CountriesCarousel/CountriesCarousel";
+import { Helmet } from "react-helmet";
 
 const HomePage = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Attestation & Apostille Services in Banglore, Karnataka
+          </title>
+        <meta
+          name="description"
+          content="Attestation & Apostille Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/"
+        />
+      </Helmet>
       <Heading />
       <WhyBlock />
       <HomeFlags />
@@ -26,7 +41,7 @@ const HomePage = () => {
       <Benefits />
       <Review />
       <SeoContent />
-      <CountriesCarousel/>
+      <CountriesCarousel />
       <Faq />
       <Map />
     </div>

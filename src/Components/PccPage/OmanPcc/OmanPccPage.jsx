@@ -16,21 +16,36 @@ import OmanPccUse from "./OmanPccUse";
 import OmanPccOvercome from "./OmanPccOvercome";
 import OmanPccHead from "./OmanPccHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const OmanPccPage = () => {
   return (
     <div className="pccPageContainer">
-      <OmanPccHead/>
-      <WhyBlock/>
-        <OmanPccIntro/>
-        <OmanPccImp/>
-        <WhatIs/>
-        <OmanProcedure/>
-        <OmanPccChallenges/>
-        <OmanPccOvercome/>
-        <OmanPccExp/>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Oman PCC Attestation Services in Bangalore Karnataka at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Oman PCC Attestation Services in Bangalore Karnataka at Lowest Price	Oman PCC Attestation Services in Bangalore Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/oman-pcc-attestation-bangalore"
+        />
+      </Helmet>
+      <OmanPccHead />
+      <WhyBlock />
+      <OmanPccIntro />
+      <OmanPccImp />
+      <WhatIs />
+      <OmanProcedure />
+      <OmanPccChallenges />
+      <OmanPccOvercome />
+      <OmanPccExp />
       <ImpEachStep />
-      <OmanPccUse/>
+      <OmanPccUse />
       <HomeLink />
       <HomeMarquee />
       <OurServices />

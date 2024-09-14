@@ -22,14 +22,14 @@ const NetherlandFaqMain = () => {
         <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h3>What is Netherland Apostille ?</h3>
+              <h3>What is Netherlands Apostille ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
 
           <AccordionItemPanel className="faqPanel">
             <p>
-            Netherland Apostille is the process of legalizing documents issued in
-              India for use in Netherland. This involves validation by relevant
+            Netherlands Apostille is the process of legalizing documents issued in
+              India for use in Netherlands. This involves validation by relevant
               Indian authorities and the Dutch Embassy or Consulate.
             </p>
           </AccordionItemPanel>
@@ -37,15 +37,15 @@ const NetherlandFaqMain = () => {
         <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h3>Why do I need Netherland Apostille ?</h3>
+              <h3>Why do I need Netherlands Apostille ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
             <p>
-            Netherland Apostille is necessary for legalizing documents such as
+            Netherlands Apostille is necessary for legalizing documents such as
               educational certificates, marriage certificates, birth
               certificates, and commercial documents for purposes like
-              employment, higher education, or business transactions in Netherland .
+              employment, higher education, or business transactions in Netherlands .
             </p>
           </AccordionItemPanel>
         </AccordionItem>
@@ -175,12 +175,12 @@ const NetherlandFaqMain = () => {
         <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
-              <h3>What are the charges for Netherland apostille services ?</h3>
+              <h3>What are the charges for Netherlands apostille services ?</h3>
             </AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel className="faqPanel">
             <p>
-              The charges for Netherland apostille vary depending on the type of
+              The charges for Netherlands apostille vary depending on the type of
               document and the urgency of the request. Please contact Goodway
               Attestation for a detailed quote.
             </p>
@@ -223,7 +223,7 @@ const NetherlandFaqMain = () => {
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>
-                Why should I choose Goodway Attestation for Netherland apostille
+                Why should I choose Goodway Attestation for Netherlands apostille
                 services ?
               </h3>
             </AccordionItemButton>

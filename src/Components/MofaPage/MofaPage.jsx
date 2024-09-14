@@ -19,22 +19,38 @@ import IncopCert from "./IncopCert/IncopCert";
 import MofaDocService from "./MofaDocService/MofaDocService";
 import MofaBenefits from "./MofaBenefits/MofaBenefits";
 import WhyBlock from "../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 const MofaPage = () => {
   return (
     <div className="mofaContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          MOFA Attestation Services in Bangalore for all types of Commercial
+          Documents
+        </title>
+        <meta
+          name="description"
+          content="MOFA Attestation Services in Bangalore for all types of Commercial Documents. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/mofa-attestation-services"
+        />
+      </Helmet>
       <MofaHead />
-      <WhyBlock/>
+      <WhyBlock />
       <MofaContent />
       <MofaMain />
       <MofaBlore />
       <MofaTime />
       <MofaBloreCert />
-      <MofaCertIncop/>
-      <ImpDoc/>
-      <TypesDocs/>
-      <IncopCert/>
-      <MofaDocService/>
-      <MofaBenefits/>
+      <MofaCertIncop />
+      <ImpDoc />
+      <TypesDocs />
+      <IncopCert />
+      <MofaDocService />
+      <MofaBenefits />
       <HomeLink />
       <HomeMarquee />
       <OurServices />

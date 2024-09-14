@@ -7,10 +7,8 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { NavHashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
 const UpperNav = () => {
-  const handleRedirect=()=>{
-    window.location.href = "https://goodwayattestation.com/track-status"
-  }
   return (
     <div className="upperNavContainer">
       <div className="respUpperNavContainer">
@@ -75,8 +73,10 @@ const UpperNav = () => {
           </li>
         </ul>
       </div>
-      <div className="menuTrack" onClick={handleRedirect}>
-        <h3>Track Status</h3>
+      <div className="menuTrack">
+        <Link to={"/track-status"}>
+          <h3>Track Status</h3>
+        </Link>
       </div>
     </div>
   );

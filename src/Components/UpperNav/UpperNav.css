@@ -66,8 +66,10 @@
   margin-left: 10px;
   cursor: pointer;
 }
-
-.menuTrack > h3 {
+.menuTrack > a {
+  text-decoration: none;
+}
+.menuTrack > a > h3 {
   font-family: sans-serif;
   font-size: 17px;
   color: var(--customColor1);

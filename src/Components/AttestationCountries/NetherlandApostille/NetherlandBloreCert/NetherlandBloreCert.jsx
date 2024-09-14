@@ -6,7 +6,7 @@ import "./../../UaeAttestation/UaeService/UaeService.css";
 const NetherlandBloreCert = () => {
   return (
     <div className="uaeServiceContainer">
-      <AustraliaBloreCertHead head="France Apostille service in Bangalore for certificates" />
+      <AustraliaBloreCertHead head="NetherLands Apostille service in Bangalore for certificates" />
       <NetherlandBloreCertMain />
     </div>
   )

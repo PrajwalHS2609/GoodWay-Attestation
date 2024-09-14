@@ -6,7 +6,7 @@ const NetherlandMofa = () => {
   return (
     <div className="uaeMofaContainer">
     <UaeMofaHead />
-    <UaeMofaMain mofa="Ministry of Foreign Affairs of Netherland (MOFA of Netherland)* " />
+    <UaeMofaMain mofa="Ministry of Foreign Affairs of Netherlands (MOFA of Netherlands)* " />
   </div>
   )
 }

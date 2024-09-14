@@ -15,11 +15,26 @@ import Benefits from "../../Benefits/Benefits";
 import Faq from "../../HomePage/Faq/Faq";
 import BirthCertHead from "./BirthCertHead/BirthCertHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 const BirthCertAttestation = () => {
   return (
     <div className="birthCertContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Birth Certificate Attestation in Bangalore at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Birth Certificate Attestation in Bangalore at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/birth-certificate-attestation-bangalore"
+        />
+      </Helmet>
       <BirthCertHead />
-      <WhyBlock/>
+      <WhyBlock />
       <BirthCertHeadContent />
       <BirthImpDoc />
       <BirthCertProcedure />

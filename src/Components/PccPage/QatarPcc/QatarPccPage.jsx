@@ -17,10 +17,25 @@ import ImpEachStep from "../ImpEachStep/ImpEachStep";
 import QatarPccUse from "./QatarPccUse";
 import QatarPccHead from "./QatarPccHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const QatarPccPage = () => {
   return (
     <div className="pccPageContainer">
+       <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+        Qatar PCC Attestation Services in Bangalore Karnataka at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Qatar PCC Attestation Services in Bangalore Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/qatar-pcc-attestation-bangalore"
+        />
+      </Helmet>
       <QatarPccHead/>
       <WhyBlock/>
       <QatarPccIntro />

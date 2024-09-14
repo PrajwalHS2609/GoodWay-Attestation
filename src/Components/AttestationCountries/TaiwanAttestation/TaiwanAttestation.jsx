@@ -14,20 +14,35 @@ import OurServices from "../../HomePage/OurServices/OurServices";
 import HomeMarquee from "../../Marquee/HomeMarquee";
 import TaiwanAbout from "./TaiwanAbout/TaiwanAbout";
 import TaiwanService from "./TaiwanService/TaiwanService";
-import TaiwanFaq from './TaiwanFaq/TaiwanFaq';
+import TaiwanFaq from "./TaiwanFaq/TaiwanFaq";
+import { Helmet } from "react-helmet";
 
 const TaiwanAttestation = () => {
   return (
     <div className="uaeAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Taiwan Embassy Attestation Services in Bangalore Karnataka
+        </title>
+        <meta
+          name="description"
+          content="Taiwan Embassy Attestation Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com//taiwan-embassy-attestation-bangalore"
+        />
+      </Helmet>
       <TaiwanHeading />
       <WhyBlock />
       <TaiwanCard />
       <TaiwanCertificate />
       <TaiwanMofa />
-      <TaiwanService/>
+      <TaiwanService />
       <TaiwanBlore />
       <TaiwanReq />
-      <TaiwanAbout/>
+      <TaiwanAbout />
       <HomeLink />
       <HomeMarquee />
       <OurServices />

@@ -12,17 +12,32 @@ import MaharastraHeadContent from "./MaharastraHeadContent";
 import HrdProcess from "./HrdProcess";
 import HrdDocs from "./HrdDocs";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const MaharastraHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
-      <MaharastraHead/>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Maharashtra State HRD & Home Department Services in Bangalore
+        </title>
+        <meta
+          name="description"
+          content="Maharashtra State HRD & Home Department Services in Bangalore. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/maharashtra-hrd-home-department-attestation"
+        />
+      </Helmet>
+      <MaharastraHead />
       <WhyBlock />
-      <MaharastraHeadContent/>
+      <MaharastraHeadContent />
       <KaranatakaHrdWhat />
       <WhyHrd />
-      <HrdProcess/>
-      <HrdDocs/>
+      <HrdProcess />
+      <HrdDocs />
       <HomeLink />
       <HomeMarquee />
       <OurServices />

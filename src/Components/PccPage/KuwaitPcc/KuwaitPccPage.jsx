@@ -16,19 +16,34 @@ import KuwaitPccOvercome from "./KuwaitPccOvercome";
 import KuwaitPccChallenges from "./KuwaitPccChallenges";
 import KuwaitPccHead from "./KuwaitPccHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const KuwaitPccPage = () => {
   return (
     <div className="pccPageContainer">
-      <KuwaitPccHead/>
-      <WhyBlock/>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Kuwait Embassy Attestation Services in Bangalore Karnataka
+        </title>
+        <meta
+          name="description"
+          content="Kuwait Embassy Attestation Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/kuwait-embassy-attestation-bangalore"
+        />
+      </Helmet>
+      <KuwaitPccHead />
+      <WhyBlock />
       <KuwaitPccIntro />
       <KuwaitPccImp />
       <WhatIs />
       <KuwaitProcedure />
       <KuwaitPccChallenges />
       <KuwaitPccOvercome />
-      <KuwaitPccExp/>
+      <KuwaitPccExp />
       <ImpEachStep />
       <KuwaitPccUse />
       <HomeLink />

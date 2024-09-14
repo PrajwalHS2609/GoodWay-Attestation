@@ -14,10 +14,25 @@ import WhyBlock from "../../WhyBlock/WhyBlock";
 import MalaysiaHeading from "./MalaysiaHeading/MalaysiaHeading";
 import MalaysiaService from "./MalaysiaService/MalaysiaService";
 import MalaysiaSeo from "./MalaysiaSeo/MalaysiaSeo";
+import { Helmet } from "react-helmet";
 
 const MalaysiaAttestation = () => {
   return (
     <div className="uaeAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Malaysia Embassy Attestation Services in Bangalore Karnataka
+        </title>
+        <meta
+          name="description"
+          content="Malaysia Embassy Attestation Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/malaysia-embassy-attestation-bangalore"
+        />
+      </Helmet>
       <MalaysiaHeading />
       <WhyBlock />
       <MalaysiaCard />
@@ -25,7 +40,7 @@ const MalaysiaAttestation = () => {
       <MalaysiaMofa />
       <MalaysiaService />
       <MalaysiaBlore />
-      <MalaysiaSeo/>
+      <MalaysiaSeo />
       <MalaysiaReq />
       <HomeLink />
       <HomeMarquee />

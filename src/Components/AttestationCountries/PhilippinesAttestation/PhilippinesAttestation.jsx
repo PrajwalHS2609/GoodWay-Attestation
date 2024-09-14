@@ -15,10 +15,26 @@ import PhilippinesHeading from "./PhilippinesHeading/PhilippinesHeading";
 import PhilippinesService from "./PhilippinesService/PhilippinesService";
 import PhilippinesAbout from "./PhilippinesAbout/PhilippinesAbout";
 import PhilippinesFaq from "./PhilippinesFaq/PhilippinesFaq";
+import { Helmet } from "react-helmet";
 
 const PhilippinesAttestation = () => {
   return (
     <div className="uaeAttestationPage">
+      {" "}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Philippines Embassy Attestation Services in Bangalore Karnataka
+        </title>
+        <meta
+          name="description"
+          content="Philippines Embassy Attestation Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/philippines-embassy-attestation-bangalore"
+        />
+      </Helmet>
       <PhilippinesHeading />
       <WhyBlock />
       <PhilippinesCard />
@@ -33,7 +49,7 @@ const PhilippinesAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <PhilippinesFaq/>
+      <PhilippinesFaq />
     </div>
   );
 };

@@ -17,10 +17,25 @@ import GermanyService from "./GermanyService/GermanyService";
 import GermanyBloreCert from "./GermanyBloreCert/GermanyBloreCert";
 import GermanyFaq from "./GermanyFaq/GermanyFaq";
 import GermanySeo from "./GermanySeo/GermanySeo";
+import { Helmet } from "react-helmet";
 
 const GermanyApostille = () => {
   return (
     <div className="uaeAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Germany Apostille Services in Bangalore Karnataka at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Germany Apostille Services in Banglore, Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/germany-apostille-services-bangalore"
+        />
+      </Helmet>
       <GermanyHeading />
       <WhyBlock />
       <GermanyCard />
@@ -30,7 +45,7 @@ const GermanyApostille = () => {
       <GermanyService />
       <GermanyBloreCert />
       <GermanyBlore />
-      <GermanySeo/>
+      <GermanySeo />
       <GermanyReq />
       <HomeLink />
       <HomeMarquee />

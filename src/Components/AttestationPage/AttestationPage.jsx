@@ -11,14 +11,27 @@ import AttestationEdu from "./AttestationEdu/AttestationEdu";
 import AttestationBloreCert from "./AttestationBloreCert/AttestationBloreCert";
 import UaeCertificateHead from "../AttestationCountries/UaeAttestation/UaeCertificate/UaeCertificateHead";
 import UaeCertificateMain from "../AttestationCountries/UaeAttestation/UaeCertificate/UaeCertificateMain";
+import { Helmet } from "react-helmet";
 
 const AttestationPage = () => {
   return (
     <div className="AttestationPageContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Certificates Attestation in Bangalore at Lowest Price</title>
+        <meta
+          name="description"
+          content="Certificate Attestation Services in Banglore, Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/certificate-attestation-bangalore"
+        />
+      </Helmet>
       <AttestationFlagMain />
       <AttestationEdu />
       <AttestationBloreCert />
-      <div id='atteNoneduCertContainer'></div>
+      <div id="atteNoneduCertContainer"></div>
       <UaeCertificateHead certHead="Certificates Required For  Attestation" />
       <UaeCertificateMain />
       <HomeLink />

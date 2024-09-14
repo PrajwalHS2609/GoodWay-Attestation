@@ -14,11 +14,26 @@ import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
 import MarriageCertHead from "./MarriageCertHead/MarriageCertHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 const MarriageCertAttestation = () => {
   return (
     <div className="marriageCertContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Marriage Certificate Attestation in Bangalore at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Marriage Certificate Attestation in Bangalore at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/marriage-certificate-attestation-bangalore"
+        />
+      </Helmet>
       <MarriageCertHead />
-      <WhyBlock/>
+      <WhyBlock />
       <MarriageCertImp />
       <MarriageCertPurpose />
       <MarriageDoc />

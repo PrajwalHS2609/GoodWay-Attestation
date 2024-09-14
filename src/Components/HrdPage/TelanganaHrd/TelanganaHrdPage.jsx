@@ -12,16 +12,31 @@ import TelanganaHeadContent from "./TelanganaHeadContent";
 import HrdProcess from "./HrdProcess";
 import HrdDocs from "./HrdDocs";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const TelanganaHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
-      <TelanganaHead/>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Telangana State HRD & Home Department Services in Bangalore
+        </title>
+        <meta
+          name="description"
+          content="Telangana State HRD & Home Department Services in Bangalore. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/telangana-hrd-home-department-attestation"
+        />
+      </Helmet>
+      <TelanganaHead />
       <WhyBlock />
-      <TelanganaHeadContent/>
+      <TelanganaHeadContent />
       <KaranatakaHrdWhat />
-      <HrdProcess/>
-      <HrdDocs/>
+      <HrdProcess />
+      <HrdDocs />
       <WhyHrd />
       <HomeLink />
       <HomeMarquee />

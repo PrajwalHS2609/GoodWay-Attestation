@@ -15,20 +15,32 @@ import UsaMofa from "./UsaMofa/UsaMofa";
 import UsaBloreCert from "./UsaBloreCert/UsaBloreCert";
 import UsaFaq from "./UsaFaq/UsaFaq";
 import UsaSeo from "./UsaSeo/UsaSeo";
+import { Helmet } from "react-helmet";
 // import UsaService from "./UsaService/UsaService";
 
 const UsaApostille = () => {
   return (
     <div className="uaeAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          USA Apostille Services in Bangalore Karnataka at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="USA Apostille Services in Banglore, Karnataka at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link rel="canonical" href="https://goodway-attestation.com/usa-apostille-services-bangalore" />
+      </Helmet>
       <UsaHeading />
       <WhyBlock />
       <UsaCard />
       <UsaCertificate />
       <UsaMofa />
       {/* <UsaService /> */}
-      <UsaBloreCert/>
+      <UsaBloreCert />
       <UsaBlore />
-      <UsaSeo/>
+      <UsaSeo />
       <UsaReq />
       <HomeLink />
       <HomeMarquee />

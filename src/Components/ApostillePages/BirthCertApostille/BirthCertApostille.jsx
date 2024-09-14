@@ -15,10 +15,23 @@ import Faq from "../../HomePage/Faq/Faq";
 import BirthCertImp from "./BirthCertImp";
 import BirthCertHead from "./BirthCertHead";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const BirthCertApostille = () => {
   return (
     <div className="birthCertContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Birth Certificate Apostille in Bangalore at Lowest Price</title>
+        <meta
+          name="description"
+          content="Birth Certificate Apostille in Bangalore at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/birth-certificate-apostille-bangalore"
+        />
+      </Helmet>
       <BirthCertHead />
       <WhyBlock />
       <BirthCertHeadContent />

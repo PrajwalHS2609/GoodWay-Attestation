@@ -18,7 +18,6 @@ import TaiwanAttestation from "./Components/AttestationCountries/TaiwanAttestati
 import NigeriaAttestation from "./Components/AttestationCountries/NigeriaAttestation/NigeriaAttestation";
 import MalaysiaAttestation from "./Components/AttestationCountries/MalaysiaAttestation/MalaysiaAttestation";
 import PhilippinesAttestation from "./Components/AttestationCountries/PhilippinesAttestation/PhilippinesAttestation";
-// import SwedenAttestation from "./Components/AttestationCountries/SwedenAttestation/SwedenAttestation";
 import AttestationPage from "./Components/AttestationPage/AttestationPage";
 import ApostillePages from "./Components/ApostillePages/ApostillePages";
 import ContactUs from "./Components/ContactUs/ContactUs";
@@ -162,13 +161,12 @@ const App = () => {
             path="/italy-apostille-attestation-bangalore"
             element={<ItalyApostille />}
           />
-          {/* <Route path="/sweden-apostille" element={<SwedenAttestation />} /> */}
           <Route
             path="/lithuania-apostille-attestation-bangalore"
             element={<LithuaniaApostille />}
           />
           <Route
-            path="/netherland-apostille-attestation-bangalore"
+            path="/netherlands-apostille-attestation-bangalore"
             element={<NetherlandApostille />}
           />
           <Route path="/contact-us" element={<ContactUs />} />

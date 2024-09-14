@@ -12,12 +12,27 @@ import OurServices from "../HomePage/OurServices/OurServices";
 import Benefits from "../Benefits/Benefits";
 import Review from "../Review/Review";
 import Faq from "../HomePage/Faq/Faq";
-import WhyBlock from './../WhyBlock/WhyBlock';
+import WhyBlock from "./../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 const HrdPage = () => {
   return (
     <div className="hrdContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          State HRD & Home Department Attestation in Bangalore, Karnataka
+        </title>
+        <meta
+          name="description"
+          content="State HRD & Home Department Attestation in Bangalore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/state-hrd-home-department-attestation"
+        />
+      </Helmet>
       <HrdHead />
-      <WhyBlock/>
+      <WhyBlock />
       <HrdContent />
       <HrdMain />
       <HrdBlore />

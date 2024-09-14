@@ -5,7 +5,7 @@ import AustraliaCertificateMain from "../../Australia/AustraliaCertificate/Austr
 const NetherlandCertificate = () => {
   return (
     <div className="uaeCertContainer">
-      <UaeCertificateHead certHead="Certificates Required For Netherland Embassy Apostille" />
+      <UaeCertificateHead certHead="Certificates Required For Netherlands Embassy Apostille" />
       <AustraliaCertificateMain />
     </div>
   );

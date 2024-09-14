@@ -15,10 +15,25 @@ import MarriageCertChallenge from "./MarriageCertChallenge";
 import MarriageCertOvercome from "./MarriageCertOvercome";
 import MarriageCertExp from "./MarriageCertExp";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const MarriageCertApostille = () => {
   return (
     <div className="degreeCertApostille">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Marriage Certificate Apostille in Bangalore at Lowest Price
+        </title>
+        <meta
+          name="description"
+          content="Marriage Certificate Apostille in Bangalore at Lowest Price	Marriage Certificate Apostille in Bangalore at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/marriage-certificate-apostille-bangalore"
+        />
+      </Helmet>
       <MarriageCertHead />
       <WhyBlock />
       <MarriageCertHeadContent />

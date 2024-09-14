@@ -12,10 +12,26 @@ import Benefits from "../Benefits/Benefits";
 import Review from "../Review/Review";
 import Faq from "../HomePage/Faq/Faq";
 import WhyBlock from "../WhyBlock/WhyBlock";
+import { Helmet } from "react-helmet";
 
 const WesPage = () => {
   return (
     <div className="wesPageContainer">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          WES Attestation in Bangalore - Certificate Verification Services in
+          Karnataka
+        </title>
+        <meta
+          name="description"
+          content="WES Attestation in Bangalore at Lowest Price. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/wes-attestation-bangalore"
+        />
+      </Helmet>
       <WesHead />
       <WhyBlock />
       <WesHeadContent />

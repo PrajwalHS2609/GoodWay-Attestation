@@ -15,17 +15,32 @@ import Review from "../../Review/Review";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import BahrainFaq from "./BahrainFaq/BahrainFaq";
 import BahrainSeo from "./BahrainSeo/BahrainSeo";
+import { Helmet } from "react-helmet";
 
 const BahrainAttestation = () => {
   return (
     <div className="bahrainAttestationPage">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Bahrain Embassy Attestation Services in Bangalore Karnataka
+        </title>
+        <meta
+          name="description"
+          content="Bahrain Embassy Attestation Services in Banglore, Karnataka. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
+        />
+        <link
+          rel="canonical"
+          href="https://goodway-attestation.com/bahrain-embassy-attestation-bangalore "
+        />
+      </Helmet>
       <BahrainHeading />
       <WhyBlock />
       <BahrainMainCard />
       <BahrainCertificate />
       <BahrainMofa />
       <BahrainBlore />
-      <BahrainSeo/>
+      <BahrainSeo />
       <BahrainReq />
       <BahrainAbout />
       <HomeLink />

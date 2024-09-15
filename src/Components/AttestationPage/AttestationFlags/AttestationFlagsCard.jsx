@@ -8,6 +8,7 @@ const AttestationFlagsCard = (props) => {
         className="flagCard"
         src={props.img}
         alt=""
+        loading="lazy"
       />
       <div className="attestationFlagCardContent">
         <div className="attestationFlagCardTxt">

@@ -8,7 +8,7 @@ const MofaHead = () => {
         <div className="mofaHeadCover">
           <TypeWriter txt="MOFA Attestation Service in "/>
         </div>
-        <img src={mofaBanner} alt="mofaBanner" />
+        <img src={mofaBanner} alt="mofaBanner" loading="lazy"/>
       </div>
   );
 };

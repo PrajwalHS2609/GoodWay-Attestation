@@ -9,7 +9,7 @@ const TranslationHead = () => {
       <div className="transHeadCover">
         <TypeWriter txt="Translation Service in "/>
       </div>
-      <img src={translationBanner} alt="translationBanner" />
+      <img src={translationBanner} alt="translationBanner" loading="lazy"/>
     </div>
   );
 };

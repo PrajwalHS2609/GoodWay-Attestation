@@ -8,7 +8,7 @@ const PccHead = () => {
       <div className="pccHeadCover">
         <TypeWriter txt="PCC Attestation Service in " />
       </div>
-      <img src={Pcc} alt="pcc" />
+      <img src={Pcc} alt="pcc" loading="lazy"/>
     </div>
   );
 };

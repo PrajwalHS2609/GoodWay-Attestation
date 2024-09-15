@@ -16,10 +16,10 @@ const UaeAttestationCard = (props) => {
   return (
     <div className="uaeAttestationCardContainer">
       <div className="uaeAttCardImgContent">
-        <img src={props.flag} alt={props.altFlag} />
+        <img src={props.flag} alt={props.altFlag} loading="lazy"/>
         <div className="uaeAttCardContent">
           <div className="uaeAttGovtCardContent">
-            <img src={props.embassy} alt={props.altEmbassy} />
+            <img src={props.embassy} alt={props.altEmbassy} loading="lazy"/>
             <h3>Government Approved</h3>
           </div>
           <div className="uaeAttDocCardContent">

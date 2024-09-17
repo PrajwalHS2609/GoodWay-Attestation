@@ -36,8 +36,8 @@ const ContactUsMain = () => {
             address="SHOP NO.1 GROUND FLOOR, VIJAYDEEP BUILDING COLABA . MUMBAI PIN. 400005 "
             emailLink="mailto:info@goodwayattestaion.com"
             email="info@goodwayattestaion.com"
-            phoneLink="tel:9148222211"
-            phoneNo="9148222211"
+            phoneLink="tel:9480777233"
+            phoneNo="9480777233"
           />
           <ContactUsCard
             img={omanFlag}

@@ -46,7 +46,7 @@ const OurServicesMain = () => {
         img={mea}
         head="MEA"
         para="MEA (Ministry of External Affairs) is responsible for the attestation and legalization of documents for international use, ensuring their authenticity for foreign authorities."
-      link="/mea-attestaion-apostille-services"
+      link="/mea-attestation-apostille-services"
       />
       <OurServicesCard
         img={wes}

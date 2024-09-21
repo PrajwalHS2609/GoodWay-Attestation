@@ -18,46 +18,74 @@ const FooterDoc = () => {
           </Link>
         </li>
         <li>
-          <Link to={"/commercial-documents-attestation-bangalore"}>Commercial Documents</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Commercial Documents
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Salary Certificate</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Salary Certificate
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Equivalence Certificate</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Equivalence Certificate
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Single Status Certificate</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Single Status Certificate
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Ministry of education department</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Ministry of education department
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Foreign Affairs (FA)</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Foreign Affairs (FA)
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Transfer Certificate (TC)</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Transfer Certificate (TC)
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Employment Certificate</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Employment Certificate
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Medical Certificate</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Medical Certificate
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Ministry of Health department</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Ministry of Health department
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Ministry of Justice</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Ministry of Justice
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Chamber of Commerce</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Chamber of Commerce
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Labor Department</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Labor Department
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Death Certificate</Link>
+          <Link to={"/commercial-documents-attestation-bangalore"}>
+            Death Certificate
+          </Link>
         </li>
       </ul>
     </div>

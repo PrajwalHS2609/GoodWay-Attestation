@@ -83,6 +83,14 @@
     color: white;
     font-size: 15px;
   }
+  .whyBlockCardContent1 {
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 990px) {
 
@@ -107,7 +115,7 @@
   .whyBlockCardContent1 {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

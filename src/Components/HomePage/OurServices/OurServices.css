@@ -170,3 +170,11 @@
     margin: 20px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .ourServicesCardContainer {
+    /* border: solid green; */
+    min-width: 300px;
+    height: 400px;
+    margin: 20px;
+  }
+}

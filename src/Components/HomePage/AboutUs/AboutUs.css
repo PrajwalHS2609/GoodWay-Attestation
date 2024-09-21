@@ -117,7 +117,7 @@
     /* border: solid black; */
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     gap: 30px;
     width: 100%;
@@ -135,6 +135,24 @@
   .aboutUsImgContent > img {
     width: 30%;
     height: 30%;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .aboutUsIcons {
+    /* border: solid black; */
+    flex-direction: row;
+    gap: 50px;
+  }
+  .aboutUsImgContent {
+    /* border: solid red; */
+    width: fit-content;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aboutUsImgContent > img {
+    width: 50px;
+    height: 50px;
     object-fit: cover;
   }
 }

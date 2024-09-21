@@ -8,43 +8,43 @@ const FooterApo = () => {
       <h3>Apostille</h3>
       <ul>
         <li>
-          <Link to={"/oman-apostille-attestation-bangalore"}>Oman</Link>
+          <Link to={"/oman-apostille-services-bangalore"}>Oman</Link>
         </li>
         <li>
-          <Link to={"/italy-apostille-attestation-bangalore"}>Italy</Link>
+          <Link to={"/italy-apostille-services-bangalore"}>Italy</Link>
         </li>
         <li>
-          <Link to={"/germany-apostille-attestation-bangalore"}>Germany</Link>
+          <Link to={"/germany-apostille-services-bangalore"}>Germany</Link>
         </li>
         <li>
-          <Link to={"/australia-apostille-attestation-bangalore"}>
+          <Link to={"/australia-apostille-services-bangalore"}>
             Australia
           </Link>
         </li>
         <li>
-          <Link to={"/austria-apostille-attestation-bangalore"}>Austria</Link>
+          <Link to={"/austria-apostille-services-bangalore"}>Austria</Link>
         </li>
         <li>
-          <Link to={"/france-apostille-attestation-bangalore"}>France</Link>
+          <Link to={"/france-apostille-services-bangalore"}>France</Link>
         </li>
         <li>
-          <Link to={"/lithuania-apostille-attestation-bangalore"}>
+          <Link to={"/lithuania-apostille-services-bangalore"}>
             Lithuania
           </Link>
         </li>
         <li>
-          <Link to={"/mexico-apostille-attestation-bangalore"}>Mexico</Link>
+          <Link to={"/mexico-apostille-services-bangalore"}>Mexico</Link>
         </li>
         <li>
-          <Link to={"/netherland-apostille-attestation-bangalore"}>
+          <Link to={"/netherland-apostille-services-bangalore"}>
             Netherlands
           </Link>
         </li>
         <li>
-          <Link to={"/uk-apostille-attestation-bangalore"}>UK</Link>
+          <Link to={"/uk-apostille-services-bangalore"}>UK</Link>
         </li>
         <li>
-          <Link to={"/usa-apostille-attestation-bangalore"}>USA</Link>
+          <Link to={"/usa-apostille-services-bangalore"}>USA</Link>
         </li>
         {/* <li>
           <Link to={"/sweden-apostille"}>Sweden</Link>

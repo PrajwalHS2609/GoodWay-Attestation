@@ -37,13 +37,13 @@ const HomeMarquee = () => {
           img={australiaFlag}
           alt={australiaFlag}
           name="Australia"
-          link="/australia-apostille-attestation-bangalore"
+          link="/australia-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={austriaFlag}
           alt={austriaFlag}
           name="Austria"
-          link="/austria-apostille-attestation-bangalore"
+          link="/austria-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={bahrainFlag}
@@ -61,19 +61,19 @@ const HomeMarquee = () => {
           img={franceFlag}
           alt={franceFlag}
           name="France"
-          link="/france-apostille-attestation-bangalore"
+          link="/france-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={germanyFlag}
           alt={germanyFlag}
           name="Germany"
-          link="/germany-apostille-attestation-bangalore"
+          link="/germany-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={italyFlag}
           alt={italyFlag}
           name="Italy"
-          link="/italy-apostille-attestation-bangalore"
+          link="/italy-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={kuwaitFlag}
@@ -91,13 +91,13 @@ const HomeMarquee = () => {
           img={mexicoFlag}
           alt={mexicoFlag}
           name="Mexico"
-          link="/mexico-apostille-attestation-bangalore"
+          link="/mexico-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={netherlandFlag}
           alt={netherlandFlag}
           name="Netherland"
-          link="/netherland-apostille-attestation-bangalore"
+          link="/netherland-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={nigeriaFlag}
@@ -109,7 +109,7 @@ const HomeMarquee = () => {
           img={omanFlag}
           alt={omanFlag}
           name="Oman"
-          link="oman-apostille-attestation-bangalore"
+          link="oman-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={philippinesFlag}
@@ -151,13 +151,13 @@ const HomeMarquee = () => {
           img={ukFlag}
           alt={ukFlag}
           name="United Kingdom"
-          link="/uk-apostille-attestation-bangalore"
+          link="/uk-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={usaFlag}
           alt={usaFlag}
           name="USA"
-          link="/usa-apostille-attestation-bangalore"
+          link="/usa-apostille-services-bangalore"
         />
         <HomeMarqueeCard
           img={vietnamFlag}

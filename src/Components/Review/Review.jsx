@@ -14,21 +14,18 @@ const Review = () => {
   }, []);
   return (
     <>
-    <ReviewsHeading/>
-    <div className="reviewsContainer">
-      <div className="reviewsContent">
-        <script
-          src="https://static.elfsight.com/platform/platform.js"
-          data-use-service-core
-          defer
-        ></script>
-
-        <div
-          class="elfsight-app-4944966b-46f1-4e5d-bb08-09b3d09c8fae"
-          data-elfsight-app-lazy
-        ></div>
+      <ReviewsHeading />
+      <div className="reviewsContainer">
+        <div className="reviewsContent">
+          <iframe
+            src="https://widgets.sociablekit.com/google-reviews/iframe/25465825"
+            frameborder="0"
+            width="100%"
+            height="1000"
+            title="google reviews"
+          ></iframe>
+        </div>
       </div>
-    </div>
     </>
   );
 };

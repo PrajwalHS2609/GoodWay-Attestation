@@ -30,67 +30,67 @@ const ApostilleFlagsMain = () => {
       <ApostilleBlore />
       <div className="atteFlagMainContent2">
         <AttestationFlagsCard
-          link="/oman-apostille-attestation-bangalore"
+          link="/oman-apostille-services-bangalore"
           img={omanFlag}
           head="OMAN"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/italy-apostille-attestation-bangalore"
+          link="/italy-apostille-services-bangalore"
           img={italyFlag}
           head="ITALY"
           para="Apostille"
         />  
         <AttestationFlagsCard
-          link="/germany-apostille-attestation-bangalore"
+          link="/germany-apostille-services-bangalore"
           img={germanyFlag}
           head="GERMANY"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/australia-apostille-attestation-bangalore"
+          link="/australia-apostille-services-bangalore"
           img={australiaFlag}
           head="AUSTRALIA"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/austria-apostille-attestation-bangalore"
+          link="/austria-apostille-services-bangalore"
           img={austriaFlag}
           head="AUSTRIA"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/france-apostille-attestation-bangalore"
+          link="/france-apostille-services-bangalore"
           img={franceFlag}
           head="FRANCE"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/lithuania-apostille-attestation-bangalore"
+          link="/lithuania-apostille-services-bangalore"
           img={lithuaniaFlag}
           head="LITHUANIA"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/mexico-apostille-attestation-bangalore"
+          link="/mexico-apostille-services-bangalore"
           img={mexicoFlag}
           head="MEXICO"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/netherland-apostille-attestation-bangalore"
+          link="/netherlands-apostille-services-bangalore"
           img={netherlandFlag}
           head="NETHERLAND"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/uk-apostille-attestation-bangalore"
+          link="/uk-apostille-services-bangalore"
           img={ukFlag}
           head="UNITED KINGDOM"
           para="Apostille"
         />
         <AttestationFlagsCard
-          link="/usa-apostille-attestation-bangalore"
+          link="/usa-apostille-services-bangalore"
           img={usaFlag}
           head="USA"
           para="Apostille"

@@ -125,48 +125,48 @@ const App = () => {
             element={<PhilippinesAttestation />}
           />
           <Route
-            path="/australia-apostille-attestation-bangalore"
+            path="/australia-apostille-services-bangalore"
             element={<AustraliaApostille />}
           />
           <Route
-            path="/usa-apostille-attestation-bangalore"
+            path="/usa-apostille-services-bangalore"
             element={<UsaApostille />}
           />
           <Route
-            path="/oman-apostille-attestation-bangalore"
+            path="/oman-apostille-services-bangalore"
             element={<OmanApostille />}
           />
 
           <Route
-            path="/austria-apostille-attestation-bangalore"
+            path="/austria-apostille-services-bangalore"
             element={<AustriaApostille />}
           />
           <Route
-            path="/uk-apostille-attestation-bangalore"
+            path="/uk-apostille-services-bangalore"
             element={<UkApostille />}
           />
           <Route
-            path="/germany-apostille-attestation-bangalore"
+            path="/germany-apostille-services-bangalore"
             element={<GermanyApostille />}
           />
           <Route
-            path="/mexico-apostille-attestation-bangalore"
+            path="/mexico-apostille-services-bangalore"
             element={<MexicoApostille />}
           />
           <Route
-            path="/france-apostille-attestation-bangalore"
+            path="/france-apostille-services-bangalore"
             element={<FranceApostille />}
           />
           <Route
-            path="/italy-apostille-attestation-bangalore"
+            path="/italy-apostille-services-bangalore"
             element={<ItalyApostille />}
           />
           <Route
-            path="/lithuania-apostille-attestation-bangalore"
+            path="/lithuania-apostille-services-bangalore"
             element={<LithuaniaApostille />}
           />
           <Route
-            path="/netherlands-apostille-attestation-bangalore"
+            path="/netherlands-apostille-services-bangalore"
             element={<NetherlandApostille />}
           />
           <Route path="/contact-us" element={<ContactUs />} />

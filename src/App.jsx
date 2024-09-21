@@ -59,6 +59,20 @@ import UsaApostille from "./Components/AttestationCountries/UsaApostille/UsaApos
 import TrackStatus from "./Components/TrackStatus/TrackStatus";
 
 const App = () => {
+  const NotFound = () => (
+    <div
+      style={{
+        fontSize: "100px",
+        width: "100%",
+        textAlign: "center",
+        backgroundColor: "white",
+        height: "100vh",
+      }}
+    >
+      Page Not Found
+    </div>
+  );
+
   return (
     <div>
       <BrowserRouter>
@@ -66,8 +80,8 @@ const App = () => {
         <UpperNav />
         <NavBar />
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
-
           <Route
             path="/certificate-attestation-bangalore"
             element={<AttestationPage />}
@@ -205,7 +219,7 @@ const App = () => {
             element={<MeaPage />}
           />
           <Route
-            path="/degree-certificate-attestation-bangalore"
+            path="/degree-certificate-apostille-bangalore"
             element={<DegreeCertAttestation />}
           />
           <Route

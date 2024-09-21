@@ -8,34 +8,50 @@ const FooterEduCertif = () => {
       <h3>Educational Certificates</h3>
       <ul>
         <li>
-          <Link to={"/"}>UG, PG Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            UG, PG Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Diploma Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Diploma Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Engineering Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Engineering Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Management Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Management Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Hotel Management</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Hotel Management
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Medical Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Medical Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Law Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>Law Degree</Link>
         </li>
         <li>
-          <Link to={"/"}>Technical Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Technical Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>Professional Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>
+            Professional Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/"}>PhD Degree</Link>
+          <Link to={"/degree-certificate-apostille-bangalore"}>PhD Degree</Link>
         </li>
       </ul>
     </div>

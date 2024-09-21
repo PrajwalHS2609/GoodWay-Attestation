@@ -9,6 +9,12 @@ import MeaBloreCert from "./MeaBloreCert/MeaBloreCert";
 import MeaProcedure from "./MeaProcedure/MeaProcedure";
 import WhyBlock from "../WhyBlock/WhyBlock";
 import { Helmet } from "react-helmet";
+import HomeLink from "../HomePage/HomeLink.jsx/HomeLink";
+import HomeMarquee from "../Marquee/HomeMarquee";
+import OurServices from "../HomePage/OurServices/OurServices";
+import Benefits from "../Benefits/Benefits";
+import Review from "../Review/Review";
+import Faq from "../HomePage/Faq/Faq";
 const MeaPage = () => {
   return (
     <div className="meaPageContainer">
@@ -34,6 +40,12 @@ const MeaPage = () => {
       <MeaTime />
       <MeaBloreCert />
       <MeaProcedure />
+      <HomeLink />
+      <HomeMarquee />
+      <OurServices />
+      <Benefits />
+      <Review />
+      <Faq />
     </div>
   );
 };

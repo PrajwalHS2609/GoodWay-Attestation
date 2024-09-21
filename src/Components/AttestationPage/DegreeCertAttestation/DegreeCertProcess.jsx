@@ -55,10 +55,9 @@ const DegreeCertProcess = () => {
             icon={faAnglesRight}
             className="eduCertIcon"
           ></FontAwesomeIcon>{" "}
-          4. <span>MEA Attestation:</span> After HRD attestation, the document
-          is attested by the Ministry of External Affairs (MEA). This
-          attestation is necessary for international recognition of the degree
-          certificate.
+          <span>MEA Attestation:</span> After HRD attestation, the document is
+          attested by the Ministry of External Affairs (MEA). This attestation
+          is necessary for international recognition of the degree certificate.
         </li>
         <li>
           <FontAwesomeIcon

@@ -8,50 +8,54 @@ const FooterEduCertif = () => {
       <h3>Educational Certificates</h3>
       <ul>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             UG, PG Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Diploma Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Engineering Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Management Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Hotel Management
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Medical Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>Law Degree</Link>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
+            Law Degree
+          </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Technical Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
             Professional Degree
           </Link>
         </li>
         <li>
-          <Link to={"/degree-certificate-apostille-bangalore"}>PhD Degree</Link>
+          <Link to={"/degree-certificate-attestation-bangalore"}>
+            PhD Degree
+          </Link>
         </li>
       </ul>
     </div>

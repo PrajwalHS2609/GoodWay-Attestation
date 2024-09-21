@@ -219,7 +219,7 @@ const App = () => {
             element={<MeaPage />}
           />
           <Route
-            path="/degree-certificate-apostille-bangalore"
+            path="/degree-certificate-attestation-bangalore"
             element={<DegreeCertAttestation />}
           />
           <Route

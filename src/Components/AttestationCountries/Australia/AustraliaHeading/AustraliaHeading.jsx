@@ -5,7 +5,7 @@ import TypeWriter from "../AustraliaTypeWriter/TypeWriter";
 const AustraliaHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">
-            <div className="uaeAttHeadingCover"> </div>
+      <div className="uaeAttHeadingCover"> </div>
       <TypeWriter />
       <video src={AustraliaAttBanner} autoPlay loop muted />
     </div>

@@ -8,7 +8,7 @@ const DegreeCertHead = () => {
       <div className="birthCertHeadCover">
         <TypeWriter txt="Degree Certificate Attestation in" />
       </div>
-      <img src={eduCert} alt="eduCert" />
+      <img src={eduCert} alt="eduCert" loading="lazy"/>
     </div>
   );
 };

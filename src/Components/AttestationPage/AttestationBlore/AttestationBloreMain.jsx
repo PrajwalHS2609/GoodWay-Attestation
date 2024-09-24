@@ -4,7 +4,7 @@ const AttestationBloreMain = (props) => {
   return (
     <div className="attestationBloreMainContainer">
       <div className="attestationBloreMainContent">
-        <img src={props.mainImg} alt="" />
+        <img src={props.mainImg} alt="" loading="lazy"/>
       </div>
       <div className="attestationBloreMainContent">
         <div className="attestationBloreMainHead">

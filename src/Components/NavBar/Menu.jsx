@@ -409,7 +409,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"/certificate-attestation-bangalore/#atteEduContainer"}
+                    to={"#atteEduContainer"}
                   >
                     Education Certificate
                   </NavHashLink>
@@ -420,9 +420,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={
-                      "/certificate-attestation-bangalore/#atteNoneduCertContainer"
-                    }
+                    to={"#atteNoneduCertContainer"}
                   >
                     Non-Education Certificates
                   </NavHashLink>
@@ -484,7 +482,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"/certificate-apostille-bangalore/#apoEduContainer"}
+                    to={"#apoEduContainer"}
                   >
                     Education Certificate
                   </NavHashLink>
@@ -495,7 +493,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"/certificate-apostille-bangalore/#apoNonEduContainer"}
+                    to={"#apoNonEduContainer"}
                   >
                     Non-Education Certificates
                   </NavHashLink>
@@ -625,7 +623,8 @@ const Menu = () => {
             <span className="respMenuSpan" ref={dropRef4}>
               <li>
                 <h3>
-                  <NavHashLink smooth
+                  <NavHashLink
+                    smooth
                     onClick={hideSideBar}
                     to={"/mofa-attestation-services/#mofaCertIncorp"}
                   >
@@ -635,7 +634,8 @@ const Menu = () => {
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth
+                  <NavHashLink
+                    smooth
                     onClick={hideSideBar}
                     to={"/mofa-attestation-services/#memorandum"}
                   >
@@ -645,7 +645,8 @@ const Menu = () => {
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth
+                  <NavHashLink
+                    smooth
                     onClick={hideSideBar}
                     to={"/mofa-attestation-services/#exportInvoice"}
                   >
@@ -662,42 +663,66 @@ const Menu = () => {
               </li> */}
               <li>
                 <h3>
-                  <NavHashLink smooth onClick={hideSideBar} to={"/mofa-attestation-services/#memorandum"}>
+                  <NavHashLink
+                    smooth
+                    onClick={hideSideBar}
+                    to={"/mofa-attestation-services/#memorandum"}
+                  >
                     Memorandum of Association Power of Attorney
                   </NavHashLink>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth onClick={hideSideBar} to={"/mofa-attestation-services/#packagingList"}>
+                  <NavHashLink
+                    smooth
+                    onClick={hideSideBar}
+                    to={"/mofa-attestation-services/#packagingList"}
+                  >
                     Packaging list
                   </NavHashLink>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth onClick={hideSideBar} to={"/mofa-attestation-services/#certOfOrigin"}>
+                  <NavHashLink
+                    smooth
+                    onClick={hideSideBar}
+                    to={"/mofa-attestation-services/#certOfOrigin"}
+                  >
                     Certificate of Origin
                   </NavHashLink>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth onClick={hideSideBar} to={"/mofa-attestation-services/#chemAnalysis"}>
+                  <NavHashLink
+                    smooth
+                    onClick={hideSideBar}
+                    to={"/mofa-attestation-services/#chemAnalysis"}
+                  >
                     Chemical Analysis Report
                   </NavHashLink>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth onClick={hideSideBar} to={"/mofa-attestation-services/#phyAnalysis"}>
+                  <NavHashLink
+                    smooth
+                    onClick={hideSideBar}
+                    to={"/mofa-attestation-services/#phyAnalysis"}
+                  >
                     Physical Analysis Report
                   </NavHashLink>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <NavHashLink smooth onClick={hideSideBar} to={"/mofa-attestation-services/#article"}>
+                  <NavHashLink
+                    smooth
+                    onClick={hideSideBar}
+                    to={"/mofa-attestation-services/#article"}
+                  >
                     Articles of Association
                   </NavHashLink>
                 </h3>

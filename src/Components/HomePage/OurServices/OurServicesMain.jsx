@@ -4,7 +4,7 @@ import "./OurServices.css";
 import appostille from "./../../../vid&img/Service Images/Attestation.png";
 import attestation from "./../../../vid&img/Service Images/Apostille.png";
 import mofa from "./../../../vid&img/Service Images/MOFA.png";
-import pcc from "./../../../vid&img/Service Images/PCC.png";
+import pcc from "./../../../vid&img/Service Images/Pcc.png";
 import mea from "./../../../vid&img/Service Images/MEA.png";
 import wes from "./../../../vid&img/Service Images/Wes.png";
 import translation from "./../../../vid&img/Service Images/Translation.png";

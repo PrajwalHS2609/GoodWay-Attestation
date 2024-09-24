@@ -80,7 +80,6 @@ const App = () => {
         <UpperNav />
         <NavBar />
         <Routes>
-          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<HomePage />} />
           <Route
             path="/certificate-attestation-bangalore"
@@ -273,6 +272,7 @@ const App = () => {
             element={<QatarPccPage />}
           />
           <Route path="/track-status" element={<TrackStatus />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
 
         <Footer />

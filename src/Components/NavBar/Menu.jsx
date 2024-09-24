@@ -214,8 +214,8 @@ const Menu = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/maharastra-hrd-home-department-attestation"}>
-                  Maharastra
+                <Link to={"/maharashtra-hrd-home-department-attestation"}>
+                  Maharashtra
                 </Link>
               </li>
               <li>

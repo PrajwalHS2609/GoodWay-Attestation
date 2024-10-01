@@ -7,6 +7,7 @@ const HomeFlagCard = (props) => {
       <img
         src={props.flag}
         alt={props.alt}
+        loading="lazy"
       />
       <div className="homeFlagCardCover"></div>
       <div className="homeFlagCardName"><h3><Link to={props.link}>{props.name}</Link></h3></div>

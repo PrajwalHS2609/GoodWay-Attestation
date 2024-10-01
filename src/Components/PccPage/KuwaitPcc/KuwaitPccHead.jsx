@@ -8,7 +8,7 @@ const KuwaitPccHead = () => {
       <div className="HeadCover">
         <TypeWriter txt="Kuwait PCC Verification in " />
       </div>
-      <img src={KuwaitFlag} alt="KuwaitFlag" />
+      <img src={KuwaitFlag} alt="KuwaitFlag" loading="lazy"/>
     </div>
   );
 };

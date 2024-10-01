@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./TypesDocs.css";
 import "aos/dist/aos.css";
+import docStack from "./../../../vid&img/MofaImgs/documents-stack.jpg"
 import AOS from "aos";
 const TypesDocs = () => {
   useEffect(() => {
@@ -21,8 +22,9 @@ const TypesDocs = () => {
       <div className="typeDocWrapper">
         <div className="typeDocContent" data-aos="fade-right">
           <img
-            src="https://img.freepik.com/free-photo/still-life-documents-stack_23-2151088771.jpg?ga=GA1.1.834150354.1714229918&semt=ais_user"
-            alt=""
+            src={docStack}
+            alt="docStack"
+            loading="lazy"
           />
         </div>
         <div className="typeDocContent" data-aos="fade-left">

@@ -13,7 +13,7 @@ const MofaCard2 = (props) => {
     <div className="mofaCardContainer" id="mofaCard2Container" data-aos="fade-left">
       <div className="mofaCardContent" id="mofaCardContent1">
         <div className="mofaCardImg">
-          <img src={props.img} alt={props.alt} />
+          <img src={props.img} alt={props.alt} loading="lazy"/>
         </div>
       </div>
       <div className="mofaCardContent" id="mofaCardContent2">

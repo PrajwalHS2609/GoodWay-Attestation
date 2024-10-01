@@ -16,7 +16,7 @@ const MeaBloreCert = () => {
           </ul>
         </div>
         <div className="meaBloreCertContent1">
-          <img src={meaCert} alt="" />
+          <img src={meaCert} alt="meaCert" loading="lazy"/>
         </div>
       </div>
     </div>

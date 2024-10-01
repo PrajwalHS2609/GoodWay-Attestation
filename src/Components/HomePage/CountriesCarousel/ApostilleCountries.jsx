@@ -57,7 +57,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={omanFlag} alt="" loading="lazy" />
+                <img src={omanFlag} alt="omanFlag" loading="lazy" />
               </div>
               <h4>OMAN</h4>
             </div>
@@ -65,7 +65,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={italyFlag} alt="" loading="lazy" />
+                <img src={italyFlag} alt="italyFlag" loading="lazy" />
               </div>
               <h4>ITALY</h4>
             </div>
@@ -73,7 +73,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={germanyFlag} alt="" loading="lazy" />
+                <img src={germanyFlag} alt="germanyFlag" loading="lazy" />
               </div>
               <h4>GERMANY</h4>
             </div>
@@ -81,7 +81,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={australiaFlag} alt="" loading="lazy" />
+                <img src={australiaFlag} alt="australiaFlag" loading="lazy" />
               </div>
               <h4>AUSTRALIA</h4>
             </div>
@@ -89,7 +89,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={austriaFlag} alt="" loading="lazy" />
+                <img src={austriaFlag} alt="austriaFlag" loading="lazy" />
               </div>
               <h4>AUSTRIA</h4>
             </div>
@@ -97,7 +97,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={lithuaniaFlag} alt="" loading="lazy" />
+                <img src={lithuaniaFlag} alt="lithuaniaFlag" loading="lazy" />
               </div>
               <h4>LITHUANIA</h4>
             </div>
@@ -105,7 +105,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={mexicoFlag} alt="" loading="lazy" />
+                <img src={mexicoFlag} alt="mexicoFlag" loading="lazy" />
               </div>
               <h4>MEXICO</h4>
             </div>
@@ -113,7 +113,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={netherlandFlag} alt="" loading="lazy" />
+                <img src={netherlandFlag} alt="netherlandFlag" loading="lazy" />
               </div>
               <h4>NETHERLAND</h4>
             </div>
@@ -121,7 +121,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={franceFlag} alt="" loading="lazy" />
+                <img src={franceFlag} alt="franceFlag" loading="lazy" />
               </div>
               <h4>FRANCE</h4>
             </div>
@@ -129,7 +129,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={ukFlag} alt="" loading="lazy" />
+                <img src={ukFlag} alt="ukFlag" loading="lazy" />
               </div>
               <h4>UK</h4>
             </div>
@@ -137,7 +137,7 @@ const ApostilleCountries = () => {
           <div>
             <div className="apostilleCountriesWrapper">
               <div className="item">
-                <img src={usaFlag} alt="" loading="lazy" />
+                <img src={usaFlag} alt="usaFlag" loading="lazy" />
               </div>
               <h4>USA</h4>
             </div>

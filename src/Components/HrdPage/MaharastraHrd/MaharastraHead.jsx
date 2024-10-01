@@ -9,7 +9,7 @@ const MaharastraHead = () => {
       HRD Attestation in Maharastra by <span>Goodway Attestation</span>
       </h2>
     </div>
-    <img src={maharastraHrd} alt="maharastraHrd" />
+    <img src={maharastraHrd} alt="maharastraHrd" loading='lazy'/>
   </div>
   )
 }

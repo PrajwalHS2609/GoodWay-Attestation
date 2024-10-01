@@ -8,16 +8,16 @@ const AboutUsIcons = () => {
   return (
     <div className="aboutUsIcons">
       <div className="aboutUsImgContent">
-        <img src={price} alt="" /> <p>Competitive Price</p>
+        <img src={price} alt="price" loading="lazy"/> <p>Competitive Price</p>
       </div>
       <div className="aboutUsImgContent">
-        <img src={efficiency} alt="" /> <p>ISO Certified </p>
+        <img src={efficiency} alt="efficiency" loading="lazy"/> <p>ISO Certified </p>
       </div>
       <div className="aboutUsImgContent">
-        <img src={expertise} alt="" /> <p>25000+ Customers</p>
+        <img src={expertise} alt="expertise" loading="lazy"/> <p>25000+ Customers</p>
       </div>
       <div className="aboutUsImgContent">
-        <img src={govt} alt="" /> <p>16 Years of Experience</p>
+        <img src={govt} alt="govt" loading="lazy"/> <p>16 Years of Experience</p>
       </div>
     </div>
   );

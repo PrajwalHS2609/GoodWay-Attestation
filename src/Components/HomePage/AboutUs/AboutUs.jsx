@@ -21,7 +21,7 @@ const AboutUs = () => {
           <AboutUsIcons />
         </div>
         <div className="aboutUsContent">
-          <img src={about} alt="aboutImg" />
+          <img src={about} alt="aboutImg" loading="lazy"/>
         </div>
       </div>
     </div>

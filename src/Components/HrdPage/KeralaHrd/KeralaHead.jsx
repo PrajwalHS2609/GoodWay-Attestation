@@ -9,7 +9,7 @@ const KeralaHead = () => {
       HRD Attestation in Kerala by <span>Goodway Attestation</span>
       </h2>
     </div>
-    <img src={keralaHrd} alt="keralaHrd" />
+    <img src={keralaHrd} alt="keralaHrd" loading="lazy"/>
   </div>
   );
 };

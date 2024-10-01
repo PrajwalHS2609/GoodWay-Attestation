@@ -15,6 +15,7 @@ const ContactUsMain = () => {
           <ContactUsCard
             img={indiaFlag}
             alt="india"
+            addName="Bangalore"
             address="134, 1st Floor, Temple Street, Malleshwaram, Bengaluru."
             emailLink="mailto:info@goodwayattestaion.com"
             email="info@goodwayattestaion.com"
@@ -24,6 +25,7 @@ const ContactUsMain = () => {
           <ContactUsCard
             img={indiaFlag}
             alt="india"
+            addName="Mysore"
             address="#10207 near marimallappa school, opposite to mysuru mart, 2nd phase , vijaynagar 4th stage Mysore-570017."
             emailLink="mailto:info@goodwayattestaion.com"
             email="info@goodwayattestaion.com"
@@ -33,7 +35,8 @@ const ContactUsMain = () => {
           <ContactUsCard
             img={indiaFlag}
             alt="india"
-            address="SHOP NO.1 GROUND FLOOR, VIJAYDEEP BUILDING COLABA . MUMBAI PIN. 400005 "
+            addName="Mumbai"
+            address="Shop No.1 Ground Floor, Vijaydeep Building Colab , Mumbai Pin. 400005 "
             emailLink="mailto:info@goodwayattestaion.com"
             email="info@goodwayattestaion.com"
             phoneLink="tel:9480777233"
@@ -42,6 +45,7 @@ const ContactUsMain = () => {
           <ContactUsCard
             img={omanFlag}
             alt="oman"
+            addName="Oman"
             address="No 60, 6th Floor building No: 108 Toto Building, Al Ghubra, Muscat, Sultanate of Oman"
             emailLink="mailto:omangoodway@gmail.com"
             email="omangoodway@gmail.com"
@@ -51,6 +55,7 @@ const ContactUsMain = () => {
           <ContactUsCard
             img={uaeFlag}
             alt="uae"
+            addName="UAE"
             address=" Anfar Al Falaj Building, Opp to Rak bank, Rolla,Sharjah United Arab Emirates"
             emailLink="mailto:uaegoodway@gmail.com"
             email="uaegoodway@gmail.com"

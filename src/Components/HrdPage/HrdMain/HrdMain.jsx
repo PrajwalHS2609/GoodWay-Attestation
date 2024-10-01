@@ -8,7 +8,8 @@ const HrdMain = () => {
         <div className="hrdMainContent" id="hrdMainContent1">
           <img
             src={hdrImg}
-            alt=""
+            alt="hdrImg"
+            loading="lazy"
           />
         </div>
         <div className="hrdMainContent" id="hrdMainContent2">

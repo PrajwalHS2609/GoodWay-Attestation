@@ -9,7 +9,7 @@ const TelanganaHead = () => {
       HRD Attestation in Telangana by <span>Goodway Attestation</span>
       </h2>
     </div>
-    <img src={telanganaHrd} alt="telanganaHrd" />
+    <img src={telanganaHrd} alt="telanganaHrd" loading='lazy'/>
   </div>
   )
 }

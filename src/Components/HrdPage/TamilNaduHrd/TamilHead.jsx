@@ -8,7 +8,7 @@ const TamilHead = () => {
       HRD Attestation in Tamil Nadu by <span>Goodway Attestation</span>
       </h2>
     </div>
-    <img src={tamilHrd} alt="tamilHrd" />
+    <img src={tamilHrd} alt="tamilHrd" loading='lazy'/>
   </div>
   )
 }

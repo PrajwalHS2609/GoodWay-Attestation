@@ -1,5 +1,6 @@
 import React from "react";
 import "./MeaMain.css";
+import mea from "./../../../vid&img/Mea.jpg"
 const MeaMain = () => {
   return (
     <div className="meaMainContainer">
@@ -38,7 +39,7 @@ const MeaMain = () => {
         </p>
       </div>
       <div className="meaMainContent" id="meaMainContent2">
-        <img src="https://www.mea.gov.in/images/south_block.jpg" alt="" />
+        <img src={mea} alt="mea" loading="lazy"/>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const WesHead = () => {
       <div className="wesHeadCover">
           <TypeWriter txt="WES Attestation and Verification in  " />
       </div>
-      <img src={WesBanner} alt="WesBanner" />
+      <img src={WesBanner} alt="WesBanner" loading="lazy"/>
     </div>
   );
 };

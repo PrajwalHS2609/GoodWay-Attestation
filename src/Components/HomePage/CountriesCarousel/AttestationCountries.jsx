@@ -58,7 +58,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={uaeFlag} alt="" loading="lazy" />
+                <img src={uaeFlag} alt="uaeFlag" loading="lazy" />
               </div>
               <h4>UAE</h4>
             </div>
@@ -66,7 +66,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={qatarFlag} alt="" loading="lazy" />
+                <img src={qatarFlag} alt="qatarFlag" loading="lazy" />
               </div>
               <h4>QATAR</h4>
             </div>
@@ -74,7 +74,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={kuwaitFlag} alt="" loading="lazy" />
+                <img src={kuwaitFlag} alt="kuwaitFlag" loading="lazy" />
               </div>
               <h4>KUWAIT</h4>
             </div>
@@ -82,7 +82,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={saudiFlag} alt="" loading="lazy" />
+                <img src={saudiFlag} alt="saudiFlag" loading="lazy" />
               </div>
               <h4>SAUDI</h4>
             </div>
@@ -90,7 +90,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={bahrainFlag} alt="" loading="lazy" />
+                <img src={bahrainFlag} alt="bahrainFlag" loading="lazy" />
               </div>
               <h4>BAHRAIN</h4>
             </div>
@@ -98,7 +98,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={chinaFlag} alt="" loading="lazy" />
+                <img src={chinaFlag} alt="chinaFlag" loading="lazy" />
               </div>
               <h4>CHINA</h4>
             </div>
@@ -106,7 +106,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={vietnamFlag} alt="" loading="lazy" />
+                <img src={vietnamFlag} alt="vietnamFlag" loading="lazy" />
               </div>
               <h4>VIETNAM</h4>
             </div>
@@ -114,7 +114,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={taiwanFlag} alt="" loading="lazy" />
+                <img src={taiwanFlag} alt="taiwanFlag" loading="lazy" />
               </div>
               <h4>TAIWAN</h4>
             </div>
@@ -122,7 +122,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={egyptFlag} alt="" loading="lazy" />
+                <img src={egyptFlag} alt="egyptFlag" loading="lazy" />
               </div>
               <h4>EGYPT</h4>
             </div>
@@ -130,7 +130,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={philippinesFlag} alt="" loading="lazy" />
+                <img src={philippinesFlag} alt="philippinesFlag" loading="lazy" />
               </div>
               <h4>PHILIPPINES</h4>
             </div>
@@ -138,7 +138,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={malaysiaFlag} alt="" loading="lazy" />
+                <img src={malaysiaFlag} alt="malaysiaFlag" loading="lazy" />
               </div>
               <h4>MALAYSIA</h4>
             </div>
@@ -146,7 +146,7 @@ const AttestationCountries = () => {
           <div>
             <div className="attestationCountriesWrapper">
               <div className="item">
-                <img src={nigeriaFlag} alt="" loading="lazy" />
+                <img src={nigeriaFlag} alt="nigeriaFlag" loading="lazy" />
               </div>
               <h4>NIGERIA</h4>
             </div>

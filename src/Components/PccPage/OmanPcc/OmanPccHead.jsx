@@ -8,7 +8,7 @@ const OmanPccHead = () => {
       <div className="HeadCover">
         <TypeWriter txt="Oman PCC Verification in " />
       </div>
-      <img src={OmanFlag} alt="OmanFlag" />
+      <img src={OmanFlag} alt="OmanFlag" loading="lazy"/>
     </div>
   );
 };

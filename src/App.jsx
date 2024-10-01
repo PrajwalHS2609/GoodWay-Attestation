@@ -57,6 +57,7 @@ import NetherlandApostille from "./Components/AttestationCountries/NetherlandApo
 import UkApostille from "./Components/AttestationCountries/UkApostille/UkApostille";
 import UsaApostille from "./Components/AttestationCountries/UsaApostille/UsaApostille";
 import TrackStatus from "./Components/TrackStatus/TrackStatus";
+import WhatsApp from "./Components/WhatsApp/WhatsApp";
 
 const App = () => {
   const NotFound = () => (
@@ -274,7 +275,7 @@ const App = () => {
           <Route path="/track-status" element={<TrackStatus />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-
+        <WhatsApp />
         <Footer />
       </BrowserRouter>
     </div>

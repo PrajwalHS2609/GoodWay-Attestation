@@ -9,7 +9,7 @@ const KaranatakaHrdHead = () => {
       HRD Attestation in Karnataka by <span>Goodway Attestation</span>
       </h2>
     </div>
-    <img src={karanatakaHrd} alt="karanatakaHrd" />
+    <img src={karanatakaHrd} alt="karanatakaHrd" loading='lazy'/>
   </div>
   )
 }

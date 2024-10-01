@@ -16,7 +16,7 @@ const MofaCard1 = (props) => {
     >
       <div className="mofaCardContent" id="mofaCardContent1">
         <div className="mofaCardImg">
-          <img src={props.img} alt={props.alt} />
+          <img src={props.img} alt={props.alt} loading="lazy"/>
         </div>
       </div>
       <div className="mofaCardContent" id="mofaCardContent2">

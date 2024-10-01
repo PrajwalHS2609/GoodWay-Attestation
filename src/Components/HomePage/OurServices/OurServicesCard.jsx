@@ -12,7 +12,7 @@ const OurServicesCard = (props) => {
           </div>
         </div>
         <div className="ourServicesCardImg">
-          <img src={props.img} alt="" />
+          <img src={props.img} alt={props.alt}  loading="lazy"/>
         </div>
         <div className="ourServicesCardHead">
           <h4>{props.head}</h4>

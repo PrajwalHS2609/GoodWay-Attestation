@@ -8,7 +8,7 @@ const SaudiHead = () => {
       <div className="HeadCover">
           <TypeWriter txt="Saudi PCC Verification in " />
       </div>
-      <img src={SaudiFlag} alt="SaudiFlag" />
+      <img src={SaudiFlag} alt="SaudiFlag" loading="lazy"/>
     </div>
   );
 };

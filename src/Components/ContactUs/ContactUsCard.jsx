@@ -9,7 +9,7 @@ const ContactUsCard = (props) => {
       <div className="contactWrapper">
         <div className="contactUsCardAdd" id="contactUsCard">
           <p>
-            <span>{props.addName} Address </span>
+            <span>{props.addName} Address: </span>
             {props.address}
           </p>
         </div>

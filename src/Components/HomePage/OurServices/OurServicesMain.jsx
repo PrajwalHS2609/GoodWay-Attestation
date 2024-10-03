@@ -4,7 +4,7 @@ import "./OurServices.css";
 import appostille from "./../../../vid&img/Service Images/Attestation.png";
 import attestation from "./../../../vid&img/Service Images/Apostille.png";
 import mofa from "./../../../vid&img/Service Images/MOFA.png";
-// import pcc from "./../../../vid&img/Service Images/Pcc.png";
+import pcc from "./../../../vid&img/Service Images/Pcc.png";
 import mea from "./../../../vid&img/Service Images/MEA.png";
 import wes from "./../../../vid&img/Service Images/Wes.png";
 import translation from "./../../../vid&img/Service Images/Translation.png";
@@ -36,12 +36,12 @@ const OurServicesMain = () => {
         para="MOFA (Ministry of Foreign Affairs) is responsible for the attestation and legalization of documents for international use, ensuring their authenticity and validity in foreign countries."
       link="/mofa-attestation-services"
       />
-      {/* <OurServicesCard
+      <OurServicesCard
         img={pcc} alt="pcc"
         head="PCC"
         para="PCC (Police Clearance Certificate) is an official document issued by police or government authorities certifying that an individual has no criminal record or pending cases."
      link="/pcc-attestation-bangalore"
-     /> */}
+     />
       <OurServicesCard
         img={mea} alt="mea"
         head="MEA"

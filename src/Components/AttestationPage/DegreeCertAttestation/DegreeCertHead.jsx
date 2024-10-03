@@ -1,5 +1,5 @@
 import React from "react";
-import eduCert from "./../../../vid&img/DegreeCert.jpg";
+import eduCert from "./../../../vid_img/DegreeCert.jpg";
 import TypeWriter from "../BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const DegreeCertHead = () => {

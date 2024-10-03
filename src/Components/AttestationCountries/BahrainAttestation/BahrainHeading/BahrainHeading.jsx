@@ -1,6 +1,6 @@
 import React from "react";
 import "../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import bahrainAttBanner from "./../../../../vid&img/bannerVids/Baharain.mp4";
+import bahrainAttBanner from "./../../../../vid_img/bannerVids/Baharain.mp4";
 import TypeWriter from "./../BahrainTypeWriter/TypeWriter";
 const BahrainHeading = () => {
   return (

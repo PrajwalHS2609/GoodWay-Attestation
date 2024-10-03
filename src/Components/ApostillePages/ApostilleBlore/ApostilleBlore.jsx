@@ -2,7 +2,7 @@ import React from "react";
 import AttestationBloreMain from "../../AttestationPage/AttestationBlore/AttestationBloreMain";
 import AttestationBloreHead from "../../AttestationPage/AttestationBlore/AttestationBloreHead";
 import "./../../AttestationPage/AttestationBlore/AttestationBlore.css";
-import blore from "./../../../vid&img/blore.jpg";
+import blore from "./../../../vid_img/blore.jpg";
 
 const ApostilleBlore = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./MeaMain.css";
-import mea from "./../../../vid&img/Mea.jpg"
+import mea from "./../../../vid_img/Mea.jpg"
 const MeaMain = () => {
   return (
     <div className="meaMainContainer">

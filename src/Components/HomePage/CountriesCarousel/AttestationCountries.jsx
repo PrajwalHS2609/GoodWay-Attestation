@@ -2,18 +2,18 @@ import React from "react";
 import "./CountriesCarousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import uaeFlag from "./../../../vid&img/flags/UaeFlag.png";
-import qatarFlag from "./../../../vid&img/flags/QatarFlag.jpg";
-import kuwaitFlag from "./../../../vid&img/flags/KuwaitFlag.jpg";
-import saudiFlag from "./../../../vid&img/flags/SaudiFlag.jpg";
-import bahrainFlag from "./../../../vid&img/flags/BahrainFlag.jpg";
-import chinaFlag from "./../../../vid&img/flags/ChinaFlag.jpg";
-import vietnamFlag from "./../../../vid&img/flags/VietnamFlag.jpg";
-import taiwanFlag from "./../../../vid&img/flags/TaiwanFlag.jpg";
-import egyptFlag from "./../../../vid&img/flags/EgyptFlag.jpg";
-import philippinesFlag from "./../../../vid&img/flags/PhilippinesFlag.png";
-import malaysiaFlag from "./../../../vid&img/flags/MalaysiaFlag.png";
-import nigeriaFlag from "./../../../vid&img/flags/NigeriaFlag.jpg";
+import uaeFlag from "./../../../vid_img/flags/UaeFlag.png";
+import qatarFlag from "./../../../vid_img/flags/QatarFlag.jpg";
+import kuwaitFlag from "./../../../vid_img/flags/KuwaitFlag.jpg";
+import saudiFlag from "./../../../vid_img/flags/SaudiFlag.jpg";
+import bahrainFlag from "./../../../vid_img/flags/BahrainFlag.jpg";
+import chinaFlag from "./../../../vid_img/flags/ChinaFlag.jpg";
+import vietnamFlag from "./../../../vid_img/flags/VietnamFlag.jpg";
+import taiwanFlag from "./../../../vid_img/flags/TaiwanFlag.jpg";
+import egyptFlag from "./../../../vid_img/flags/EgyptFlag.jpg";
+import philippinesFlag from "./../../../vid_img/flags/PhilippinesFlag.png";
+import malaysiaFlag from "./../../../vid_img/flags/MalaysiaFlag.png";
+import nigeriaFlag from "./../../../vid_img/flags/NigeriaFlag.jpg";
 const AttestationCountries = () => {
   const responsive = {
     superLargeDesktop: {

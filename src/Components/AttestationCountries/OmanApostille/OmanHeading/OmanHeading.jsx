@@ -1,7 +1,7 @@
 import React from "react";
 import TypeWriter from "../OmanTypeWriter/TypeWriter";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import omanAttBanner from "./../../../../vid&img/ApostilleVids/Oman.mp4";
+import omanAttBanner from "./../../../../vid_img/ApostilleVids/Oman.mp4";
 
 const OmanHeading = () => {
   return (

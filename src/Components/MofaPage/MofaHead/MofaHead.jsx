@@ -1,6 +1,6 @@
 import React from "react";
 import "./MofaHead.css";
-import mofaBanner from "./../../../vid&img/mofaBanner.jpg";
+import mofaBanner from "./../../../vid_img/mofaBanner.jpg";
 import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 const MofaHead = () => {
   return (

@@ -2,17 +2,17 @@ import React from "react";
 import "./CountriesCarousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import omanFlag from "./../../../vid&img/flags/OmanFlag.jpg";
-import italyFlag from "./../../../vid&img/flags/ItalyFlag.jpg";
-import germanyFlag from "./../../../vid&img/flags/GermanyFlag.jpg";
-import australiaFlag from "./../../../vid&img/flags/AustraliaFlag.jpg";
-import austriaFlag from "./../../../vid&img/flags/AustriaFlag.jpg";
-import franceFlag from "./../../../vid&img/flags/FranceFlag.jpg";
-import lithuaniaFlag from "./../../../vid&img/flags/LithuaniaFlag.jpg";
-import mexicoFlag from "./../../../vid&img/flags/MexicoFlag.jpg";
-import netherlandFlag from "./../../../vid&img/flags/NetherlandFlag.jpg";
-import ukFlag from "./../../../vid&img/flags/UkFlag.jpg";
-import usaFlag from "./../../../vid&img/flags/UsaFlag.jpg";
+import omanFlag from "./../../../vid_img/flags/OmanFlag.jpg";
+import italyFlag from "./../../../vid_img/flags/ItalyFlag.jpg";
+import germanyFlag from "./../../../vid_img/flags/GermanyFlag.jpg";
+import australiaFlag from "./../../../vid_img/flags/AustraliaFlag.jpg";
+import austriaFlag from "./../../../vid_img/flags/AustriaFlag.jpg";
+import franceFlag from "./../../../vid_img/flags/FranceFlag.jpg";
+import lithuaniaFlag from "./../../../vid_img/flags/LithuaniaFlag.jpg";
+import mexicoFlag from "./../../../vid_img/flags/MexicoFlag.jpg";
+import netherlandFlag from "./../../../vid_img/flags/NetherlandFlag.jpg";
+import ukFlag from "./../../../vid_img/flags/UkFlag.jpg";
+import usaFlag from "./../../../vid_img/flags/UsaFlag.jpg";
 const ApostilleCountries = () => {
   const responsive = {
     superLargeDesktop: {

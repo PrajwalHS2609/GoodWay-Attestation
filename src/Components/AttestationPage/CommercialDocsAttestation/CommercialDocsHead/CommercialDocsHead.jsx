@@ -1,5 +1,5 @@
 import React from "react";
-import CommercialDocs from "./../../../../vid&img/CommercialDocs.jpg";
+import CommercialDocs from "./../../../../vid_img/CommercialDocs.jpg";
 import TypeWriter from "../../BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const CommercialDocsHead = () => {

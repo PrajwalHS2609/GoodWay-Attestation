@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../../AttestationCountries/UaeAttestation/UaeAttestationCard/UaeAttestationCard.css";
-import malaysiaFlag from "./../../../../vid&img/Countries_Flag/Malaysia.png";
-import malaysiaEmbassy from "./../../../../vid&img/Embassy/Malaysia.png";
+import malaysiaFlag from "./../../../../vid_img/Countries_Flag/Malaysia.png";
+import malaysiaEmbassy from "./../../../../vid_img/Embassy/Malaysia.png";
 import UaeAttestationCard from "../../UaeAttestation/UaeAttestationCard/UaeAttestationCard";
 const MalaysiaCard = () => {
   return (

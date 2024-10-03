@@ -1,6 +1,6 @@
 import React from "react";
 import "./WesHead.css";
-import WesBanner from "./../../../vid&img/WesBanner.jpg";
+import WesBanner from "./../../../vid_img/WesBanner.jpg";
 import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const WesHead = () => {

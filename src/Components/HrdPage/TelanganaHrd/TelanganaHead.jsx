@@ -1,5 +1,5 @@
 import React from 'react'
-import telanganaHrd from "./../../../vid&img/Hrd/TelenganaHrd.png";
+import telanganaHrd from "./../../../vid_img/Hrd/TelenganaHrd.png";
 
 const TelanganaHead = () => {
   return (

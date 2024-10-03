@@ -1,7 +1,7 @@
 import React from 'react'
 import "./../../../AttestationCountries/UaeAttestation/UaeAttestationCard/UaeAttestationCard.css";
-import mexicoFlag from "./../../../../vid&img/Countries_Flag/Mexico.png";
-import mexicoEmbassy from "./../../../../vid&img/Apostille_Embassy_Logo/Mexico.png";
+import mexicoFlag from "./../../../../vid_img/Countries_Flag/Mexico.png";
+import mexicoEmbassy from "./../../../../vid_img/Apostille_Embassy_Logo/Mexico.png";
 import UaeAttestationCard from "../../UaeAttestation/UaeAttestationCard/UaeAttestationCard";
 const MexicoCard = () => {
   return (

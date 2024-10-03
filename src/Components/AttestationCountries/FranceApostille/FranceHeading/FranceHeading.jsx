@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import franceAttBanner from "./../../../../vid&img/ApostilleVids/France.mp4";
+import franceAttBanner from "./../../../../vid_img/ApostilleVids/France.mp4";
 import TypeWriter from "../FranceTypeWriter/TypeWriter";
 const FranceHeading = () => {
   return (

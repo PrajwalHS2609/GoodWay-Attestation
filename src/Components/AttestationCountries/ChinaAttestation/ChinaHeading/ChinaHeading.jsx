@@ -1,6 +1,6 @@
 import React from "react";
 import TypeWriter from "../ChinaTypeWriter/TypeWriter";
-import chinaAttBanner from "./../../../../vid&img/bannerVids/China.mp4";
+import chinaAttBanner from "./../../../../vid_img/bannerVids/China.mp4";
 
 const ChinaHeading = () => {
   return (

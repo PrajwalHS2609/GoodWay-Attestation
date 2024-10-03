@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./TypesDocs.css";
 import "aos/dist/aos.css";
-import docStack from "./../../../vid&img/MofaImgs/documents-stack.jpg"
+import docStack from "./../../../vid_img/MofaImgs/documents-stack.jpg"
 import AOS from "aos";
 const TypesDocs = () => {
   useEffect(() => {

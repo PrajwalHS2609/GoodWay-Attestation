@@ -1,19 +1,19 @@
 import React from "react";
 import "./Benefits.css";
 import BenefitsCard from "./BenefitsCard";
-import benefit from "./../../vid&img/Attributes Banner/benefits.png"
-import govtAp from "./../../vid&img/Attributes/Government Approved.png";
-import efficiency from "./../../vid&img/Attributes/Efficiency.png";
-import expertise from "./../../vid&img/Attributes/Expertise.png";
-import customer from "./../../vid&img/Attributes/24x7 Customer Support.png";
-import intReach from "./../../vid&img/Attributes/International Reach.png";
-import Transparency from "./../../vid&img/Attributes/Transparency.png";
-import secure from "./../../vid&img/Attributes/Secure Handling.png";
-import trust from "./../../vid&img/Attributes/Trusted by Clients.png";
-import price from "./../../vid&img/Attributes/Competitive Pricing.png";
-import online from "./../../vid&img/Attributes/Online Tracking.png";
-import legal from "./../../vid&img/Attributes/Legal Compliance.png";
-import time from "./../../vid&img/Attributes/Timely Delivery.png";
+import benefit from "./../../vid_img/Attributes Banner/benefits.png"
+import govtAp from "./../../vid_img/Attributes/Government Approved.png";
+import efficiency from "./../../vid_img/Attributes/Efficiency.png";
+import expertise from "./../../vid_img/Attributes/Expertise.png";
+import customer from "./../../vid_img/Attributes/24x7 Customer Support.png";
+import intReach from "./../../vid_img/Attributes/International Reach.png";
+import Transparency from "./../../vid_img/Attributes/Transparency.png";
+import secure from "./../../vid_img/Attributes/Secure Handling.png";
+import trust from "./../../vid_img/Attributes/Trusted by Clients.png";
+import price from "./../../vid_img/Attributes/Competitive Pricing.png";
+import online from "./../../vid_img/Attributes/Online Tracking.png";
+import legal from "./../../vid_img/Attributes/Legal Compliance.png";
+import time from "./../../vid_img/Attributes/Timely Delivery.png";
 const BenefitsMain = () => {
   return (
     <div className="benefitsMainContainer">

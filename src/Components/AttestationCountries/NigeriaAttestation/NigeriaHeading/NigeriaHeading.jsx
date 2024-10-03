@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import nigeriaAttBanner from "./../../../../vid&img/bannerVids/Nigeria.mp4";
+import nigeriaAttBanner from "./../../../../vid_img/bannerVids/Nigeria.mp4";
 import TypeWriter from "./../NigeriaTypeWriter/TypeWriter";
 const NigeriaHeading = () => {
   return (

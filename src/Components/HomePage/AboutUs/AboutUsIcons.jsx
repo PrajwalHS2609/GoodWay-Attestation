@@ -1,9 +1,9 @@
 import React from "react";
 import "./AboutUs.css";
-import price from "./../../../vid&img/About Us - Features/24x7 Customer Support.png";
-import efficiency from "./../../../vid&img/About Us - Features/Efficiency.png";
-import expertise from "./../../../vid&img/About Us - Features/Expertise.png";
-import govt from "./../../../vid&img/About Us - Features/Government Approved.png";
+import price from "./../../../vid_img/About Us - Features/24x7 Customer Support.png";
+import efficiency from "./../../../vid_img/About Us - Features/Efficiency.png";
+import expertise from "./../../../vid_img/About Us - Features/Expertise.png";
+import govt from "./../../../vid_img/About Us - Features/Government Approved.png";
 const AboutUsIcons = () => {
   return (
     <div className="aboutUsIcons">

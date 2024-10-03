@@ -1,16 +1,16 @@
 import React from "react";
 import "./UaeAttestationCard.css";
-import birth from "./../../../../vid&img/UAE_Feature/BirthApproved.png";
-import education from "./../../../../vid&img/UAE_Feature/Degree.png";
-import marriage from "./../../../../vid&img/UAE_Feature/Marriage.png";
-import commercial from "./../../../../vid&img/UAE_Feature/Commercial_Docment.png";
+import birth from "./../../../../vid_img/UAE_Feature/BirthApproved.png";
+import education from "./../../../../vid_img/UAE_Feature/Degree.png";
+import marriage from "./../../../../vid_img/UAE_Feature/Marriage.png";
+import commercial from "./../../../../vid_img/UAE_Feature/Commercial_Docment.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import price from "./../../../../vid&img/About Us - Features/24x7 Customer Support.png";
-import efficiency from "./../../../../vid&img/About Us - Features/Efficiency.png";
-import expertise from "./../../../../vid&img/About Us - Features/Expertise.png";
-import govt from "./../../../../vid&img/About Us - Features/Government Approved.png";
+import price from "./../../../../vid_img/About Us - Features/24x7 Customer Support.png";
+import efficiency from "./../../../../vid_img/About Us - Features/Efficiency.png";
+import expertise from "./../../../../vid_img/About Us - Features/Expertise.png";
+import govt from "./../../../../vid_img/About Us - Features/Government Approved.png";
 import { Link } from "react-router-dom";
 const UaeAttestationCard = (props) => {
   return (

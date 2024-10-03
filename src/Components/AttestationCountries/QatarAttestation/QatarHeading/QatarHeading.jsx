@@ -1,6 +1,6 @@
 import React from "react";
 import "../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import qatarAttBanner from "./../../../../vid&img/bannerVids/Qatar.mp4";
+import qatarAttBanner from "./../../../../vid_img/bannerVids/Qatar.mp4";
 import TypeWriter from "../QatarTypeWriter/TypeWriter";
 
 const QatarHeading = () => {

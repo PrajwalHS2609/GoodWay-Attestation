@@ -1,5 +1,5 @@
 import React from "react";
-import SaudiFlag from "./../../../vid&img/Countries_Flag/Saudi Arabia.png";
+import SaudiFlag from "./../../../vid_img/Countries_Flag/Saudi Arabia.png";
 import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const SaudiHead = () => {

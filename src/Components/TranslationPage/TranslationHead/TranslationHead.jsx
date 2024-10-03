@@ -1,6 +1,6 @@
 import React from "react";
 import "./TranslationHead.css";
-import translationBanner from "./../../../vid&img/translationBanner.jpg";
+import translationBanner from "./../../../vid_img/translationBanner.jpg";
 import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const TranslationHead = () => {

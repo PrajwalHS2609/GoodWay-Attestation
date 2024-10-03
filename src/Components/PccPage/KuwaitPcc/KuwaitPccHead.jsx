@@ -1,5 +1,5 @@
 import React from "react";
-import KuwaitFlag from "./../../../vid&img/Countries_Flag/Kuwait.png";
+import KuwaitFlag from "./../../../vid_img/Countries_Flag/Kuwait.png";
 import "./KuwaitHead.css";
 import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 const KuwaitPccHead = () => {

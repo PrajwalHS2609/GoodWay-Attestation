@@ -1,5 +1,5 @@
 import React from 'react'
-import tamilHrd from "./../../../vid&img/Hrd/TamilNaduHrd.png";
+import tamilHrd from "./../../../vid_img/Hrd/TamilNaduHrd.png";
 const TamilHead = () => {
   return (
     <div className="kaHeadContainer">

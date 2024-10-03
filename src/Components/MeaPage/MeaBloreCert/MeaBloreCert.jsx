@@ -1,6 +1,6 @@
 import React from "react";
 import "./MeaBloreCert.css";
-import meaCert from "./../../../vid&img/mea cert.jpg";
+import meaCert from "./../../../vid_img/mea cert.jpg";
 const MeaBloreCert = () => {
   return (
     <div className="meaBloreCertContainer">

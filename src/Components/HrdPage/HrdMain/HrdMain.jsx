@@ -1,6 +1,6 @@
 import React from "react";
 import "./HrdMain.css";
-import hdrImg from "./../../../vid&img/images-hrd.jpg"
+import hdrImg from "./../../../vid_img/images-hrd.jpg"
 const HrdMain = () => {
   return (
     <div className="hrdMainContainer">

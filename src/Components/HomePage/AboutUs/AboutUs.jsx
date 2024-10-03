@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./AboutUs.css";
 import AboutUsMain from "./AboutUsMain";
 import AboutUsHead from "./AboutUsHead";
-import about from "./../../../vid&img/Attributes Banner/aboutUs.png";
+import about from "./../../../vid_img/Attributes Banner/aboutUs.png";
 import AboutUsIcons from "./AboutUsIcons";
 import "aos/dist/aos.css";
 import AOS from "aos";

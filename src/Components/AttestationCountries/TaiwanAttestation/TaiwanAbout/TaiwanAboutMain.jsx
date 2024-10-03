@@ -1,5 +1,5 @@
 import React from "react";
-import qatarAbout from "./../../../../vid&img/qatarAbout.jpg";
+import qatarAbout from "./../../../../vid_img/qatarAbout.jpg";
 import "./../../UaeAttestation/UaeAbout/UaeAbout.css";
 
 const TaiwanAboutMain = () => {

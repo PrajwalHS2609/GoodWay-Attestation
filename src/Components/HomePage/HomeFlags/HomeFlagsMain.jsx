@@ -1,12 +1,12 @@
 import React from "react";
 import "./HomeFlags.css";
 import HomeFlagCard from "./HomeFlagCard";
-import bahrainEmbassy from "../../../vid&img/Embassy/Bahrain.png";
-import indianMea from "../../../vid&img/Embassy/IndianMea.png";
-import qatarEmbassy from "../../../vid&img/Embassy/Qatar Embassy.png";
-import saudiEmbassy from "../../../vid&img/Embassy/Saudi.png";
-import uaeEmbassy from "../../../vid&img/Embassy/UAE Embassy.png";
-import kuwaitEmbassy from "../../../vid&img/Embassy/Kuwait.png";
+import bahrainEmbassy from "../../../vid_img/Embassy/Bahrain.png";
+import indianMea from "../../../vid_img/Embassy/IndianMea.png";
+import qatarEmbassy from "../../../vid_img/Embassy/Qatar Embassy.png";
+import saudiEmbassy from "../../../vid_img/Embassy/Saudi.png";
+import uaeEmbassy from "../../../vid_img/Embassy/UAE Embassy.png";
+import kuwaitEmbassy from "../../../vid_img/Embassy/Kuwait.png";
 
 const HomeFlagsMain = () => {
   return (

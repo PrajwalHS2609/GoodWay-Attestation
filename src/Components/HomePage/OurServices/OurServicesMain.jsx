@@ -1,14 +1,14 @@
 import React from "react";
 import OurServicesCard from "./OurServicesCard";
 import "./OurServices.css";
-import appostille from "./../../../vid&img/Service Images/Attestation.png";
-import attestation from "./../../../vid&img/Service Images/Apostille.png";
-import mofa from "./../../../vid&img/Service Images/MOFA.png";
+import appostille from "./../../../vid_img/Service Images/Attestation.png";
+import attestation from "./../../../vid_img/Service Images/Apostille.png";
+import mofa from "./../../../vid_img/Service Images/MOFA.png";
 import pcc from "./../../../imgs/Pcc.png";
-import mea from "./../../../vid&img/Service Images/MEA.png";
-import wes from "./../../../vid&img/Service Images/Wes.png";
-import translation from "./../../../vid&img/Service Images/Translation.png";
-import hrd from "./../../../vid&img/Service Images/State HRD.png";
+import mea from "./../../../vid_img/Service Images/MEA.png";
+import wes from "./../../../vid_img/Service Images/Wes.png";
+import translation from "./../../../vid_img/Service Images/Translation.png";
+import hrd from "./../../../vid_img/Service Images/State HRD.png";
 const OurServicesMain = () => {
   return (
     <div className="ourServicesMainContainer">

@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import taiwanAttBanner from "./../../../../vid&img/bannerVids/Taiwan.mp4";
+import taiwanAttBanner from "./../../../../vid_img/bannerVids/Taiwan.mp4";
 import TypeWriter from "./../TaiwanTypeWriter/TypeWriter";
 const TaiwanHeading = () => {
   return (

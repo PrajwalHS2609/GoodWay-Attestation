@@ -1,6 +1,6 @@
 import React from 'react'
 import TypeWriter from './../NetherlandTypeWriter/TypeWriter';
-import netherlandAttBanner from "./../../../../vid&img/ApostilleVids/netherlands.mp4";
+import netherlandAttBanner from "./../../../../vid_img/ApostilleVids/netherlands.mp4";
 const NetherlandHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">

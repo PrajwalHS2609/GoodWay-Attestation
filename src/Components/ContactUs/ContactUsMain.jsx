@@ -1,9 +1,9 @@
 import React from "react";
 import "./ContactUs.css";
 import ContactUsCard from "./ContactUsCard";
-import indiaFlag from "./../../vid&img/Countries_Flag/India.jpg";
-import omanFlag from "./../../vid&img/Countries_Flag/Oman.png";
-import uaeFlag from "./../../vid&img/Countries_Flag/UAE.png";
+import indiaFlag from "./../../vid_img/Countries_Flag/India.jpg";
+import omanFlag from "./../../vid_img/Countries_Flag/Oman.png";
+import uaeFlag from "./../../vid_img/Countries_Flag/UAE.png";
 
 import ContactUsForm from "./ContactUsForm/ContactUsForm";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./../../UaeAttestation/UaeAbout/UaeAbout.css";
-import chinaAbout from "./../../../../vid&img/qatarAbout.jpg";
+import chinaAbout from "./../../../../vid_img/qatarAbout.jpg";
 const ChinaAboutMain = () => {
   return (
     <div className="uaeAboutUsMainContainer">

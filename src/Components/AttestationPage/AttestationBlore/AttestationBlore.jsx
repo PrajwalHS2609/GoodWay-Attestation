@@ -2,7 +2,7 @@ import React from "react";
 import "./AttestationBlore.css";
 import AttestationBloreHead from "./AttestationBloreHead";
 import AttestationBloreMain from "./AttestationBloreMain";
-import blore from "./../../../vid&img/blore.jpg"
+import blore from "./../../../vid_img/blore.jpg"
 const AttestationBlore = () => {
   return (
     <div className="attestationBloreContiner">

@@ -1,7 +1,7 @@
 import React from "react";
 import "./../../../AttestationCountries/UaeAttestation/UaeAttestationCard/UaeAttestationCard.css";
-import nigeriaFlag from "./../../../../vid&img/Countries_Flag/nigeria.png";
-import nigeriaEmbassy from "./../../../../vid&img/Embassy/Nigeria.png";
+import nigeriaFlag from "./../../../../vid_img/Countries_Flag/nigeria.png";
+import nigeriaEmbassy from "./../../../../vid_img/Embassy/Nigeria.png";
 import UaeAttestationCard from "../../UaeAttestation/UaeAttestationCard/UaeAttestationCard";
 const NigeriaCard = () => {
   return (

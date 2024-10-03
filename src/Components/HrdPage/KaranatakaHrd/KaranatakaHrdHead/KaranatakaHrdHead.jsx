@@ -1,5 +1,5 @@
 import React from 'react'
-import karanatakaHrd from "./../../../../vid&img/Hrd/KarnatakaHrd.png";
+import karanatakaHrd from "./../../../../vid_img/Hrd/KarnatakaHrd.png";
 import "./KaranatakaHrdHead.css"
 const KaranatakaHrdHead = () => {
   return (

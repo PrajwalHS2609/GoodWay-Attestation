@@ -1,7 +1,7 @@
 import React from "react";
 import "./WhatsApp.css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import logo from "./../../vid&img/goodWayFavicon.ico";
+import logo from "./../../vid_img/goodWayFavicon.ico";
 
 const WhatsApp = () => {
   // let [visible, setVisible] = useState();

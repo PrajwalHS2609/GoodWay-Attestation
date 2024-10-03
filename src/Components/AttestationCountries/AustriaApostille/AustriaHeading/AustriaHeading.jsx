@@ -1,7 +1,7 @@
 import React from "react";
 import TypeWriter from "../AustriaTypeWriter/TypeWriter";
 import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
-import austriaAttBanner from "./../../../../vid&img/ApostilleVids/Austria.mp4";
+import austriaAttBanner from "./../../../../vid_img/ApostilleVids/Austria.mp4";
 
 const AustriaHeading = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./../../../AttestationCountries/UaeAttestation/UaeAttestationCard/UaeAttestationCard.css";
-import austriaFlag from "./../../../../vid&img/Countries_Flag/austria.png";
-import austriaEmbassy from "./../../../../vid&img/Apostille_Embassy_Logo/Austria.png";
+import austriaFlag from "./../../../../vid_img/Countries_Flag/austria.png";
+import austriaEmbassy from "./../../../../vid_img/Apostille_Embassy_Logo/Austria.png";
 import UaeAttestationCard from "../../UaeAttestation/UaeAttestationCard/UaeAttestationCard";
 const AustriaCard = () => {
   return (

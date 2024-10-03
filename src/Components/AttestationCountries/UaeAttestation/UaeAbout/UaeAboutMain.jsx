@@ -1,6 +1,6 @@
 import React from "react";
 import "./UaeAbout.css";
-import uae from "./../../../../vid&img/uaeAbout.jpg"
+import uae from "./../../../../vid_img/uaeAbout.jpg"
 const UaeAboutMain = () => {
   return (
     <div className="uaeAboutUsMainContainer">

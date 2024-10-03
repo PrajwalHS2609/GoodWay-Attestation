@@ -1,6 +1,6 @@
 import React from "react";
 import "./BirthCertHead.css";
-import BirthCert from "./../../../../vid&img/birthCert.jpg";
+import BirthCert from "./../../../../vid_img/birthCert.jpg";
 import TypeWriter from "./TypeWriter/TypeWriter";
 
 const BirthCertHead = () => {

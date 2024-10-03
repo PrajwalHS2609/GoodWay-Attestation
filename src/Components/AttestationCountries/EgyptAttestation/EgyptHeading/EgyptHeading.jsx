@@ -1,5 +1,5 @@
 import React from "react";
-import egyptAtteBanner from "./../../../../vid&img/bannerVids/Egypt.mp4";
+import egyptAtteBanner from "./../../../../vid_img/bannerVids/Egypt.mp4";
 import TypeWriter from "../EgyptTypeWritter/TypeWriter";
 const EgyptHeading = () => {
   return (

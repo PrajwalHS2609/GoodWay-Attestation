@@ -1,5 +1,5 @@
 import React from "react";
-import QatarFlag from "./../../../vid&img/Countries_Flag/Qatar.png";
+import QatarFlag from "./../../../vid_img/Countries_Flag/Qatar.png";
 import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const QatarPccHead = () => {

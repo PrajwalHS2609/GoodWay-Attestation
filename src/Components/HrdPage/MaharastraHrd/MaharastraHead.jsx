@@ -1,5 +1,5 @@
 import React from 'react'
-import maharastraHrd from "./../../../vid&img/Hrd/MaharastraHrd.png";
+import maharastraHrd from "./../../../vid_img/Hrd/MaharastraHrd.png";
 
 const MaharastraHead = () => {
   return (

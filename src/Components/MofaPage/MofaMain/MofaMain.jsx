@@ -2,11 +2,11 @@ import React from "react";
 import "./MofaMain.css";
 import MofaCard1 from "./MofaCard1";
 import MofaCard2 from "./MofaCard2";
-import mofaUae from "./../../../vid&img/MofaImgs/MofaUae.jpg";
-import mofaQatar from "./../../../vid&img/MofaImgs/MofaQatar.jpg";
-import mofaSaudi from "./../../../vid&img/MofaImgs/MofaSaudi.jpg";
-import mofaBahrain from "./../../../vid&img/MofaImgs/MofaBahrain.jpg";
-import mofaKuwait from "./../../../vid&img/MofaImgs/MofaKuwait.jpg";
+import mofaUae from "./../../../vid_img/MofaImgs/MofaUae.jpg";
+import mofaQatar from "./../../../vid_img/MofaImgs/MofaQatar.jpg";
+import mofaSaudi from "./../../../vid_img/MofaImgs/MofaSaudi.jpg";
+import mofaBahrain from "./../../../vid_img/MofaImgs/MofaBahrain.jpg";
+import mofaKuwait from "./../../../vid_img/MofaImgs/MofaKuwait.jpg";
 
 const MofaMain = () => {
   return (

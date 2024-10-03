@@ -409,7 +409,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"#atteEduContainer"}
+                    to={"/certificate-attestation-bangalore/#atteEduContainer"}
                   >
                     Education Certificate
                   </NavHashLink>
@@ -420,7 +420,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"#atteNoneduCertContainer"}
+                    to={"/certificate-attestation-bangalore/#atteNoneduCertContainer"}
                   >
                     Non-Education Certificates
                   </NavHashLink>
@@ -482,7 +482,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"#apoEduContainer"}
+                    to={"/certificate-apostille-bangalore/#apoEduContainer"}
                   >
                     Education Certificate
                   </NavHashLink>
@@ -493,7 +493,7 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"#apoNonEduContainer"}
+                    to={"/certificate-apostille-bangalore/#apoNonEduContainer"}
                   >
                     Non-Education Certificates
                   </NavHashLink>

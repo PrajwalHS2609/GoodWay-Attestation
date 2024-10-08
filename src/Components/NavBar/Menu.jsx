@@ -28,7 +28,7 @@ const Menu = () => {
   let hideSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     // sideBar.style.display = "none";
-    sideBar.style.transform = "translateX(620px)";
+    sideBar.style.transform = "translateX(100%)";
   };
 
   let handleDropDown1 = () => {

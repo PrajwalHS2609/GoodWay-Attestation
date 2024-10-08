@@ -98,3 +98,19 @@
     margin: 40px;
   }
 }
+@media screen and (min-width: 780px) and (max-width: 990px) {
+  .homeFlagMainContainer {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+  }
+  .homeFlagCardContainer {
+    /* border: solid; */
+    min-width: 300px;
+    margin: 40px;
+  }
+}

@@ -159,26 +159,44 @@
     margin: 20px;
   }
 }
-@media screen and (min-width: 786px) {
-  .benefitsMainContent1 {
-    /* border: solid; */
-    width: 100%;
-    height: 100%;
+@media screen and (min-width: 786px) and (max-width: 990px) {
+  .benefitsContainer {
+    /* border: solid red; */
     padding: 10px;
+    margin-top: 30px;
   }
-}@media screen and (min-width: 990px) {
+  .benefitsMainContentImg {
+    /* border: solid red; */
+    height: 100%;
+    width: 100%;
+  }
   .benefitsMainContent1 {
     /* border: solid; */
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 0px;
+  }
+  .benefitsMainInnerContent {
+    /* border: solid blue; */
+    width: 100%;
+  }
+
+  .benefitsMainContentImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+  }
+  .benefitsMainContentImg {
+    /* border: solid red; */
+    height: 500px;
+    width: 100%;
+  }
+  .benefitsCardContainer {
+    /* border: solid red; */
+    min-width: 200px;
+    height: 200px;
+    margin: 20px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .benefitsMainContent1 {
-    /* border: solid; */
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-  }
-}
+

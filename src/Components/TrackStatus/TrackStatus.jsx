@@ -14,17 +14,16 @@ const TrackStatus = () => {
     let name = e.target.name;
     setTrackData({ ...trackData, [name]: value });
   };
-  let handleTrack = async (e) => {
+  const handleTrack = async (e) => {
     e.preventDefault();
     try {
-      let payload = {
-        trackId,
-      };
-      let {data} = await axiosInstance.post(`/crm/api/get-track-data`, payload);
-      alert("Successfully");
+      // Use GET request and include trackId in the URL
+      const { data } = await axiosInstance.get(`/crm/api/get-track-data/${trackId}`);
+      alert("Successfully fetched data");
       console.log(data);
-    } catch {
-      alert("Failed");
+    } catch (error) {
+      alert("Failed to fetch data");
+      console.error(error);
     }
   };
   return (

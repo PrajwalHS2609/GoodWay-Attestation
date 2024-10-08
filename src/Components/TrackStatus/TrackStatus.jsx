@@ -16,14 +16,24 @@ const TrackStatus = () => {
   };
   const handleTrack = async (e) => {
     e.preventDefault();
+    if (!trackId) {
+      alert("Please enter a valid Track ID.");
+      return;
+    }
     try {
-      // Use GET request and include trackId in the URL
       const { data } = await axiosInstance.get(`/crm/api/get-track-data/${trackId}`);
       alert("Successfully fetched data");
       console.log(data);
     } catch (error) {
       alert("Failed to fetch data");
-      console.error(error);
+      console.error("Error:", error);
+      if (error.response) {
+        console.error("Response error:", error.response.data);
+      } else if (error.request) {
+        console.error("No response received:", error.request);
+      } else {
+        console.error("Error setting up request:", error.message);
+      }
     }
   };
   return (

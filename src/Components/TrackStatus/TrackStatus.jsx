@@ -5,11 +5,10 @@ import { Helmet } from "react-helmet";
 import axios from "axios";
 
 const TrackStatus = () => {
-  const [trackData, setTrackData] = useState({ trackId: "" });
+  const [trackData, setTrackData] = useState({
+    trackId: "",
+  });
   const { trackId } = trackData;
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-  const [trackingInfo, setTrackingInfo] = useState(null);
 
   const handleData = (e) => {
     const value = e.target.value;
@@ -23,21 +22,23 @@ const TrackStatus = () => {
       alert("Please enter a valid Track ID.");
       return;
     }
-    setLoading(true);
-    setError(""); // Clear previous error
     try {
       const { data } = await axios.post(
         "https://goodwayattestation.com/crm/api/get-track-data",
         { track_no: trackId }
       );
-      setTrackingInfo(data); // Store API response in state
       alert("Successfully fetched data");
       console.log(data);
     } catch (error) {
-      setError("Failed to fetch data. Please try again later.");
+      alert("Failed to fetch data");
       console.error("Error:", error);
-    } finally {
-      setLoading(false);
+      if (error.response) {
+        console.error("Response error:", error.response.data);
+      } else if (error.request) {
+        console.error("No response received:", error.request);
+      } else {
+        console.error("Error setting up request:", error.message);
+      }
     }
   };
 
@@ -69,34 +70,8 @@ const TrackStatus = () => {
           value={trackId}
           name="trackId"
         />
-        <button type="submit" disabled={!trackId || loading}>
-          {loading ? "Loading..." : "Track"}
-        </button>
+        <button type="submit">Track</button>
       </form>
-      {error && <p className="error">{error}</p>}
-      {trackingInfo && (
-        <div className="trackingResult">
-          <h3>Tracking Details</h3>
-          <p>
-            <strong>Customer Name:</strong> {trackingInfo.customer_name}
-          </p>
-          <p>
-            <strong>Date:</strong> {trackingInfo.date}
-          </p>
-          <p>
-            <strong>Attestation Type:</strong> {trackingInfo.attestation_type}
-          </p>
-          <p>
-            <strong>Apostille:</strong> {trackingInfo.apostille}
-          </p>
-          <p>
-            <strong>Apostille Yes:</strong> {trackingInfo.apostille_yes}
-          </p>
-          <p>
-            <strong>Status:</strong> {trackingInfo.status}
-          </p>
-        </div>
-      )}
       <Review />
     </div>
   );

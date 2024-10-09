@@ -2,40 +2,45 @@ import React, { useState } from "react";
 import "./TrackStatus.css";
 import Review from "../Review/Review";
 import { Helmet } from "react-helmet";
-import axiosInstance from "../Helper/axiosInstance";
-const TrackStatus = () => {
-  let [trackData, setTrackData] = useState({
-    trackId: "",
-  });
-  let { trackId } = trackData;
+import axios from "axios";
 
-  let handleData = (e) => {
-    let value = e.target.value;
-    let name = e.target.name;
+const TrackStatus = () => {
+  const [trackData, setTrackData] = useState({ trackId: "" });
+  const { trackId } = trackData;
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [trackingInfo, setTrackingInfo] = useState(null);
+
+  const handleData = (e) => {
+    const value = e.target.value;
+    const name = e.target.name;
     setTrackData({ ...trackData, [name]: value });
   };
+
   const handleTrack = async (e) => {
     e.preventDefault();
     if (!trackId) {
       alert("Please enter a valid Track ID.");
       return;
     }
+    setLoading(true);
+    setError(""); // Clear previous error
     try {
-      const { data } = await axiosInstance.get(`/crm/api/get-track-data/${trackId}`);
+      const { data } = await axios.post(
+        "https://goodwayattestation.com/crm/api/get-track-data",
+        { track_no: trackId }
+      );
+      setTrackingInfo(data); // Store API response in state
       alert("Successfully fetched data");
       console.log(data);
     } catch (error) {
-      alert("Failed to fetch data");
+      setError("Failed to fetch data. Please try again later.");
       console.error("Error:", error);
-      if (error.response) {
-        console.error("Response error:", error.response.data);
-      } else if (error.request) {
-        console.error("No response received:", error.request);
-      } else {
-        console.error("Error setting up request:", error.message);
-      }
+    } finally {
+      setLoading(false);
     }
   };
+
   return (
     <div className="trackStatus">
       <Helmet>
@@ -49,14 +54,14 @@ const TrackStatus = () => {
         />
         <link
           rel="canonical"
-          href="https://goodway-attestation.com/track-status"
+          href="https://goodwayattestation.com/track-status"
         />
       </Helmet>
       <div className="trackStatusHeader">
         <h2>Track your application status</h2>
         <p>You will be able to track your order by using the form below.</p>
       </div>
-      <form action="" onSubmit={handleTrack}>
+      <form onSubmit={handleTrack}>
         <input
           type="text"
           placeholder="TRACK ID"
@@ -64,8 +69,34 @@ const TrackStatus = () => {
           value={trackId}
           name="trackId"
         />
-        <button type="submit">Track</button>
+        <button type="submit" disabled={!trackId || loading}>
+          {loading ? "Loading..." : "Track"}
+        </button>
       </form>
+      {error && <p className="error">{error}</p>}
+      {trackingInfo && (
+        <div className="trackingResult">
+          <h3>Tracking Details</h3>
+          <p>
+            <strong>Customer Name:</strong> {trackingInfo.customer_name}
+          </p>
+          <p>
+            <strong>Date:</strong> {trackingInfo.date}
+          </p>
+          <p>
+            <strong>Attestation Type:</strong> {trackingInfo.attestation_type}
+          </p>
+          <p>
+            <strong>Apostille:</strong> {trackingInfo.apostille}
+          </p>
+          <p>
+            <strong>Apostille Yes:</strong> {trackingInfo.apostille_yes}
+          </p>
+          <p>
+            <strong>Status:</strong> {trackingInfo.status}
+          </p>
+        </div>
+      )}
       <Review />
     </div>
   );

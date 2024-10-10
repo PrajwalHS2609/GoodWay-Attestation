@@ -1,80 +1,95 @@
 import React, { useState } from "react";
-import "./TrackStatus.css";
-import Review from "../Review/Review";
-import { Helmet } from "react-helmet";
-import axios from "axios";
 
-const TrackStatus = () => {
-  const [trackData, setTrackData] = useState({
-    trackId: "",
-  });
-  const { trackId } = trackData;
+const TrackData = () => {
+  const [trackNumber, setTrackNumber] = useState(""); // Store the input value
+  const [trackData, setTrackData] = useState(null); // Store the fetched data
+  const [error, setError] = useState(null); // Store any error
 
-  const handleData = (e) => {
-    const value = e.target.value;
-    const name = e.target.name;
-    setTrackData({ ...trackData, [name]: value });
-  };
+  const handleTrack = async () => {
+    // Reset data and error before making the request
+    setTrackData(null);
+    setError(null);
 
-  const handleTrack = async (e) => {
-    e.preventDefault();
-    if (!trackId) {
-      alert("Please enter a valid Track ID.");
-      return;
-    }
-    try {
-      const { data } = await axios.post(
-        "https://goodwayattestation.com/crm/api/get-track-data",
-        { track_no: trackId }
-      );
-      alert("Successfully fetched data");
-      console.log(data);
-    } catch (error) {
-      alert("Failed to fetch data");
-      console.error("Error:", error);
-      if (error.response) {
-        console.error("Response error:", error.response.data);
-      } else if (error.request) {
-        console.error("No response received:", error.request);
-      } else {
-        console.error("Error setting up request:", error.message);
+    if (trackNumber) {
+      try {
+        const response = await fetch(
+          "https://goodwayattestation.com/crm/api/get-track-data",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ track_no: trackNumber }), // Send track number in raw JSON
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(`Failed to fetch data: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+        setTrackData(data); // Set the fetched data
+        console.log("Successfully fetched data", data); // Log the data to console
+        setTrackNumber(""); // Clear the input field after successful fetch
+      } catch (error) {
+        setError(`Error fetching data: ${error.message}`);
+        console.error("Error:", error);
       }
+    } else {
+      setError("Please enter a track number");
     }
   };
 
   return (
-    <div className="trackStatus">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>
-          Track Embassy Attestation & Apostille Document Status Online
-        </title>
-        <meta
-          name="description"
-          content="Track Embassy Attestation & Apostille Document Status Online. Govt Approved, ISO Certified, Free Home Pick UP & Drop, Track Online."
-        />
-        <link
-          rel="canonical"
-          href="https://goodwayattestation.com/track-status"
-        />
-      </Helmet>
-      <div className="trackStatusHeader">
-        <h2>Track your application status</h2>
-        <p>You will be able to track your order by using the form below.</p>
-      </div>
-      <form onSubmit={handleTrack}>
-        <input
-          type="text"
-          placeholder="TRACK ID"
-          onChange={handleData}
-          value={trackId}
-          name="trackId"
-        />
-        <button type="submit">Track</button>
-      </form>
-      <Review />
+    <div style={{ padding: "20px", maxWidth: "400px", margin: "auto" }}>
+      <h3>Track Your Attestation</h3>
+
+      {/* Input box for track number */}
+      <input
+        type="text"
+        value={trackNumber}
+        onChange={(e) => setTrackNumber(e.target.value)}
+        placeholder="Enter Track Number"
+        style={{ padding: "10px", width: "100%", marginBottom: "10px" }}
+      />
+
+      {/* Button to trigger the API call */}
+      <button onClick={handleTrack} style={{ padding: "10px", width: "100%" }}>
+        Track
+      </button>
+
+      {/* Displaying error message */}
+      {error && <p style={{ color: "red", marginTop: "10px" }}>{error}</p>}
+
+      {/* Displaying fetched data */}
+      {trackData && (
+        <div style={{ marginTop: "20px", textAlign: "left" }}>
+          <h4>Tracking Details:</h4>
+          <p>
+            <strong>Track Number:</strong> {trackData.track_no}
+          </p>
+          <p>
+            <strong>Customer Name:</strong> {trackData.customer_name}
+          </p>
+          <p>
+            <strong>Date:</strong> {trackData.date}
+          </p>
+          <p>
+            <strong>Attestation Type:</strong> {trackData.attestation_type}
+          </p>
+          <p>
+            <strong>Apostille:</strong> {trackData.apostille}
+          </p>
+          <p>
+            <strong>Apostille Yes:</strong> {trackData.apostille_yes}
+          </p>
+          <p>
+            <strong>Status:</strong> {trackData.status}
+          </p>
+        </div>
+      )}
     </div>
   );
 };
 
-export default TrackStatus;
+export default TrackData;

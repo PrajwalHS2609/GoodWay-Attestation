@@ -63,8 +63,10 @@ const TrackData = () => {
 
       {/* Displaying fetched data */}
       {trackData && (
-        <div style={{ marginTop: "20px", textAlign: "left" }}>
-          <h4>Tracking Details:</h4>
+        <div style={{ marginTop: "20px", textAlign: "center" }}>
+          <h4 style={{ width: "100%", textAlign: "center" }}>
+            Tracking Details:
+          </h4>
           <p>
             <strong>Track Number:</strong> {trackData.track_no}
           </p>

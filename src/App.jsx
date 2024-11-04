@@ -58,6 +58,7 @@ import UkApostille from "./Components/AttestationCountries/UkApostille/UkApostil
 import UsaApostille from "./Components/AttestationCountries/UsaApostille/UsaApostille";
 import TrackStatus from "./Components/TrackStatus/TrackStatus";
 import WhatsApp from "./Components/WhatsApp/WhatsApp";
+import UaeVisaStamping from "./Components/VisaStamping/UaeVisaStamping/UaeVisaStamping";
 
 const App = () => {
   const NotFound = () => (
@@ -150,7 +151,6 @@ const App = () => {
             path="/oman-apostille-services-bangalore"
             element={<OmanApostille />}
           />
-
           <Route
             path="/austria-apostille-services-bangalore"
             element={<AustriaApostille />}
@@ -212,7 +212,6 @@ const App = () => {
             path="/telangana-hrd-home-department-attestation"
             element={<TelanganaHrdPage />}
           />
-
           <Route path="/mofa-attestation-services" element={<MofaPage />} />
           <Route
             path="/mea-attestation-apostille-services"
@@ -272,6 +271,8 @@ const App = () => {
             path="/qatar-pcc-attestation-bangalore"
             element={<QatarPccPage />}
           />
+          {/* -------------------UaeVisaStamping--------------------------------------------------- */}
+          <Route path="/uae-visa-stamping-bangalore" element={<UaeVisaStamping />} />
           <Route path="/track-status" element={<TrackStatus />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

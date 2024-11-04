@@ -27,6 +27,16 @@
   object-fit: cover;
   padding: 30px;
 }
+.kaHeadCover > h1 {
+  /* border: solid; */
+  font-size: 40px;
+  color: var(--customColor2);
+  text-align: center;
+  width: 40%;
+}
+.kaHeadCover > h1 > span {
+  color: var(--customColor1);
+}
 .kaHeadCover > h2 {
   /* border: solid; */
   font-size: 40px;

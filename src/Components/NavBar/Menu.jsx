@@ -17,8 +17,7 @@ const Menu = () => {
   let dropRef3 = useRef();
   let dropRef4 = useRef();
   let dropRef5 = useRef();
-  // let dropRef6 = useRef();
-  // let dropRef7 = useRef();
+
 
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
@@ -86,29 +85,6 @@ const Menu = () => {
       console.log("up");
     }
   };
-  // let handleDropDown6 = () => {
-  //   if (!drop) {
-  //     setDrop(true);
-  //     dropRef6.current.style.display = "flex";
-  //     console.log("down");
-  //   } else {
-  //     setDrop(false);
-  //     dropRef6.current.style.display = "none";
-  //     console.log("up");
-  //   }
-  // };
-
-  // let handleDropDown7 = () => {
-  //   if (!drop) {
-  //     setDrop(true);
-  //     dropRef7.current.style.display = "flex";
-  //     console.log("down");
-  //   } else {
-  //     setDrop(false);
-  //     dropRef7.current.style.display = "none";
-  //     console.log("up");
-  //   }
-  // };
   return (
     <>
       <div className="menuContainer">
@@ -146,16 +122,6 @@ const Menu = () => {
                   Non-Education Certificate
                 </NavHashLink>
               </li>
-              {/* <li>
-                <Link to={"/marriage-certificate-attestation-bangalore"}>
-                  Marriage Certificate
-                </Link>
-              </li>
-              <li>
-                <Link to={"/commercial-documents-attestation-bangalore"}>
-                  Commercial Documents
-                </Link>
-              </li> */}
             </div>
           </li>
           <li>
@@ -183,12 +149,7 @@ const Menu = () => {
                   Non-Education Certificates
                 </NavHashLink>
               </li>
-              {/* <li>
-                {" "}
-                <Link to={"/marriage-certificate-apostille-bangalore"}>
-                  Marriage Certificate
-                </Link>
-              </li> */}
+
             </div>
           </li>
           <li>
@@ -251,18 +212,7 @@ const Menu = () => {
                   Memorandum of Association
                 </NavHashLink>
               </li>
-              {/* <li>
-                {" "}
-                <NavHashLink smooth to="/mofa-attestation-services/#memorandum">
-                  Memorandum of Association Power of Attorney{" "}
-                </NavHashLink>
-              </li> */}
-              {/* <li>
-                {" "}
-                <NavHashLink smooth to="/mofa-attestation-services/#memorandum">
-                  Board Resolution
-                </NavHashLink>
-              </li> */}
+
               <li>
                 {" "}
                 <NavHashLink
@@ -342,28 +292,12 @@ const Menu = () => {
           </li>
           <li>
             <Link to={"/mea-attestation-apostille-services"}>MEA</Link>
-            {/* <FontAwesomeIcon
-              icon={faAngleDown}
-              className="menuIcon"
-            ></FontAwesomeIcon>
-            <div className="menuDrop">
-              <li>MEA Attestation</li>
-              <li>MEA Apostille</li>
-            </div> */}
           </li>
           <li>
             <Link to={"/wes-attestation-bangalore"}>WES</Link>
           </li>
           <li>
             <Link to={"/translation-attestation-bangalore"}>Translation</Link>
-            {/* <FontAwesomeIcon
-              icon={faAngleDown}
-              className="menuIcon"
-            ></FontAwesomeIcon>
-            <div className="menuDrop" id="translationDrop">
-              <li>Document Translation</li>
-              <li>Language Translation</li>
-            </div> */}
           </li>
           <li>
             <Link to={"/contact-us"}>Contact Us</Link>
@@ -420,46 +354,14 @@ const Menu = () => {
                   <NavHashLink
                     smooth
                     onClick={hideSideBar}
-                    to={"/certificate-attestation-bangalore/#atteNoneduCertContainer"}
+                    to={
+                      "/certificate-attestation-bangalore/#atteNoneduCertContainer"
+                    }
                   >
                     Non-Education Certificates
                   </NavHashLink>
                 </h3>
               </li>
-              {/* <li>
-                <h3>
-                  <Link
-                    onClick={hideSideBar}
-                    to={"/marriage-certificate-attestation-bangalore"}
-                  >
-                    Marriage Certificate
-                  </Link>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <Link
-                    onClick={hideSideBar}
-                    to={"/commercial-documents-attestation-bangalore"}
-                  >
-                    Commercial Documents
-                  </Link>
-                </h3>
-              </li> */}
-              {/* <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Medical Certificate
-                  </Link>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Divorce Decree Certificate
-                  </Link>
-                </h3>
-              </li> */}
             </span>
           </ul>
           <ul className="serviceDrop">
@@ -499,37 +401,6 @@ const Menu = () => {
                   </NavHashLink>
                 </h3>
               </li>
-              {/* <li>
-                <h3>
-                  <Link
-                    onClick={hideSideBar}
-                    to={"/marriage-certificate-apostille-bangalore"}
-                  >
-                    Marriage Certificate
-                  </Link>
-                </h3>
-              </li> */}
-              {/* <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Power of Attorney
-                  </Link>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Medical Certificate
-                  </Link>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Divorce Decree Certificate
-                  </Link>
-                </h3>
-              </li> */}
             </span>
           </ul>
           <ul className="serviceDrop">
@@ -654,13 +525,7 @@ const Menu = () => {
                   </NavHashLink>
                 </h3>
               </li>
-              {/* <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Board Resolution
-                  </Link>
-                </h3>
-              </li> */}
+
               <li>
                 <h3>
                   <NavHashLink
@@ -802,28 +667,7 @@ const Menu = () => {
               >
                 MEA
               </Link>
-              {/* <FontAwesomeIcon
-                onClick={handleDropDown6}
-                icon={faAngleDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon> */}
             </h2>
-            {/* <span className="respMenuSpan" ref={dropRef6}>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    MEA Attestation
-                  </Link>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    MEA Apostille
-                  </Link>
-                </h3>
-              </li>
-            </span> */}
           </ul>
           <ul className="serviceDrop">
             <h2>
@@ -840,28 +684,7 @@ const Menu = () => {
               >
                 Translation
               </Link>
-              {/* <FontAwesomeIcon
-                onClick={handleDropDown7}
-                icon={faAngleDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon> */}
             </h2>
-            {/* <span className="respMenuSpan" ref={dropRef7}>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Document Translation
-                  </Link>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Language Translation
-                  </Link>
-                </h3>
-              </li>
-            </span> */}
           </ul>
           <ul className="serviceDrop">
             <h2>

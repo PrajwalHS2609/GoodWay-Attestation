@@ -21,22 +21,25 @@
   width: 40%;
 }
 #hrdMainContent2 {
-  width: 60%;
+  width:60%;
 }
 .hrdMainContentWrapper {
   /* border: solid green; */
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
   background-color: var(--customWhite);
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .hrdMainContent > img {
   border-radius: 10px;
-  width: 100%;
-  height: 100%;object-fit: cover;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(90deg);
 }
 .hrdMainContent > h3 {
   width: 100%;
@@ -46,6 +49,7 @@
 }
 .hrdMainContent > p {
   font-size: 20px;
+  text-align: justify;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .hrdMainContent {

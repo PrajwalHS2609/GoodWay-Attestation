@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const TrackData = () => {
   const [trackNumber, setTrackNumber] = useState(""); // Store the input value
   const [trackData, setTrackData] = useState(null); // Store the fetched data

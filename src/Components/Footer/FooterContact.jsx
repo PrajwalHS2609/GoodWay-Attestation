@@ -12,15 +12,13 @@ import {
   faFacebook,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import logo from "./../../vid_img/logo.png";
 
 const FooterContact = () => {
   return (
     <div className="footerContactContainer" id="footerContactContainer">
       <div className="footContactContent">
-        <img
-          src="https://goodwayattestation.com/images/images-logo.png"
-          alt=""
-        />
+        <img src={logo} alt="logo" />
       </div>
       <div className="footContactContent">
         <ul>

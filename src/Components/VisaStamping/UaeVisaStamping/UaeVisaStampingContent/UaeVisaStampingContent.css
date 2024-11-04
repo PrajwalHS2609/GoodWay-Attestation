@@ -1,0 +1,73 @@
+.uaeVisaStampingContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.uaeVisaStampingContent > h1 {
+  width: 100%;
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+}
+.uaeVisaStampingContent > h1 > span {
+  color: var(--customColor1);
+}
+.uaeVisaStampingContent > h2 {
+  width: 100%;
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+}
+.uaeVisaStampingContent > h2 > span {
+  color: var(--customColor1);
+}
+.uaeVisaStampingContent > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.uaeVisaStampingContent > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.uaeVisaStampingContent > ul > span > li {
+  font-size: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+.uaeVisaStampingContent > ul > span > li {
+  color: var(--customColor2);
+  font-weight: bold;
+}
+.uaeVisaStampingContent > ul > span > li::marker {
+  color: var(--customColor1);
+}
+.uaeVisaStampingContent-Footer {
+  list-style: none;
+}
+.uaeVisaStampingContent-Footer > span > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  /* border: solid; */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.uaeVisaStampingContent-Footer > span > li > span {
+  color: var(--customColor2);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .uaeVisaStampingContent {
+    /* border: solid red; */
+    padding: 20px;
+  }
+}

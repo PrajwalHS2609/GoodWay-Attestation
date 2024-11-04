@@ -31,6 +31,9 @@ const FooterService = () => {
         <li>
           <Link to={"/translation-attestation-bangalore"}>Translation</Link>
         </li>
+        <li>
+          <Link to={"/uae-visa-stamping-bangalore"}>UAE Visa Stamping</Link>
+        </li>
       </ul>
     </div>
   );

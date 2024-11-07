@@ -1,3 +1,4 @@
 change name of marquee to Homeflag and homeflags to homeEmbassy
 making all padding to 50px
+change uae visa stamping to kuwait visa stamping
 

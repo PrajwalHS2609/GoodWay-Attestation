@@ -58,7 +58,7 @@ import UkApostille from "./Components/AttestationCountries/UkApostille/UkApostil
 import UsaApostille from "./Components/AttestationCountries/UsaApostille/UsaApostille";
 import TrackStatus from "./Components/TrackStatus/TrackStatus";
 import WhatsApp from "./Components/WhatsApp/WhatsApp";
-import UaeVisaStamping from "./Components/VisaStamping/UaeVisaStamping/UaeVisaStamping";
+import KuwaitVisaStamping from "./Components/VisaStamping/KuwaitVisaStamping/KuwaitVisaStamping";
 
 const App = () => {
   const NotFound = () => (
@@ -272,7 +272,7 @@ const App = () => {
             element={<QatarPccPage />}
           />
           {/* -------------------UaeVisaStamping--------------------------------------------------- */}
-          <Route path="/uae-visa-stamping-bangalore" element={<UaeVisaStamping />} />
+          <Route path="/kuwait-visa-stamping-bangalore" element={<KuwaitVisaStamping />} />
           <Route path="/track-status" element={<TrackStatus />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

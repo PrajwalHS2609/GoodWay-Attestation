@@ -1,0 +1,80 @@
+.kuwaitVisaStampingContent {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.kuwaitVisaStampingContent > h1 {
+  width: 100%;
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+}
+.kuwaitVisaStampingContent > h1 > span {
+  color: var(--customColor1);
+}
+.kuwaitVisaStampingContent > h2 {
+  width: 100%;
+  color: var(--customColor2);
+  font-size: 30px;
+  text-align: center;
+}
+.kuwaitVisaStampingContent > h2 > span {
+  color: var(--customColor1);
+}
+.kuwaitVisaStampingContent > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.kuwaitVisaStampingContent > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.kuwaitVisaStampingContent > ul > span > li {
+  font-size: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+.kuwaitVisaStampingContent > ul > span > li {
+  color: var(--customColor2);
+  font-weight: bold;
+}
+.kuwaitVisaStampingContent > ul > span > li::marker {
+  color: var(--customColor1);
+}
+.kuwaitVisaStampingContent-Footer {
+  list-style: none;
+}
+.kuwaitVisaStampingContent-Footer > span > li {
+  list-style: none;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.kuwaitVisaStampingContent-Footer > span > li > span {
+  color: var(--customColor2);
+  font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .kuwaitVisaStampingContent {
+    /* border: solid red; */
+    padding: 20px;
+  }
+  .kuwaitVisaStampingContent > ul {
+    flex-direction: column;
+  }
+  .kuwaitVisaStampingContent-Footer > span > li > span {
+    color: var(--customColor2);
+    font-weight: bold;
+    font-size: 18px;
+  }
+}

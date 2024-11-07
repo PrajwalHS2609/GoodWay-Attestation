@@ -32,7 +32,7 @@ const FooterService = () => {
           <Link to={"/translation-attestation-bangalore"}>Translation</Link>
         </li>
         <li>
-          <Link to={"/uae-visa-stamping-bangalore"}>UAE Visa Stamping</Link>
+          <Link to={"/kuwait-visa-stamping-bangalore"}>Kuwait Visa Stamping</Link>
         </li>
       </ul>
     </div>

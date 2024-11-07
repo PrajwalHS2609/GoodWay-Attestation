@@ -1,10 +1,10 @@
 import React from "react";
-import "./UaeVisaStampingContent.css";
+import "./KuwaitVisaStampingContent.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
-const UaeVisaStampingContent = () => {
+const KuwaitVisaStampingContent = () => {
   return (
-    <div className="uaeVisaStampingContent">
+    <div className="kuwaitVisaStampingContent">
       <h1>
         Kuwait Visa Stamping In <span>Bangalore</span>
       </h1>
@@ -31,7 +31,7 @@ const UaeVisaStampingContent = () => {
           <li> PCC issued by Passport Office</li>
           <li> PCC Attested MEA and Embassy</li>
           <li> PCC Attested MEA and Embassy</li>
-          <li> PHOTOGRAPHS (Back White Background)</li>
+          <li> PHOTOGRAPHS (Black White Background)</li>
           <li> TICKET</li>
         </span>
         <span>
@@ -54,7 +54,7 @@ const UaeVisaStampingContent = () => {
         cultural) are different for each category. However, all visas are
         subject to the submission of the following documents:
       </p>
-      <ul className="uaeVisaStampingContent-Footer">
+      <ul className="kuwaitVisaStampingContent-Footer">
         <span>
           <li>
             <FontAwesomeIcon
@@ -98,4 +98,4 @@ const UaeVisaStampingContent = () => {
   );
 };
 
-export default UaeVisaStampingContent;
+export default KuwaitVisaStampingContent;

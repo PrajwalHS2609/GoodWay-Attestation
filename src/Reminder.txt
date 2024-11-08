@@ -1,4 +1,8 @@
 change name of marquee to Homeflag and homeflags to homeEmbassy
 making all padding to 50px
-change uae visa stamping to kuwait visa stamping
-
+remove 
+    <url>
+        <loc>https://goodwayattestation.com/crm/api/get-track-data</loc>
+        <lastmod>2024-11-08T15:08:06+01:00</lastmod>
+        <priority>0.6</priority>
+    </url>

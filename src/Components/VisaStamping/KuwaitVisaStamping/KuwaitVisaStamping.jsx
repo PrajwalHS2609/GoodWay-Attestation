@@ -15,8 +15,13 @@ const KuwaitVisaStamping = () => {
     <div className="karanatakaHrdContainer">
       <Helmet>
         <meta charSet="utf-8" />
-        <title></title>
-        <meta name="description" content="" />
+        <title>
+          Kuwait Visa Stamping Services in Bangalore, Karnataka at Best Price
+        </title>
+        <meta
+          name="description"
+          content="Kuwait Visa Stamping Services in Bangalore, Karnataka at Best Price. Goodway Attestation has 16 years of Experience, Govt Approved, ISO Certified & More than 25000+ Customer Reviews."
+        />
         <link
           rel="canonical"
           href="https://goodway-attestation.com/kuwait-visa-stamping-bangalore"

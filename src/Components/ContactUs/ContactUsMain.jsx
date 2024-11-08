@@ -16,7 +16,7 @@ const ContactUsMain = () => {
             img={indiaFlag}
             alt="india"
             addName="Bangalore"
-            address="134, 1st Floor, Temple Street, Malleshwaram, Bengaluru."
+            address="134, 1st Floor, Temple Street, Malleshwaram, Bengaluru-560003."
             emailLink="mailto:info@goodwayattestaion.com"
             email="info@goodwayattestaion.com"
             phoneLink="tel:9148889666"

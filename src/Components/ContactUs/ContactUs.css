@@ -213,6 +213,134 @@
     width: 100%;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 990px) {
+  .contactContainer {
+    /* border: solid red; */
+    padding: 5px;
+  }
+  .contactMainContainer {
+    /* border: solid brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainContent {
+    /* border: solid blue; */
+    width: 100%;
+    position: relative;
+  }
+  .contactUsCover {
+    /* border: solid brown; */
+    position: static;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #contactUsCard {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .contactMainContent > img {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .contactUsCardContainer {
+    /* border: solid red; */
+    max-width: 300px;
+    height: 100%;
+    flex-direction: column;
+    box-shadow: 0 0 10px black;
+  }
+  .contactWrapper {
+    /* border: solid brown; */
+    width: 100%;
+    height: 100%;
+  }
+  .contactUsCardImg {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .contactUsCardAdd > p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .contactContainer {
+    /* border: solid red; */
+    padding: 5px;
+  }
+  .contactMainContainer {
+    /* border: solid brown; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainContent {
+    /* border: solid blue; */
+    width: 100%;
+    position: relative;
+  }
+  .contactUsCover {
+    /* border: solid brown; */
+    position: static;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #contactUsCard {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .contactMainContent > img {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .contactUsCardContainer {
+    /* border: solid red; */
+    max-width: 300px;
+    height: 100%;
+    flex-direction: column;
+    box-shadow: 0 0 10px black;
+  }
+  .contactWrapper {
+    /* border: solid brown; */
+    width: 100%;
+    height: 100%;
+  }
+  .contactUsCardImg {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .contactUsCardAdd > p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
   .contactUsCardContainer {
     /* border: solid red; */

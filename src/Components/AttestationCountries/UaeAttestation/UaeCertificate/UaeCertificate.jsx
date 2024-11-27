@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import "./UaeCertificate.css"
 import UaeCertificateHead from './UaeCertificateHead'
 import UaeCertificateMain from './UaeCertificateMain'

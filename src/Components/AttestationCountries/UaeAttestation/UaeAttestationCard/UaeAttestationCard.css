@@ -225,7 +225,7 @@
   text-align: center;
   color: black;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .uaeAttCardMainContainer {
     /* border: solid red; */
     padding: 0px;
@@ -340,6 +340,296 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+  }
+  .cardIconsImgContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .cardIconsImgContainer > img {
+    /* border: solid blue; */
+    width: 80px;
+    height: 80px;
+  }
+  .cardIconsImgContainer > p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .uaeAttCardMainContainer {
+    /* border: solid red; */
+    padding: 0px;
+  }
+  .uaeAttestationCardContainer {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .uaeAttCardImgContent > img {
+    width: 100%;
+    object-position: 0px 0;
+  }
+  .uaeAttCardImgContent {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttCardContent {
+    /* border: solid yellow; */
+    height: 100%;
+    width: 100%;
+    position: static;
+  }
+  .uaeAttGovtCardContent {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttGovtCardContent > img {
+    border: 5px solid white;
+    margin-left: 0px;
+    margin-top: -80px;
+    width: 20%;
+  }
+  .uaeAttGovtCardContent > h3 {
+    /* border: solid; */
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .uaeAttDocCardContent {
+    /* border: solid blue; */
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .uaeAttDocCardContent > h3 {
+    font-size: 30px;
+  }
+  .uaeAttDocCardImgContent {
+    /* border: solid; */
+    flex-direction: row;
+  }
+  .uaeAttDocCardImg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .uaeAttDocCardImg > img {
+    /* border: solid; */
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttCardContentWrapper {
+    /* border: solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+  }
+  .uaeAttPriceCardContent,
+  .uaeAttDaysCardContent {
+    /* border: solid; */
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  .uaeAttDaysCardContent > h3 {
+    font-size: 20px;
+  }
+  .uaeAttSuppCardItem {
+    /* border: solid blue; */
+    gap: 10px;
+  }
+  .uaeAttSuppCard {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .uaeAttSuppCard > a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .uaeAttSuppCardContent>h3{
+    font-size: 30px;
+  }
+  .cardIconsContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+  }
+  .cardIconsImgContainer {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .cardIconsImgContainer > img {
+    /* border: solid blue; */
+    width: 80px;
+    height: 80px;
+  }
+  .cardIconsImgContainer > p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .uaeAttCardMainContainer {
+    /* border: solid red; */
+    padding: 0px;
+  }
+  .uaeAttestationCardContainer {
+    /* border: solid blue; */
+    width: 100%;
+  }
+  .uaeAttCardImgContent > img {
+    width: 100%;
+    object-position: 0px 0;
+  }
+  .uaeAttCardImgContent {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttCardContent {
+    /* border: solid yellow; */
+    height: 100%;
+    width: 100%;
+    position: static;
+  }
+  .uaeAttGovtCardContent {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttGovtCardContent > img {
+    border: 5px solid white;
+    margin-left: 0px;
+    margin-top: -80px;
+    width: 20%;
+  }
+  .uaeAttGovtCardContent > h3 {
+    /* border: solid; */
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  .uaeAttDocCardContent {
+    /* border: solid blue; */
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .uaeAttDocCardContent > h3 {
+    font-size: 30px;
+  }
+  .uaeAttDocCardImgContent {
+    /* border: solid; */
+    flex-direction: row;
+  }
+  .uaeAttDocCardImg {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .uaeAttDocCardImg > img {
+    /* border: solid; */
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uaeAttCardContentWrapper {
+    /* border: solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+  }
+  .uaeAttPriceCardContent,
+  .uaeAttDaysCardContent {
+    /* border: solid; */
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
+  .uaeAttDaysCardContent > h3 {
+    font-size: 20px;
+  }
+  .uaeAttSuppCardItem {
+    /* border: solid blue; */
+    gap: 10px;
+  }
+  .uaeAttSuppCard {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .uaeAttSuppCard > a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .uaeAttSuppCardContent>h3{
+    font-size: 30px;
+  }
+  .cardIconsContainer {
+    /* border: solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
     padding: 10px;
     gap: 20px;
   }

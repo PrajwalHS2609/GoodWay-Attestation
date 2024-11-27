@@ -6,7 +6,12 @@ import uaeFlag from "./../../../../vid_img/Countries_Flag/UAE.png";
 const UaeAttestationCardMain = () => {
   return (
     <div className="uaeAttCardMainContainer">
-      <UaeAttestationCard flag={uaeFlag} altFlag="uaeFlag" embassy={uaeEmbassy} altEmbassy="uaeEmbassy" />
+      <UaeAttestationCard
+        flag={uaeFlag}
+        altFlag="uaeFlag"
+        embassy={uaeEmbassy}
+        altEmbassy="uaeEmbassy"
+      />
     </div>
   );
 };

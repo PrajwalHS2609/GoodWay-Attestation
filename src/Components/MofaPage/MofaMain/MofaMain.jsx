@@ -38,7 +38,7 @@ const MofaMain = () => {
       <MofaCard1
         img={mofaKuwait}
         alt="mofaKuwait"
-        head="MOFA OF UAE"
+        head="MOFA OF KUWAIT"
         para="We also do Ministry of Foreign Affairs of Kuwait (MOFA of Kuwait)* After Attesting from country from which the documents are issued it has to be Attested from MOFA Ministry of Foreign Affairs of the Country where you are going for emploment."
       />
     </div>

@@ -1,7 +1,5 @@
 import React from "react";
 import "./KuwaitVisaStampingContent.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 const KuwaitVisaStampingContent = () => {
   return (
     <div className="kuwaitVisaStampingContent">
@@ -54,38 +52,33 @@ const KuwaitVisaStampingContent = () => {
         cultural) are different for each category. However, all visas are
         subject to the submission of the following documents:
       </p>
-      <ul className="kuwaitVisaStampingContent-Footer">
+     <ul className="kuwaitVisaStampingContent-Footer">
         <span>
           <li>
-            <FontAwesomeIcon
-              icon={faAnglesRight}
-              className="eduCertIcon"
-            ></FontAwesomeIcon>{" "}
-            <span>Chamber of Commerce (CoC) Attestation:</span>{" "}
+            <h4>1</h4>
+            <span>
+              {" "}
+              National passport with minimum 6 months’ validity.
+            </span>{" "}
           </li>
           <li>
-            <FontAwesomeIcon
-              icon={faAnglesRight}
-              className="eduCertIcon"
-            ></FontAwesomeIcon>{" "}
-            <span>Chamber of Commerce (CoC) Attestation:</span>{" "}
+            <h4>2</h4>
+            <span> Four recent passport size photographs.</span>{" "}
           </li>
         </span>
         <span>
           {" "}
           <li>
-            <FontAwesomeIcon
-              icon={faAnglesRight}
-              className="eduCertIcon"
-            ></FontAwesomeIcon>{" "}
-            <span>Chamber of Commerce (CoC) Attestation:</span>{" "}
+            <h4>3</h4>
+            <span>
+              Return air-ticket (not applicable for certain categories of visa).
+            </span>{" "}
           </li>{" "}
           <li>
-            <FontAwesomeIcon
-              icon={faAnglesRight}
-              className="eduCertIcon"
-            ></FontAwesomeIcon>{" "}
-            <span>Chamber of Commerce (CoC) Attestation:</span>{" "}
+            <h4>4</h4>
+            <span>
+              Copy of the visa approval obtained by the sponsor in Kuwait.
+            </span>{" "}
           </li>
         </span>
       </ul>

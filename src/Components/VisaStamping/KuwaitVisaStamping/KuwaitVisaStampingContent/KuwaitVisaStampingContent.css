@@ -58,6 +58,13 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px black;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap:10px
+}
+.kuwaitVisaStampingContent-Footer > span > li > h4{
+  color: var(--customColor1);
 }
 .kuwaitVisaStampingContent-Footer > span > li > span {
   color: var(--customColor2);
